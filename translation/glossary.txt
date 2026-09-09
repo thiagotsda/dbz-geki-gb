@@ -1,0 +1,33 @@
+# resource 20: 30 strings, each AT MOST the size of the original (the game reads the battle end by fixed offset).
+# 0-13 attributes (5 10 7 7 11 4 7 7 6 7 13 13 10 10), 14-25 explanations (13 10 12 11 8 12 13 12 11 14 12 9),
+# 26-29 battle end (10 4 2 15): "<N>'s " + attribute + " |up <#> points!"
+Exp
+Level
+Batl pw
+Life
+Max life
+Ki
+Attack
+Defense
+Move
+Command
+Punch exp
+Energy exp
+Def exp
+Team exp
+Up with exp
+Char power
+0 means KO
+Up with lvl
+Ki cost
+Base dmg
+Less dmg
+Move n dodge
+Cmd count
+Punch power
+Energy power
+Def bonus
+You won!<FB>
+<N>'s 
+<N> 
+ |up <#> points!<FB>

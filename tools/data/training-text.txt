@@ -1,0 +1,14 @@
+190	4	Part
+195	4	Time
+295	5	Level
+381	8	Status__
+410	4	Rest
+419	1	 
+430	4	Totl
+421	8	__days__
+441	8	__left__
+461	8	Senzu___
+473	1	_
+481	8	Fatigue_
+501	8	______~_
+490	4	~ up

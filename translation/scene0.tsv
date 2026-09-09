@@ -1,0 +1,9 @@
+# scene 0 = system messages (save file, food, character choice)
+0	00	Save to which|file?
+0	01	File <#>,|is that OK?
+0	02	<#> rations|left. Who|will eat?
+0	03	Who will eat?
+0	04	There is no|food left.<FB>
+0	05	Which file|will you use?
+0	06	Choose the|character to|control.
+0	07	!18You can't change|the character|right now.<FB>

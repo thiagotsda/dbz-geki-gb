@@ -1,0 +1,38 @@
+# scene 1 = minigame tutorials (rocks/oxygen, frogs with Nail, escape from Dodoria, buttons) and training screen help (!18)
+1	00	Whoa, so many|rocks...<FB>
+1	01	I have to get|past these|rocks<FB>to reach the|Dragon Ball...<FB>
+1	02	Explain game?|  Yes|  No
+1	03	Move the rocks|to reach the|Dragon Ball.<FB>The pale rocks|cannot be|moved.<FB>
+1	04	Also, Gohan's|lung capacity|has a limit.<FB>Watch the|oxygen gauge|on the right.<FB>When he's low|on breath, go|up to breathe.<FB>Well then,|good luck!<FB>
+1	05	All right!!<FB>
+1	06	I will test|your strength|in a contest.<FB>If you shoot|four frogs|before I do,<FB>the Dragon|Ball is yours!<FB>
+1	07	Explain game?|  Yes|  No
+1	08	Aim left and|right with the|D-pad,<FB>and shoot the|frogs with the|right button.<FB>The first to|get four frogs|wins.<FB>You can't move|on until you|beat Nail,<FB>so you must|win no matter|what.<FB>Well then,|good luck!<FB>
+1	09	Heh. Not bad|at all...<FB>I'll report to|the Grand|Elder at once.<FB>The Dragon|Ball will be|yours.<FB>
+1	0A	What's wrong,|Earthling?<FB>Is that all|you can do!?<FB>Don't forget,|Namek's fate|is up to you.<FB>Once more!|  Yes|  No
+1	0B	Fly as fast as|you can!!!<FB>If he catches|you, it's|over!<FB>
+1	0C	Ha ha ha ha!!!|You won't get|away!!!<FB>
+1	0D	Explain game?|  Yes|  No
+1	0E	This is a game|of escaping|from Dodoria.<FB>The gauge at|the bottom is|his will.<FB>Above half, he|comes for you|himself.<FB>If he catches|you, a battle|begins.<FB>Below half, he|fires energy|blasts.<FB>He can't catch|you then.<FB>But one hit|restores his|will. Careful!<FB>Clear the game|by draining|his will.<FB>Well then,|good luck!<FB>
+1	0F	D-damn it...!!|I'd better|head back to|Lord Frieza...<FB>
+1	10	This is it.<FB>The timer is|on the right.<FB>Press every|button before|it runs out!<FB>
+1	11	All right,|let's give it|a try.<FB>
+1	12	Explain game?|  Yes|  No
+1	13	The bottom|right button|starts pressed<FB>and the timer|begins.<FB>Use the D-pad|to press the|buttons, one<FB>square at a|time.<FB>Press them all|to clear it.<FB>The button on|the left goes|back a square.<FB>Well then,|good luck!<FB>
+1	14	All right!!<FB>
+1	15	Hey, Dende...<FB>Even if I win,|nothing will|change, right?<FB>
+1	16	Who knows.<FB>
+1	17	Oh well...<FB>
+1	18	Aw, time's up.<FB>
+1	19	You were so|close.<FB>
+1	1A	Play again?|  Yes|  No
+1	1B	!18Bulma's dad said|his settings will|make me stronger.<FB>But tweaking them|myself might make|me really strong.<FB>Or really weak,|though...<FB>Settings can only|be changed once|a day.<FB>Select shows my|body's condition.<FB>For details, point|at something and|press Start!<FB>
+1	1C	!18Set six training|courses.<FB>Arm trains attack,|Leg trains speed,|Belly trains life,<FB>Ki trains ki and|Chest, defense.<FB>Head trains|command.<FB>
+1	1D	!18Set the hours for|each course.<FB>Longer training|gives bigger stat|gains,<FB>but fatigue also|builds up faster.<FB>
+1	1E	!18Set the training|intensity.<FB>It affects how|fast stats and|fatigue rise.<FB>
+1	1F	Resting lowers|fatigue.<FB>Set how often|and how long|to rest.<FB>
+1	20	!18Set how fast the|gravity increases.<FB>It affects how|fast stats and|fatigue rise.<FB>
+1	21	!18Days left until|you reach Namek.<FB>It's also how many|times you can set|your training.<FB>
+1	22	!18The number of|Senzu beans Goku|has.<FB>Any left when you|reach Namek earn|a bonus.<FB>One is used when|fatigue goes over|100.<FB>
+1	23	Fatigue rises|as you train.<FB>Over 100, you|can no longer|train.<FB>While Senzu|beans remain,|one is used<FB>to reset it|to 0.<FB>
+1	24	Back to the|status screen.<FB>

@@ -1,0 +1,14 @@
+# ROMs, saves and emulator files never go into the repository
+*.gb
+*.gbc
+*.sav
+*.sna
+rom/*
+!rom/README.md
+local/
+builds/
+# temporary files
+*.bmp
+.tmp*
+*.log
+docs/images/

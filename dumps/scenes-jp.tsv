@@ -1,0 +1,1285 @@
+# cena  0: banco 05, lista 6BED, 8 caixas, 146 bytes JP, faixa 40A0-4128, 0 caixas identicas ao JP
+ 0	00	05	40A0	17	どのファイルに|きろくしますか？	save to|what fl?
+ 0	01	05	40B1	16	ファイル<#>で|よろしいですか？	file<#>で|ok?     
+ 0	02	05	40C1	24	フードののこりは|<#>こです|だれがたべますか？	food    |<#>jでm|who eats?
+ 0	03	05	40CF	10	だれがたべますか？	who eats?
+ 0	04	05	40D9	13	フードはもうありません<FB>	no food lft<FB>
+ 0	05	05	40E6	16	どのファイルを|つかいますか？	which  |use?   
+ 0	06	05	40F6	21	そうさするキャラクターを|きめてください	pick a char |choose 
+ 0	07	05	410B	29	いまはそうさするキャラクターを|かえることはできません<FB>	cant change the|char now   <FB>
+# cena  1: banco 05, lista 6BFD, 37 caixas, 2233 bytes JP, faixa 4128-49E1, 2 caixas identicas ao JP
+ 1	00	05	4128	13	わっ　いわがたくさん…<FB>	many rocks.<FB>
+ 1	01	05	4135	41	うまくいわをよけながら|すすまないと<FB>ドラゴンボールには|たどりつかないのか…<FB>	dodge rocks|or no <FB>2 the db |cant reach<FB>
+ 1	02	05	415E	26	ゲームのせつめいをしますか？|　　はい|　　いいえ	show help?    |  zb|  bbd
+ 1	03	05	4178	77	いわをうまくうごかして|ドラゴンボールまでのルートを|つくらなければなりません<FB>うすいいろの　いわは|うごかすことができませんので|おきをつけください<FB>	move rocks |path 2 the db |must be made<FB>pale rocks|cant be moved |careful  <FB>
+ 1	04	05	41C5	122	それと　ごはんさんの|はいかつりょうにもげんかいが|あります<FB>がめんの　みぎ|さんそゲージをよくかくにんし<FB>いきがつらそうになったときは|すいめんまで　ふじょうして|こきゅうをしてあげてください<FB>それでは　しつれいします|がんばってください<FB>	n gohans  |air is limited|here<FB>scrn rt|watch the air <FB>if hes in pain|go 2 surface |let him breath<FB>good luck!  |good luck<FB>
+ 1	05	05	423F	8	やったーっ！<FB>	yesss!<FB>
+ 1	06	05	4247	82	わたしとのしょうぶで|おまえのちからを|ためさせてもらう<FB>わたしよりはやく　カエルを|４ひきしとめることができれば<FB>ドラゴンボールは|おまえのものになるだろう！<FB>	in a match|ur power|ill test<FB>b4 me catch  |4 frogs n itll<FB>the db  |be yours!    <FB>
+ 1	07	05	4299	26	ゲームのせつめいをしますか？|　　はい|　　いいえ	show help?    |  zb|  bbd
+ 1	08	05	42B3	149	しょうじゅんをさゆうに|うごかし　ねらいをさだめて|みぎのボタンでたまをはっしゃ<FB>たまをカエルにぶつけるゲーム|です<FB>さきに４ひきしとめたひとの|かちです<FB>ネイルさんにかつまでゲームは|さきにすすめませんので<FB>なにがなんでも|かたなければなりません<FB>それでは　しつれいします|がんばってください<FB>	move aim   |n set ur aim |right btn shot<FB>hit frogs game|でm<FB>1st 2 get 4  |win <FB>beat nail or  |no going on<FB>u must |win somehow<FB>good luck!  |good luck<FB>
+ 1	09	05	4348	59	ふっ|たいしたうでだ…<FB>さっそくさいちょうろうさまに|ごほうこくしよう<FB>ドラゴンボールはおまえの|ものになるだろう<FB>	BU|not bad.<FB>2 the elder   |report  <FB>db is yours |be yours<FB>
+ 1	0A	05	4383	83	どうしたちきゅうじん|おまえのうではそんなものか！<FB>おまえたちは|ナメックせいのうんめいをも|にぎっていることをわすれるな<FB>もういちどいくぞ！|　　はい|　　いいえ	whats up  |that ur best? <FB>u all |nameks fate  |is in ur hands<FB>again!   |  zb|  bbd
+ 1	0B	05	43D6	28	めいっぱいとばせっ！！！|つかまったらさいごだぞっ！<FB>	throw hard!!|caught is end<FB>
+ 1	0C	05	43F2	24	はーっはっはっは！！！|にがさんぞーっ！！！<FB>	zーUzUzUz!!!|vがkTぞーU!!!<FB>
+ 1	0D	05	440A	26	ゲームのせつめいをしますか？|　　はい|　　いいえ	show help?    |  zb|  bbd
+ 1	0E	05	4424	298	ドドリアさんから|にげるゲームです<FB>ドドリアさんがクリリンさんを|つかまえようとする　いよくが<FB>ゲームちゅうにがめんしたに|ひょうじされるゲージによって|しめしてあります<FB>いよくがはんぶんいじょうある|ときドドリアさんみずからつか|まえにきます<FB>つかまってしまったら|せんとうかいしです<FB>いよくが　はんぶんいかに|おちこむと　エネルギーだん|でこうげきをしてきます<FB>つかまってしまうしんぱいは|ありませんが|いちどでもぶつかると<FB>いよくが|かいふくしてしまいますので|おきをつけください<FB>ドドリアさんのいよくがなくな|ったところでゲームクリアです<FB>それでは　しつれいします|がんばってください<FB>	dodria  |run game<FB>dodria n kril |his catch urge<FB>on screen low|gauge shows it|is shown<FB>if over half  |when dodoria  |comes <FB>if caught |fight on <FB>if half down|if low. blast|he attacks <FB>no catch fear|but no|1 hit n he<FB>will|recovers so  |careful! <FB>when dodrias  |urge ends u wn<FB>good luck!  |good luck<FB>
+ 1	0F	05	454E	37	ち…　ちくしょう…！！|とりあえず　フリーザさまのと|ころにもどるか…<FB>	q. qhlXc.!!|4 now back 2  |freeza. <FB>
+ 1	10	05	4573	53	これですよ|みぎの　せいげんじかんボタン|がなくなるまえにぜんぶの<FB>ボタンをおせたら|あがりなんですよ<FB>	this |right time btn|b4 it ends  <FB>press it|is goal <FB>
+ 1	11	05	45A8	16	よーし　それじゃやってみるか<FB>	ok lets try it<FB>
+ 1	12	05	45B8	26	ゲームのせつめいをしますか？|　　はい|　　いいえ	show help?    |  zb|  bbd
+ 1	13	05	45D2	164	ゲームをかいししますと|じどうてきにみぎしたのボタン|がおされて<FB>マップがこうせいされ|タイムカウントがはじまります<FB>じゅうじキーをそうさして|１コマずつボタンを|おしていきます<FB>すべてのボタンが|おせたらゲームクリアです<FB>また　ひだりがわのボタンで|１コマもどることができます<FB>それでは　しつれいします|がんばってください<FB>	on start   |low right btn |prest<FB>map forms |timer starts  <FB>use the dpad|1 by 1   |presses<FB>all btns|clear it!   <FB>left btn also|goes back 1  <FB>good luck!  |good luck<FB>
+ 1	14	05	4676	8	やったーっ！<FB>	yesss!<FB>
+ 1	15	05	467E	35	なあデンデ　これってきっと|あがれても|なんにもならないんだよな？<FB>	hey dnd this |even |is useless?  <FB>
+ 1	16	05	46A1	4	さあ<FB>	ka<FB>
+ 1	17	05	46A5	8	ま　いっか…<FB>	well. <FB>
+ 1	18	05	46AD	12	あーあ　じかんぎれだ<FB>	ah time up<FB>
+ 1	19	05	46B9	16	もうすこしだったんですけどね<FB>	so close tho  <FB>
+ 1	1A	05	46C9	22	どうするまだやるか？|　　はい|　　いいえ	try again?|  zb|  bbd
+ 1	1B	05	46DF	191	ブルマのとうちゃんのせってい|のままでも|へいきんてきにつよくなれる|らしいけど<FB>じぶんなりにくふうすれば|おそろしくつよくなれるかも|しれないっていってたからな<FB>よわくなっちまうかもしれない|けど…<FB>せっていは１にち１かいで<FB>いまのからだのじょうたいは|セレクトボタン<FB>わからないところがあったら<FB>ゆびをあわせてスタートボタンを|おすとしょうさいが|せつめいされるんだったな！<FB>	bulma dads set|as is|get stronger |seems<FB>if u work it|u may get vry|strong he sed<FB>or u may weakn|iど.<FB>1x a day    <FB>ur body state|select <FB>if unclear on<FB>and start 2gthr|press 4  |full details!<FB>
+ 1	1C	05	479E	90	カリキュラムを６つせっていします<FB>ウデはこうげきりょく　アシはスピード|オナカはせいめいりょく　キはきりょく|ムネはぼうぎょりょく　アタマはコマン<FB>ドりょくをそれぞれきたえます<FB>	set 6 curriculum<FB>arm atk. leg speed|belly hp ki stam  |chest def head cmd<FB>train them all<FB>
+ 1	1D	05	47F8	94	ひとつのカリキュラムのじかんを|せっていします<FB>じかんをかけてきたえれば|それだけたくさんのステータスあっぷが|のぞめますが　ひろうちのあがりかたは<FB>おおきくなるというリスクもあります<FB>	the time of one|set it <FB>train longer|u get more stat up|but fatigue climbs<FB>faster is the rsk<FB>
+ 1	1E	05	4856	47	しゅぎょうのはげしさを|せっていします<FB>ステータスやひろうのあがりかたに|えいきょうします<FB>	train hard |set it <FB>affects stat tir|affects <FB>
+ 1	1F	05	4885	58	きゅうけいをとることで|ひろうちがげんしょうします<FB>なんじかんに　いちど|どれだけやすむという|せっていをします<FB>	a rest will|lower fatigue<FB>how often |how long u|rest hre<FB>
+ 1	20	05	48BF	49	じゅうりょくのあがりかたを|せっていします<FB>ステータスやひろうのあがりかたに|えいきょうします<FB>	gravity setup|set it <FB>affects stat tir|affects <FB>
+ 1	21	05	4943	51	ナメックせいにとうちゃくするまでの|にっすうです<FB>しゅぎょうちをせっていする|かいすうにもなります<FB>	train days til u |days  <FB>get 2 namek  |set here 2<FB>
+ 1	22	05	48F0	83	ごくうがもっているせんすのかずです<FB>ナメックせいにとうちゃくしたときに|のこっていればボーナスが|あたえられます<FB>ひろうちが１００をこえるとひとつ|しょうひします<FB>	senzu goku has nw<FB>if left on namek |get a bonus |given  <FB>fatigue over 100|uses 1 <FB>
+ 1	23	05	4976	94	しゅぎょうをかさねることで|ぞうかします<FB>ひろうちが１００をこえると|しゅぎょうができなくなります<FB>せんずがのこっているあいだは|せんずをしょうひすることで|じどうてきに０にもどります<FB>	training adds|add up<FB>if tired 100 |u cant train n<FB>while senzu ar|using a senzu|resets 2 zero<FB>
+ 1	24	05	49D4	13	ステータスにもどります<FB>	to status  <FB>
+# cena  2: banco 1E, lista 6C47, 45 caixas, 1573 bytes JP, faixa 6C27-717F, 1 caixas identicas ao JP
+ 2	00	1E	6C27	17	プレーヤー１を|えらんでください	プレーヤー1S|choose 1
+ 2	01	1E	6C38	17	プレーヤー２を|えらんでください	プレーヤー2S|choose 1
+ 2	02	1E	6C49	15	パスワードを|つかいますか？	パスワードS|use it?
+ 2	03	1E	6C58	41	それでは|てんかいちぶどうかい|ほんせんの<FB>しゅつじょうしゃを|きめてもらいます	then|tourney   |DTnTy<FB>we pick  |fighters
+ 2	04	1E	6C58	41	それでは|てんかいちぶどうかい|ほんせんの<FB>しゅつじょうしゃを|きめてもらいます	then|tourney   |DTnTy<FB>we pick  |fighters
+ 2	05	1E	6C58	41	それでは|てんかいちぶどうかい|ほんせんの<FB>しゅつじょうしゃを|きめてもらいます	then|tourney   |DTnTy<FB>we pick  |fighters
+ 2	06	1E	6C58	41	それでは|てんかいちぶどうかい|ほんせんの<FB>しゅつじょうしゃを|きめてもらいます	then|tourney   |DTnTy<FB>we pick  |fighters
+ 2	07	1E	6C58	41	それでは|てんかいちぶどうかい|ほんせんの<FB>しゅつじょうしゃを|きめてもらいます	then|tourney   |DTnTy<FB>we pick  |fighters
+ 2	08	1E	6C58	41	それでは|てんかいちぶどうかい|ほんせんの<FB>しゅつじょうしゃを|きめてもらいます	then|tourney   |DTnTy<FB>we pick  |fighters
+ 2	09	1E	6C81	22	まず　だれをそうさするのか|きめてください	first who do |u play?
+ 2	0A	1E	6C97	14	<#>さんで|よろしいですか？	<#>kTで|is it ok
+ 2	0B	1E	6CA5	32	では　たいせんあいてとなる|７にんのせんしゅを|きめてください	now pick who |7 fighter|u fight
+ 2	0C	1E	6CC5	14	こちらで|きめましょうか？	here|we set? 
+ 2	0D	1E	6CD3	15	いじょうで|よろしいですか？	done |is it ok
+ 2	0E	1E	6CE2	28	トーナメントの|たいせんあいてを|きめさせてもらいます	トーナメントy|we pick |ur foe    
+ 2	0F	1E	6CFE	34	いじょうのように|きまりました|しあいは<FB>むせいげん１ぽんしょうぶ	as shown|all se|labz<FB>1 match only
+ 2	10	1E	6D20	34	ヒットポイントが|なくなったり|まいったといったりしたら<FB>まけです	ヒットポイントが|empty |or u give up<FB>lose
+ 2	11	1E	6D42	21	それでは　だい<#>しあいの|はじまりです！	then no<#>laby|begins!
+ 2	12	1E	6D57	10	かんせんしますか？	watch it?
+ 2	13	1E	6D61	14	<#>せんしゅの|しょうりです	<#>fight|u lose
+ 2	14	1E	6D6F	21	つづいて　だい<#>しあいの|はじまりです！	next no<#>laby|begins!
+ 2	15	1E	6D84	29	ではじゅんけっしょう|だい<#>しあい|はじめてください！！	the semis |だb<#>lab|begin now!
+ 2	16	1E	6DA1	20	さあだい<#>かい|てんかいちぶどうかい！	now <#>fb|tourney!   
+ 2	17	1E	6DB5	20	てんかをとるのは|どちらでしょうか！！	who wins|which one!
+ 2	18	1E	6DC9	22	てんかいちぶどうかい|けっしょうせん！！！	tourney   |the final!
+ 2	19	1E	6DDF	13	はじめてください！！！！	begin now!! 
+ 2	1A	1E	6DEC	16	<#>せんしゅの|かちです！！！！	<#>fight|fqでm!!!!
+ 2	1B	1E	6DFC	28	<#>せんしゅ|てんかいちぶどうかい|ゆうしょう！！！！！	<#>play|tourney   |KclXc!!!!!
+ 2	1C	1E	6E18	22	ごらいじょうのみなさん|おつかれさまでした	thank u all|4 coming 
+ 2	1D	1E	6E2E	11	ではまたのたいかいで	see u soon
+ 2	1E	1E	6E39	93	どんなたたかいが|くりひろげられるのか<FB>まさに|くうぜんぜつごの|こうしあいがよそうされます<FB>りょうしゃ|にらみあったままうごきません<FB>こうげきのさくせんをたてて|いるのでしょうか！！	what a  |fight now <FB>Ekv|a match |like no other<FB>both |stare no move <FB>planning hits|is he ther
+ 2	1F	1E	6E96	110	ま…　まったく……|なんというしあいでしょうか…<FB>こ…ことばが|うまくでてきません…<FB>いきづまるような|ねっせんが|くりひろげられています<FB>まったくもって|こんたいかいの|レベルのたかさは|しんじられないものがあります	i.i cant |what a match  <FB>no wrd|no way out<FB>a tense |fight|unfolds now<FB>truly  |the cup|level is|simply unreal 
+ 2	20	1E	6F04	103	こっこれは|とんでもないしあいに|なりました…！！<FB>ま　まさにいきをするひまも|ありませんっ！！！<FB>いまのところ|りょうしゃのじつりょくは|ほとんどごぶとごぶ！！<FB>どちらも|まったく|ゆずりませんっ！！！	jUjPz|big match |it becam<FB>no rest here |there is <FB>so far|both r even |DtTどごぶtごぶ!!<FB>both|all |no ground!
+ 2	21	1E	6F6B	101	いったいなにがおこったので|しょうか！？<FB>はやくて|よくわかりませんでしたが<FB>そ　それにしても|まったくすばらしい|しあいないようです<FB>あまりのてんかいに|われわれのめでは|とてもおいついていけません	what happend |huh!? <FB>fast|we cant see <FB>even so |but great|match so <FB>so fast  |our eyes|cant keep up 
+ 2	22	1E	6FD0	17	こっこれは|いがいなてんかい！！	jUjPz|odd turn!!
+ 2	23	1E	6FE1	2	<N>	<N>
+ 2	24	1E	6FE3	53	<#>に|まったくはがたちません！！！<FB>いったい　だれが|このようなてんかいを|よそうできたでありましょうか	<#>v|no chance!!!  <FB>just who|who guessd|this turn now 
+ 2	25	1E	7018	40	<N>|あとがなくなってしまったかに|おもわれますが<FB>だいじょうぶなのでしょうか！	<N>|looks like no |way out<FB>will he be ok!
+ 2	26	1E	7040	16	<#>の|１ぽリードといったところ	<#>y|1 point lead
+ 2	27	1E	7050	41	<N>|ちょっとくるしい|たたかいです！！<FB>こんご|<N>が|どのようにまきかえすのか！	<N>|rough nw|a fight!<FB>jTご|<N>が|how 2 turn it
+ 2	28	1E	7079	42	また<#>|ゆうりのまま|いっきにしょうぶが|ついてしまうのか<FB>きょうみはつきません！	Ep<#>|ahead |could end|at once <FB>so exciting
+ 2	29	1E	70A3	77	も…ものすごい|こ…こうげきでした<FB>し…しかし<FB><N>|しんじられないことに|こ…これをこらえました…<FB>さ　さあー|これはたいへんなことに|なりました！！！	so huge|an attack<FB>l.lfl<FB><N>|unreal!!  |he took it..<FB>k kaー|serious now|uNElp!!!
+ 2	2A	1E	70F0	44	<#>が|いっぽリードしたかに|みえますが<FB>まだまだしょうぶのゆくえは|わかりません！！！	<#>が|looked a  |lead <FB>end is far   |no idea!!
+ 2	2B	1E	711C	46	すっすごいっ！！|まるで　はくじつむを|みているようです！！<FB><#>|おそろしいつよさです！！	amazing!|a daydream|a dream!! <FB><#>|fearsome pwr
+ 2	2C	1E	714A	53	はたして|<N>は|だいじょうぶなのでしょうか！<FB>それにしても|ものすごいわざとわざの|おうしゅうです！！！	zpls|<N>z|will he be ok!<FB>still |huge moves |a clash!! 
+# cena  3: banco 03, lista 6CA1, 35 caixas, 988 bytes JP, faixa 6DED-718D, 0 caixas identicas ao JP
+ 3	00	03	6DED	21	つかまえたぞ！|ここがきさまのはかばだ！	got u! |ur grave now
+ 3	01	03	6E02	32	なんだってんだよ|こいつらつぎからつぎへと|わきでてきやがって	what now|they keep on|coming!! 
+ 3	02	03	6E22	14	おまえなんかにまけるもんか	i wont lose  
+ 3	03	03	6E30	20	きさまオレがだれなのか|わかってるのか	u know who |am punk
+ 3	04	03	6E44	13	や…やるじゃないか…だが	not bad. but
+ 3	05	03	6E44	13	や…やるじゃないか…だが	not bad. but
+ 3	06	03	6E51	13	つよがりばっかりいって…	all talk huh
+ 3	07	03	6E5E	35	ダッシュからのたいあたりは|ゆうこうにつかうと|すごくこうかてきだ！	dash then ram|is a very|good combo
+ 3	08	03	6E81	19	ほう|いせいだけは|いちにんまえだな	oh|spirit|is okay 
+ 3	09	03	6E94	51	コマンドをつかいきると|ぼうぎょやかいひにせんねん|できるから<FB>こうげきがあたりにくくなる|んだな…	use up move|n u focus on |guard<FB>so hits miss |see.
+ 3	0A	03	6EC7	47	エネルギーだんをうっている|とちゅうでも|キャンセルボタンをおすと<FB>うごけるようになるんだ！	while firing |a blst|press cancel<FB>u can move!!
+ 3	0B	03	6EF6	37	これいじょうきさまとあそん|でいてもつまらん|そろそろおわりにしてやる！	bored of this|game now|time 2 end it
+ 3	0C	03	6F1B	13	ちょうしにのりやがって…	so cocky now
+ 3	0D	03	6F28	32	ほんとうのオレさまの|パワーをみせたときが|きさまのさいごだ！	when i shw|my real pw|u will en
+ 3	0E	03	6F48	25	も…もうゆるさんぞ…|バラバラにくだいてやる！！	no mercy!!|ill smash u!!
+ 3	0F	03	6F61	17	それじゃえんりょなく|いくぞっ！	then here |go!! 
+ 3	10	03	6F72	33	れんぞくわざばかりじゃ|あんまりけいけんちは|あがらないのかな…	combos only|dont raise|exp much.
+ 3	11	03	6F93	23	てもあしもでんくせに|よほどしにたいらしな！	helpless n|u want dead
+ 3	12	03	6FAA	29	がははは|どうだ！！<FB>こうさんするなら|いまのうちだぞ！	haha|well!<FB>give up |if u wil
+ 3	13	03	6FC7	21	こ…こいつそうぞういじょうに|できるぞ！	he is better  |more!
+ 3	14	03	6FDC	21	さいごまでやってみなくちゃ|わかるもんか	till the end |who no
+ 3	15	03	6FF1	27	ふん　せいぜいほえるがいい…|すぐにだまらせてやる！	hmph bark away|ill hush u 
+ 3	16	03	700C	28	く…けっこうきいた…|せいめいりょくが|だいぶおちてる	that hurt |my healt|is down
+ 3	17	03	700C	28	く…けっこうきいた…|せいめいりょくが|だいぶおちてる	that hurt |my healt|is down
+ 3	18	03	7028	32	は…はやくやっつけないと|そろそろからだが|きつくなってきた…	i must win  |my body |gets bad 
+ 3	19	03	7048	51	…ゆだんしたか|ひつよういじょうに|ダメージをうけてしまった…|おどろいたな！|けっこうつよいんだ…	carelss|i took mr|damage than i|should!|so strong 
+ 3	1A	03	7068	19	おどろいたな！|けっこうつよいんだ…	should!|so strong 
+ 3	1B	03	707B	38	や…やるな…でも|あいつら　ほうこうてんかん|しているときがスキだらけだ！	not bad |when they trn|they r wide op
+ 3	1C	03	70A1	24	ふふ…|おもったより|やってくれるじゃねえか…	heh|better|than i thot 
+ 3	1D	03	70B9	26	いまにそんなたわごとは|いっておれんようになるぞ…	soon u wont|be able 2 tal
+ 3	1E	03	70D3	27	ガハハハ　どうだっ！！|にげだすならいまのうちだぜ！	gahaha well|run now if u  
+ 3	1F	03	70EE	41	きあいがえしで|てきをフラフラじょうたいに|してからの<FB>こうげきはゆうこうだな！	ki refl|makes em dizy|then <FB>attack works
+ 3	20	03	7117	65	てきがわざをだすときに|はんげきするカウンターは<FB>ダメージをうけるかもしれない|けどよくあたるから|くふうすればすごくゆうこうだ	when foes a|a counter ht<FB>u may take dmg|but hits |so its very gd
+ 3	21	03	7158	26	そのていどでとくいになるとは|おめでたいヤツだぜ！	proud of that?|how cute!!
+ 3	22	03	7172	27	な…なにおお！|ギッタギッタにぶちのめして|やるぜ！	what!! |ill beat u to|bits
+# cena  4: banco 05, lista 6CE7, 82 caixas, 2055 bytes JP, faixa 49E1-54E4, 24 caixas identicas ao JP
+ 4	00	05	49E1	31	どうした！|コマンドせんたくちゅうは|かかってこないのか！？	what!|in commands |wont come?!
+ 4	01	05	4A00	36	おまえのたりないおつむじゃ|ふいうちぐらいしか|おもいうかばんだろう！	w ur dull brn|only ambs|comes 2 mnd
+ 4	02	05	4A24	10	はーっはっはっは！	zーUzUzUz!
+ 4	03	05	4A2E	4	くっ！	hU!
+ 4	04	05	4A32	24	このオレはたえずじっせんで|たたかっていたんだ	i always fght|we fought
+ 4	05	05	54DB	9	メッセージはない	メッセージzub
+ 4	06	05	4A32	24	このオレはたえずじっせんで|たたかっていたんだ	i always fght|we fought
+ 4	07	05	4A4A	28	フリーザのところで|ぬくぬくとしていた|きさまとオレが	4 real n |u sat sfe|u n me 
+ 4	08	05	4A66	24	いつまでも　ごかくだとでも|おもっていたのか！	w freeza yet |u thought
+ 4	09	05	4A7E	11	かあああああ…！！！	faaaaa.!!!
+ 4	0A	05	4A89	8	ひ…ひいいい…	A.Abbb.
+ 4	0B	05	4A91	9	やるじゃないか…	not bad.
+ 4	0C	05	4A9A	43	せ　せんとうりょくだけが|たたかいのすべてじゃないって|ことを<FB>おもいしらせてやる！	power level |isnt everythng|jtS<FB>ill show u
+ 4	0D	05	4AC5	22	そんなことは|きさまにいわれるまでもない！	i dont|need u 2 say  
+ 4	0E	05	4ADB	35	かくごしろ！！！<FB>つぎのこうげきでまちがいなく|カタをつけてやる！！	fhごlQ!!!<FB>next hit ends |ill end it
+ 4	0F	05	54DB	9	メッセージはない	メッセージzub
+ 4	10	05	54DB	9	メッセージはない	メッセージzub
+ 4	11	05	54DB	9	メッセージはない	メッセージzub
+ 4	12	05	54DB	9	メッセージはない	メッセージzub
+ 4	13	05	54DB	9	メッセージはない	メッセージzub
+ 4	14	05	4AFE	15	なんでさっさとかかってこない	why not attack
+ 4	15	05	4B0D	48	わかっているぞ<FB>キュイとのたたかいで|オレがはるかにつよくなったことをしり<FB>おそれているんだろ	i know <FB>in the cui|fight u saw i got <FB>stronger 
+ 4	16	05	4B3D	55	あんなすうちはまちがいだ！|スカウターのこしょうだ！<FB>このおれをみくびるなよ！！！|うおおおおーっ！！！！！	those numbers|scouter erro<FB>dont mock me!!|ceeeeーU!!!!!
+ 4	17	05	4B74	20	くっくそ|やるじゃないか|ベジータ！！	hUho|not bad|ベジータ!!
+ 4	18	05	4B88	26	だが|つぎのこうげきで|あのよへおくってやるぞっ！	だが|next hit|sends u 2 hel
+ 4	19	05	4BA2	36	なにをねぼけてやがる<FB>きさまのわざが|オレにつうようするわけ|ないだろ	r u asleep<FB>ur move|wont work  |gone
+ 4	1A	05	4BC6	34	アッタマきたぞー！|ふっとばしてやるぜ…！！|くたばりやがれ！！！	アッタマgpぞー!|ill blast u |just die!!
+ 4	1B	05	4BE8	48	ま　まてベジータ！|にがしてくれれば|あるひみつをおしえてやる！<FB>わくせいベジータのことだっ！	E Esベジータ!|free me |n ill tell u <FB>a planet vegta
+ 4	1C	05	4C18	25	わくせいベジータのなにが|ひみつだというんだ！？	secret. what|a secret?! 
+ 4	1D	05	4C31	37	わくせいベジータは|フリーザさまがはかいしたんだ|サイヤじんもろともな！	vegeta is|freeza blew it|up w them! 
+ 4	1E	05	4C56	8	なんだと…！？	uTだt.!?
+ 4	1F	05	4C5E	52	かんしゃしろよ！|おまえのウデはつかえそう|だったんで<FB>わざわざおまえのいないとき|をねらわれたのだ！	thank me|ur arm helps|so it<FB>while away u |targeted!
+ 4	20	05	4C92	4	………	...
+ 4	21	05	4C96	30	それじゃオレは|フリーザさまのところに|かえらせてもらうぞ	oPじVオレz|back 2 frez|ill go nw
+ 4	22	05	4CB4	14	かんちがいするなよドドリア	dont mistake 
+ 4	23	05	4CC2	26	おれがやくそくをまもるとでも|おもっているのかっ！	think ill keep|my promis?
+ 4	24	05	4CDC	6	な…！！！	u.!!!
+ 4	25	05	4CE2	35	くそったれがーっ！！|こうなったら|やけくそだっ！<FB>いくぞーっ！！！	damn it!!!|so thn|desprat<FB>bhぞーU!!!
+ 4	26	05	4D05	22	そうこなっくちゃな…|おうじょうしろっ！！	thats more|give up!! 
+ 4	27	05	54DB	9	メッセージはない	メッセージzub
+ 4	28	05	4D1B	56	はっはーっ！|とうとうつかまえたぞ！！|おとなしくおれについてくれば<FB>いたいめに|あわずにすむが|どうする！？	hahaa!|caught u!!  |come quietly n<FB>bpbHv|avoid  |well?!
+ 4	29	05	4D53	4	くっ！	hU!
+ 4	2A	05	54DB	9	メッセージはない	メッセージzub
+ 4	2B	05	4D5F	30	クリリンさん|もうにげられませんよ|たたかいましょう！！！	クリリンkT|no escape |lets fight!
+ 4	2C	05	4D7D	5	あ…ああ	a.aa
+ 4	2D	05	4D82	43	ばかなやろうどもだな<FB>おとなしくつかまれば|いたいめにあわずにすむかも|しれんのに…	what fools<FB>come quiet|n avoid pain |test..
+ 4	2E	05	54DB	9	メッセージはない	メッセージzub
+ 4	2F	05	4DAD	11	な…なんてつよさだ…	so strong.
+ 4	30	05	4DB8	54	クリリンさんあいつ|こうげきりょくのわりに|スピードがおそい…<FB>まだあきらめるのは|はやいかもしれませんよ	kril him |4 atk power|スピードがeob.<FB>2 give up|is 2 early 
+ 4	31	05	4DEE	8	そ…そうだな…	y.yeah.
+ 4	32	05	4DF6	11	な…なんだこいつら…	whats this
+ 4	33	05	4E01	10	あっ！|にげた！！	aU!|vげp!!
+ 4	34	05	4E0B	24	たすかった|はやくブルマさんのところにもどろう	pmfUp|lets go back 2 bl
+ 4	35	05	4E23	31	ベジータ…<FB>きさま　なぜ|フリーザさまに|さからおうとする…	ベジータ.<FB>why do|フリーザkEv|u defy me
+ 4	36	05	4E42	101	カンタンなことだ…<FB>オレは　あの|フリーザってヤローが|まえからきにいらなかったんだ<FB>これまでは|ヤツのちからに|ねじふせられていたが<FB>ひょんなことから|えいえんのいのちを|てにいれられることをしった	カンタンujtだ.<FB>i am  |フリーザUsヤローが|i never liked <FB>until|his pwr|held me dn<FB>by luck |life 4evr|i learned i  
+ 4	37	05	4EA7	13	ドラゴンボールのことか…	ドラゴンボールyjtf.
+ 4	38	05	4EB4	64	フリーザなんかに|くれてたまるか…！<FB>えいえんのいのちさえ|オレのものになれば|フリーザにかつチャンスが|かならずやってくる！	2 freeza|never!   <FB>even 4evr |if its my|フリーザvfrチャンスが|it will cm
+ 4	39	05	4EF4	37	えいえんのいのちだけで|フリーザさまにかてるとでも|おもっているのか！！	just 4ever |u think u can|u think!! 
+ 4	3A	05	4F19	35	おれはおおくのじっせんで|あんたのそうぞういじょうに|パワーをあげた	in many real|fights far mr|パワーSaげp
+ 4	3B	05	4F3C	36	フリーザさまのじつりょくは|そんなじげんすら|ちょうえつしておられる…	freezas power|that lvl|ur far beynd
+ 4	3C	05	4F60	22	くだらねえデタラメを|ぬかしやがって…！！	such lies |u spout!! 
+ 4	3D	05	4F76	32	ドドリアにきいたぞ！|フリーザはサイヤじんを|おそれていたと！	dodoria sd|フリーザzサイヤじTS|he fears
+ 4	3E	05	4F96	28	サイヤじんパワーを|たったいま|みせつけてやるぞ！！！	サイヤじTパワーS|pUpbE|ill show u!
+ 4	3F	05	4FB2	47	ふははははっ|どうした！！<FB>ザーボンさまとも|あろうおかたが！|うごきがとまってみえるぞ！！	BzzzzU|what!!<FB>even ld |zarbon!!|u look frozen!
+ 4	40	05	4FE1	12	ちょうしにのりやがって	so cocky nw
+ 4	41	05	4FED	20	このていどで|てもあしもでんとはな！！	is ths|u cant move 
+ 4	42	05	5001	30	いまのおれのちからは|まだまだ|こんなものじゃないぞっ！！	my pwr now|EだEだ|its way more!
+ 4	43	05	501F	8	ほざけっ！！！	DざiU!!!
+ 4	44	05	5027	23	おどろいたな|たしかにすばらしい|しんぽだ…	shockd|truly gud|lTぽだ.
+ 4	45	05	503E	50	だが　そのせいで|きさまはながねん|ねむらせていた<FB>わたしのしんのちからを|めざめさせてしまった…	but thus|4 long y|i woke <FB>u have wokn|my true pwr
+ 4	46	05	5070	5	なに！？	uv!?
+ 4	47	05	5075	37	へんしんをして|パワーをますのがサイヤじん|だけだとでもおもっているのか	u think|only saiyans |change 2 rise?
+ 4	48	05	509A	8	へんしんだと？	change?
+ 4	49	05	50A2	34	びをこのむわたしには|へんしんごのみにくいすがたは|たえられない…	i love bty|so an ugly frm|cant do
+ 4	4A	05	50C4	22	だが|しをえらぶよりは|へんしんをえらぶ…	だが|vs death|ill chang
+ 4	4B	05	50DA	7	くっくっく…	hUhUh.
+ 4	4C	05	50E1	8	みせてみろよ…	show me
+ 4	4D	05	50E9	17	いわれなくても|いまみせてやる…	no need|ill show
+ 4	4E	05	50FA	22	こ…|こんなこと…|ザ…ザーボンが…！！！	j.|no way|ザ.ザーボンが.!!!
+ 4	4F	05	5110	81	ふはははは…|おどろきがかくせんか<FB>しにみやげに|もうひとつ|おしえておいてやろう…<FB>フリーザさまもまた|へんしんがたの|うちゅうじんだと<FB>いっておられたぞ…！	Bzzzz.|cant hide <FB>a gift|1 mor|ill tell u.<FB>lord frez|change |is alien<FB>he said so
+ 4	50	05	5161	5	な…！？	u.!?
+ 4	51	05	5166	33	わたしにかてぬものが|フリーザさまにかなうと|おもうかーっ！！！	u cant bet|me or freez|u think!!
+# cena  5: banco 06, lista 718D, 45 caixas, 980 bytes JP, faixa 6F69-733D, 5 caixas identicas ao JP
+ 5	00	06	7339	4	………	...
+ 5	01	06	6F69	4	げげ…	げげ.
+ 5	02	06	6F6D	20	ダ…ダメージを|ほとんどうけていない…	damage |barely a ht
+ 5	03	06	6F81	16	じゅんびうんどうはここまでだ！	warm up ends nw
+ 5	04	06	6F91	16	さあ！|そろそろはじめようぜ！	ka!|lets start 
+ 5	05	06	6FA1	38	いいぞ！|なかなかいい！！|おもったよりやるじゃないの|ベジータちゃん！！	bbぞ!|ufufbb!!|better than i|vegeta!! 
+ 5	06	06	6FC7	17	おいおい|だいじょうぶだったか？	ebeb|are u ok?  
+ 5	07	06	6FD8	19	もうおわりって|わけじゃないんだろ？	is it o|not yet?  
+ 5	08	06	6FEB	36	ば…ばけものめ…<FB>ちくしょう…このおれが|まるであかんぼうあつかいだ…	monster.<FB>damn it. i |am like a baby
+ 5	09	06	700F	43	もっとビシッ！|としたわざはないのか？<FB>ないんならそろそろ|ころしちゃうけどいいか？	harder!|no real mv?<FB>if none i|may kill u  
+ 5	0A	06	703A	26	おめえたち|フリーザってわるいヤロウの|なかまだろ	u all|frieza is bad|pals?
+ 5	0B	06	7054	21	へっへへへ|ちっとはおもしろくしてくれよ	heheh|make it fun   
+ 5	0C	06	7069	27	おーい！|このゴミムシの|せんとうりょくはいくつだ！	hey!|the bug|whats ur pwr!
+ 5	0D	06	7084	15	たったの５０００ぐらいだーっ	only abt 5000!
+ 5	0E	06	7093	18	なんだ…|ただのハッタリやろうかよ	what|just a bluff
+ 5	0F	06	70A5	28	おめえたちは|オラにはかてねえ|たたかわなくてもわかる	u guys|cant win|i know it  
+ 5	10	06	70C1	4	へ！？	C!?
+ 5	11	06	70C5	9	ぷわーっはっは！	pwahaha!
+ 5	12	06	70CE	25	このゴミムシが|とんでもねえホラをふきやがって！	the bug|what a wild lie!
+ 5	13	06	70E7	26	いっしゅんでえいきゅうに|おとなしくさせてやるぜ！	in a instant|ill quiet u!
+ 5	14	06	7101	89	サイヤじんのせんとうレベルを|あきらかに…こえている…<FB>ま…まさか|そんなことはありえない…<FB>あんなヤロウが…|でんせつの|スーパーサイヤじんになど|な…なれるわけはない…！！	saiyan level  |clearly past<FB>n.no!|cant be so  <FB>that guy|the l|super saiyan|no way he can
+ 5	15	06	715A	28	こ…これいじょう|おおボケヤローに|つきあってられねえ	no more |big fool|this 4 me
+ 5	16	06	7176	39	いまのうちなら|いたいめにあわないですむ|あきらめてじぶんたちのほしにかえれ	if i nw|u avoid pain|give up n go home
+ 5	17	06	719D	5	な…！！	u.!!
+ 5	18	06	71A2	8	まだやるのか…	still? 
+ 5	19	06	71AA	14	さあ！|かくごはいいか！？	ka!|u ready!?
+ 5	1A	06	71B8	20	リクーム…|マッハ…|アターック！！！	recom|mach|attack!!
+ 5	1B	06	71CC	24	な…|なんだってんだ…|あのごくうのじしんは…	u.|what is |gokus faith
+ 5	1C	06	71E4	6	バータッ！	burtr
+ 5	1D	06	71EA	12	おうっ！|いくぞっ！！	yeah|lets g
+ 5	1E	06	71F6	11	やっぱかえらねえか…	not leavin
+ 5	1F	06	7201	17	て…てめえ|いったいなにもんだ…	s.sHd|who is he 
+ 5	20	06	7212	20	ちきゅうそだちのサイヤじん…|らしいぜ	earth saiyan  |they
+ 5	21	06	7226	34	ふざけんな！|サイヤじんにそこまでのスピードが|だせるもんかっ！！	no way|saiyan that fast|as if u  
+ 5	22	06	7248	25	しるかよ…|すげえしゅぎょうを|したんだからだろ	dunno|gr8 train|u did it
+ 5	23	06	7261	6	このやろー	u jrk
+ 5	24	06	7267	49	しかしせんとうりょくは|オレのほうがはるかに|まさっているはずだ！<FB>せいぜいにげまわってやがれ！	but power  |im far up |is above  <FB>just run away!
+ 5	25	06	7298	8	こ…こいつ…！	j.jbr.!
+ 5	26	06	72A0	38	アッタマにきたぜ…！|あんなへみたいなヤロウに|こけにされてたまるか…！！	im mad now|2 that punk |no mocking me
+ 5	27	06	72C6	26	まだわかんねえのかっ！|もうムダなたたかいはよせ！	still dont |stop it now  
+ 5	28	06	72E0	18	こんなやつ|どうってことねえぜっ！	a guy|is nothing 
+ 5	29	06	72F2	36	オレたちが|てんかのギニューとくせんたい|だってことをわからせてやる…	we r |ginyu force   |ill make u see
+ 5	2A	06	7316	20	…|こ…こんなことが…|あ…あくむだ…	.|how can  |a bad d
+ 5	2B	06	732A	7	ジースッ！！	jeice!
+ 5	2C	06	7331	8	うるせえっ！！	shut up
+# cena  6: banco 1E, lista 71E7, 10 caixas, 368 bytes JP, faixa 717F-76BF, 2 caixas identicas ao JP
+ 6	00	1E	76BB	4	………	...
+ 6	01	1E	717F	18	きさま|よそみなどして|いいのか！	gkE|looking|bbyf!
+ 6	02	1E	7191	54	あのヤロウ…|オラをこいつとたたかわせて|おいて<FB>そのスキにドラゴンボールを|てにいれようって|ハラだな…	ayヤロウ.|me vs him huh|ebs<FB>oyスキvドラゴンボールS|2 get it|ハラだu.
+ 6	03	1E	71C7	10	スキありーっ！！！	スキaNーU!!!
+ 6	04	1E	71D1	35	よーし|せっかくのとうじょうで|わるいが|いっきにいかせてもらうぞ！	Lーl|my debut n |sory|ill end fast!
+ 6	05	1E	71F4	92	ほう|そうとうのじしんだな…<FB>このギニューさまが|そんなくちをきかれたのは|はじめてだぞ！<FB>いまのたちあわせで|そのじしんをもったのなら<FB>すぐにそのはなっぱしらを|へしおってやろう…	Dc|confident  <FB>im ginyu |no one talks|zじHsだぞ!<FB>like that|if so sure  <FB>ill break it|ill snap 
+ 6	06	1E	7250	80	きさまは|さらなるしんのちからを|かくしている<FB>おそらくフリーザさまとの|たたかいにそなえて<FB>ちからをおんぞんしておく|つもりだろうが<FB>このオレをなめるなよ！	u r |hiding more|power <FB>for freeza  |ppfbvouds<FB>saving power|i think<FB>dont mock m
+ 6	07	1E	72A0	13	ああ…|そうみてえだな…	aa.|it seems
+ 6	08	1E	72AD	26	ちからをだしきらんうちに|ころされてはしにきれまい	die without |at full pwr 
+ 6	09	1E	72C7	36	し…しんじられん…<FB>ま…まさかきさまは…|スーパーサイヤじんなのか…！	unreal...<FB>could u be|スーパーサイヤじTuyf.!
+# cena  7: banco 0A, lista 7257, 36 caixas, 1216 bytes JP, faixa 6CDE-7DFA, 36 caixas identicas ao JP
+ 7	00	0A	700A	4	………	...
+ 7	01	0A	7C6A	400	くおえきうおいをこ　　　　ヅ<84>　　キうびビあびビあがえェあこくくきうえうりす　　　　びビあ　　　ノぼ　ノガ　じうえあしかか　　ええオそ　　　　<A8>ギ　　ヅきがげ　がげ　ィう<FA>　くくききうおいほし　　　　みズ　　ッくた<A4>　た<A4>　みうド　けきくきうえいもす　　　　ゴぼ　　ムきたら　たら　<8A>い<FA>　きこおきいきいそき　　　　テん　　ビう<E4>し　<E4>し　ぜあぞ　くええきいえいほく　　　　むき　　<F8>いヘさ　ヘさ　テあ<A5>　きううおいおいのこ　　　　<F0>お　　<8A>いくき　くき　ゾ　<87>　かうううあかあのく　　　　<#>え　　<A4>あビう　ビう　<8C>　３　おいい　　きいとう　　　　ビう　　<9B>　チう　チう　３　モ　えあい　　きあそい　　　　チう　　…　びヨ　びヨ　ムいぽ　けおかきうえうほし　　　　びヨ　　ルけみ<A1>きみ<A1>きぜさみうせしこきえおえオそ　　　　ケトナ　　　えョの　う０む　　<82>ほ　　　　　いいも　あ<96>ォい　？ク　　ぞクええ	hedgcebSj    ヅ<84>  キcびビaびビaがdェajhhgcdcNm    びビa   ノぼ ノガ じcdalff  ddオo    <A8>ギ  ヅgがげ がげ Zc<FA> hhggcebDl    Fズ  ッhp<A4> p<A4> Fcド ighgcdbIm    ゴぼ  ムgpM pM <8A>b<FA> gjegbgbog    テT  ビc<E4>l <E4>l ぜaぞ hddgbdbDh    Gg  <F8>bヘk ヘk テa<A5> gccebebyj    <F0>e  <8A>bhg hg ゾ <87> fcccafayh    <#>d  <A4>aビc ビc <8C> 3 ebb  gbtc    ビc  <9B> チc チc 3 モ dab  gaob    チc  . びヨ びヨ ムbぽ iefgcdcDl    びヨ  ルiF<A1>gF<A1>gぜkFcnljgdedオo    ケトナ   dョy c0G  <82>D     bbI a<96>ォb ?ク  ぞクdd
+ 7	02	0A	6CDE	22	とうとうほんしょうを|あらわしやがったな…	tctcDTlXcS|aMRlJがUpu.
+ 7	03	0A	6CF4	26	おもいださせてやるぞっ|わたしのおそろしさを！！！	eIbだknsJOぞU|RplyeoQlkS!!!
+ 7	04	0A	6D0E	9	そ…|そんな……	o.|oTu..
+ 7	05	0A	6D17	22	あ…あいつ…|こ…ここまでものすごいとは…	a.abr.|j.jjEでIymごbtz.
+ 7	06	0A	6D2D	23	な…なんて　きだ…|か…かてるわけ…ないぜ…	u.uTs gだ.|f.fsORi.ubぜ.
+ 7	07	0A	6D44	41	あたりまえだ…|たった３びきのアリが<FB>きょうりゅうにかてるとでも|おもったのか？	apNEdだ.|pUp3びgyアリが<FB>gXcNWcvfsOtでI|eIUpyf?
+ 7	08	0A	6D6D	33	かてる！|オレとこいつらの３にんで|たたかえばなんとかかてるぞ！	fsO!|オレtjbrMy3vTで|ppfdばuTtffsOぞ!
+ 7	09	0A	6D8E	35	ほっほっほ…！|このフリーザにかてる？|なにをいいだすかとおもえば…	DUDUD.!|jyフリーザvfsO?|uvSbbだmfteIdば.
+ 7	0A	0A	6DB1	27	こいつらのせんとうりょくは|どんどんとあがっている…	jbrMynTtcNXhz|どTどTtaがUsbO.
+ 7	0B	0A	6DCC	40	そしてこのオレは|きさまのおそれていた<FB>スーパーサイヤじんに|なりつつある…！	olsjyオレz|gkEyeoPsbp<FB>スーパーサイヤじTv|uNrraO.!
+ 7	0C	0A	6DF4	43	！！|よくそんなおおぼらを|ふけますね…<FB>スーパーサイヤじんなどと…|…くっくっく…	!!|LhoTueeぼMS|BiEmx.<FB>スーパーサイヤじTuどt.|.hUhUh.
+ 7	0D	0A	6E1F	22	いちいち|かんにさわる|ヤローだ！！！！！	bqbq|fTvkRO|ヤローだ!!!!!
+ 7	0E	0A	6E35	29	なるほど…|まんざらでたらめばかりでは|なさそうですね…	uODど.|ETざMでpMHばfNでz|ukocでmx.
+ 7	0F	0A	6E52	38	ほ…ほんとだ…！！|たしかに３にんでたたかえば|なんとかなるかもしれない…	D.DTtだ.!!|plfv3vTでppfdば|uTtfuOfIlPub.
+ 7	10	0A	6E78	32	わたしもすこしは|そのきになって|あいてをしてやりましょうか…	RplImjlz|oygvuUs|absSlsJNElXcf.
+ 7	11	0A	6E98	14	つよがりをいいやがって！！	rLがNSbbJがUs!!
+ 7	12	0A	6EA6	13	へんしんしろ|フリーザ！	CTlTlQ|フリーザ!
+ 7	13	0A	6EB3	3	へ…	C.
+ 7	14	0A	6EB6	8	へんしん…！？	CTlT.!?
+ 7	15	0A	6EBE	21	ほう！|よくそのことを|しっていましたね	Dc!|LhoyjtS|lUsbElpx
+ 7	16	0A	6ED3	28	いいだろう…！|そこまでしにたいのなら|みせてやる！！	bbだQc.!|ojEでlvpbyuM|FnsJO!!
+ 7	17	0A	6EEF	13	へんしんをするって…！？	CTlTSmOUs.!?
+ 7	18	0A	6EFC	86	うちゅうじんのなかには|ごくたまにひつようにおうじて|すがたをかえるやつがいる…<FB>カムフラージュのためや<FB>へいじょうじに|よけいなエネルギーを|しょうもうさせんためにな…	cqWcじTyufvz|ごhpEvArLcvecじs|mがpSfdOJrがbO.<FB>カムフラージュypHJ<FB>CbじXcじv|LibuエネルギーS|lXcIcknTpHvu.
+ 7	19	0A	6F52	11	な…なんだって…！！	u.uTだUs.!!
+ 7	1A	0A	6F5D	14	ほああああ…ああ……！！！	Daaaa.aa..!!!
+ 7	1B	0A	6F6B	8	ああ…あ…！！	aa.a.!!
+ 7	1C	0A	6F73	7	はあっ！！！	zaU!!!
+ 7	1D	0A	6F7A	39	へ…へへ…|きをつけろよ…<FB>こうなってしまっては|まえほどやさしくはないぞ…	C.CC.|gSriQL.<FB>jcuUslEUsz|EdDどJklhzubぞ.
+ 7	1E	0A	6FA1	54	くっくっく…|なさけないつらだぞベジータ！<FB>ここまでつよく|なってしまうとはそうぞうがい|だったらしいな！	hUhUh.|ukiubrMだぞベジータ!<FB>jjEでrLh|uUslEctzocぞcがb|だUpMlbu!
+ 7	1F	0A	6FD7	7	お…おのれ…	e.eyP.
+ 7	20	0A	6FDE	23	さーて|どいつに　じごくをみせて|やろうか…	kーs|どbrv じごhSFns|JQcf.
+ 7	21	0A	6FF5	6	はっ！！！	zU!!!
+ 7	22	0A	6FFB	12	なにか|くるぞっ！！！	uvf|hOぞU!!!
+ 7	23	0A	7007	3	！？	!?
+# cena  8: banco 03, lista 729F, 84 caixas, 2329 bytes JP, faixa 7347-7C6A, 13 caixas identicas ao JP
+ 8	00	03	7C66	4	………	...
+ 8	01	03	7347	9	うじむしどもが…	cじGlどIが.
+ 8	02	03	7350	34	きさまらにころされた|ナメックせいじんのいかりを|おもいしれ！！！	feel rage |of namekians |u kild!!
+ 8	03	03	7372	28	す…すげえ…|フ…フリーザとごかくに|たたかっている…	whoa..|hes even w |freeza!!
+ 8	04	03	738E	14	いや…|それ　いじょうだ…	no |more than
+ 8	05	03	739C	25	や…やっぱりすごいや…！！|ピッコロさんは！！！	hes amazing!!|piccolo!!!
+ 8	06	03	73B5	54	い…いったい|なにがあったというのだ…<FB>ちきゅうでヤツをやってから|ろくにときもたっていない|というのに…	what  |just happend<FB>i beat him on|on earth ago|ago...
+ 8	07	03	73EB	10	お…おのれ……！！	damn u..!
+ 8	08	03	73F5	56	このたたかいも|そろそろおわりにするか…<FB>きさまは　このオレがへんしん|したものだということを|しらんだろう…	this ft|ends soon nw<FB>u dont know i |can transfm|do u...
+ 8	09	03	742D	11	へんしん　だと……？	transform?
+ 8	0A	03	7438	80	きさまにもあたえてやるぞ|ベジータたちとおなじ|このオレにたいするきょうふを<FB>こうえいにおもうがいい！！|このへんしんまでみせるのは|きさまがはじめてだ！！！	ill give u  |same teror|vegeta felt of<FB>be honored!! |ur first 2   |see this frm
+ 8	0B	03	7488	12	かああああ……！！！！	faaaa..!!!!
+ 8	0C	03	7494	12	ぬうううう……！！！！	wcccc..!!!!
+ 8	0D	03	74A0	13	おああああああ…！！！！	eaaaaaa.!!!!
+ 8	0E	03	74AD	39	…くっ……|おまたせしましたね…<FB>さあて…だい２かいせんと|いきましょうか…	ugh..|sorry 2 wt<FB>now.. round2|lets go.
+ 8	0F	03	74D4	11	バ…バケモノめ……！	monster..!
+ 8	10	03	74DF	94	なぜあんなチビにあれほどの|せんとうりょくが…<FB>そうか！！|あのチビはサイヤじん…！！<FB>…？…|…ラディッツのこか…！|どこかおもかげがある…<FB>サイヤじんのちはたやさねば|いけませんね…	why a runt   |has such <FB>i see|that runt is <FB>..?|raditz kid?|i see it nw<FB>saiyan blood |must en
+ 8	11	03	753D	67	ようし…！<FB>ころすまえに|しよりもおそろしい<FB>きゅうきょくのパワーという|ものを|ごらんにいれましょう<FB>わたくしのしんのすがたを！！	right<FB>b4 i k|ill show <FB>the ultimate |pwr|u ever saw<FB>my true form!!
+ 8	12	03	7580	13	うおおおおお…！！！！！	ceeeee.!!!!!
+ 8	13	03	758D	51	どうしたのですかみなさん|いいのですよ<FB>４にんがかりで|どんどんひきょうなてを|つかってもらっても！	whats wrong |its ok<FB>all 4 o|u can use  |dirty trik
+ 8	14	03	75C0	9	な…なめやがって	dont mok
+ 8	15	03	75C9	22	おまえなんか！|ボクがやっつけてやる！！！	u fiend|ill take u on
+ 8	16	03	75DF	27	これはこれは|たのしみなおことば|きたいしてますよ…	oh my |nice word|i expect 
+ 8	17	03	75FA	36	あ…|あれがフリーザのしょうたいか<FB>ちいさくなって|さっぱりしちまって	ah|is that freeza<FB>so smal|n simple 
+ 8	18	03	761E	36	が…|がいけんだけで|じつりょくをはんだんするな|といういいみほんだ…	so|looks r|no way 2 judg|true power
+ 8	19	03	7642	36	ち…ちくしょう…|とてもじゃないがおまえたちを|たすけられそうもない…	damn it |i cant save u |all it seem
+ 8	1A	03	7666	33	やくそくでしたよね|じごくいじょうのきょうふを|みせてあげますよ	i promisd|terror worse |than hel
+ 8	1B	03	7687	21	うごきもこうげきも…|み…みえなかった…	his moves |unseen.. 
+ 8	1C	03	769C	25	つまらん…|たたかうきがまるでないみたい|だね…	dull.|u dont want 2 |fit
+ 8	1D	03	76B5	23	ちょっとはやいけど|とどめをさしちゃおうか！	bit early|but ill end 
+ 8	1E	03	76CC	11	くっ|くそーっ！！！	ug|damn!!!
+ 8	1F	03	76D7	55	おめえたちにころされた|サイヤじんのためにも<FB>そしてナメックせいじんたちの|ためにも<FB>おめえをぶったおす！！	4 saiyans u|u killed n<FB>4 the namekian|too <FB>ill beat u!
+ 8	20	03	770E	9	くだらないことを	how sily
+ 8	21	03	7717	11	ここまでやるとはね…	u came far
+ 8	22	03	7722	62	ボクにホコリをつけたのは|おやいがいではキミがはじめて|だよ<FB>うまれてはじめてかもしれない|な|こんなにわくわくするのは…	ur the first|but my dad 2  |on<FB>dirt on me may|b|1st time im  
+ 8	23	03	7760	30	まいったなー|すこしくらいは|こたえるとおもったんだけど…	oh my |i thout|that would hrt
+ 8	24	03	777E	26	どうした|キミがそれくらいで|まいるわけないからね	well|u wont fl|4 just tht
+ 8	25	03	7798	16	どうしたんだよ|ごくうのやつ…	whats u|w goku.
+ 8	26	03	77A8	32	だ　だいじょうぶ|おとうさんのきは|ぜんぜんへっていません…！	its ok  |dads ki |is not down  
+ 8	27	03	77C8	29	あのヤロウとんでもねえ|つよさだ…|さーてどうすっかな…	that guy is|stron|now what..
+ 8	28	03	77E5	63	おもっていたよりずっとつよい|ようだね<FB>ちょっとおどろいたよ|ギニューたいちょうの|うえをいくヤツがこのよにいた|なんてね…	stronger than |thot<FB>im surprsd|someone ab|captain ginyu |here.
+ 8	29	03	7824	12	でもボクにはかなわない	u cant win 
+ 8	2A	03	7830	16	…かもな…|でもわかんねーぞー	maybe|who nos! 
+ 8	2B	03	7840	5	わかるよ	isee
+ 8	2C	03	7845	31	キミはつよいよ|まさにきょういてきといっても|いいほどだね…	ur strg|truly a threat|i admit
+ 8	2D	03	7864	8	そいつはどうも	thanks 
+ 8	2E	03	786C	43	でも|このたたかいにもあきてきたよ<FB>そろそろけっちゃくを|つけようとおもうんだけど…	bt|im bored of it<FB>so ill end|this fight nw
+ 8	2F	03	7897	14	そうカンタンにはいかねえぞ	not so easy  
+ 8	30	03	78A5	36	そうかなボクはまだ|マックスパワーのはんぶんも|つかっちゃいないんだよ	oh really|im not even  |half my pwr
+ 8	31	03	78C9	15	そいつはちょっとおおゲサだぜ	bit much that 
+ 8	32	03	78D8	37	たのしかったよ…|こんなうんどうをしたのは|ほんとうにひさしぶりだった…	fun time|i havent mvd|like this ages
+ 8	33	03	78FD	4	………	...
+ 8	34	03	7901	18	ごくうのやつ|なにかするつもりだ…	goku i|up 2 somth
+ 8	35	03	7913	45	げんきだまだっ！！！<FB>すべてのいきもののげんきを|エネルギーのたまにして|こうげきする…	spirit bmb<FB>takes energy |of all life|attacks
+ 8	36	03	7940	7	な…なに！？	what!?
+ 8	37	03	7947	36	このクズやろう……<FB>つみもないものを|つぎからつぎへと|ころしやがって	u scum...<FB>u killed|so many |innocnt
+ 8	38	03	796B	25	オレはおこったぞー！！！！！|フリーザーッ！！！	オレzejUpぞー!!!!!|フリーザーッ!!!
+ 8	39	03	7984	50	えらそうなこといいやがって…<FB>きさまらサイヤじんは|つみのないものを|ころさなかったとでもいうのか	big talk from <FB>u saiyans |nevr kld|the innocent? 
+ 8	3A	03	79B6	8	だからほろびた	it fell
+ 8	3B	03	79BE	11	オレがほろぼしたんだ	i wiped em
+ 8	3C	03	79C9	19	こんどはこのオレがきさまを|ほろぼす	now i wipe   |u to
+ 8	3D	03	79DC	20	おまえはもう|あやまってもゆるさないぞ	no mor|sorry wont d
+ 8	3E	03	79F0	10	ふ…ふふ…|………	B.BB.|...
+ 8	3F	03	79FA	14	………|な…|なにものだ…	...|u.|who?  
+ 8	40	03	7A08	76	とっくにごぞんじなんだろ！？<FB>おだやかなこころをもちながら|はげしいいかりによって|めざめたでんせつのせんし<FB>スーパーサイヤじん|そんごくうだっ！！！	u must know by<FB>calm heart but|woken by rg|a legend now<FB>super sai|son goku!!
+ 8	41	03	7A54	27	ち…ちくしょー…！！！|ちくしょおおおーっ！！！！！	damn it!!! |daaaamn it!!!!
+ 8	42	03	7A6F	31	おれは|きさまにころされるくらいなら|みずからのしをえらぶぞ	ill|pick my own dt|not by u!! 
+ 8	43	03	7A8E	14	このほしをけすっ！！！！！	jyDlSimU!!!!!
+ 8	44	03	7A9C	41	ち…！！|パワーをおさえすぎたか…<FB>だが５ふんもすればこのほしは|ばくはつする…	tch!|held back to<FB>in 5 min this |rock po
+ 8	45	03	7AC5	38	５ふんもあればじゅうぶんだ…|きさまをたおし|なかまとともにだっしゅつする	5 min is plent|ill end|n leave w pals
+ 8	46	03	7AEB	28	こうなったらみせてやるぞ|１００パーセントのちからを！	then ill shw|100 percent pw
+ 8	47	03	7B11	8	はあーっ！！！	zaーU!!!
+ 8	48	03	7B19	24	じかんがないんだ|はやいとこカタをつけようぜ…	no time |lets end fast 
+ 8	49	03	7B31	22	なんだ…？|なぜきゅうにくらくなったんだ…	what.|why so dark now
+ 8	4A	03	7B47	46	しをかくごしてまで|どうしてもこのフリーザと<FB>しょうぶのけっちゃくを|つけたいらしいな…！	even risk|death 2 setl<FB>this fight |w me huh. 
+ 8	4B	03	7B75	18	いくぞっ！！！|フリーザ！！！！！	bhぞU!!!|フリーザ!!!!!
+ 8	4C	03	7B87	34	………|ち…ちくしょう…<FB>う…うう…|た…たのむ…|たすけてくれ…	...|damn it.<FB>uu.. |please|help me
+ 8	4D	03	7BA9	13	かってなこといいやがって	so selfish  
+ 8	4E	03	7BB6	6	た…たのむ	p.pyG
+ 8	4F	03	7BBC	27	おれのきをすこしわけてやった|あとはかってにしろ…！	i gave u some |rest is on 
+ 8	50	03	7BD7	56	………|こっこのナメックせいは|もうばくはつすんぜんだ…<FB>どうあがいても|きさまをまっているのは|し　のみだ…	...|this namek |about 2 blow<FB>no matr|what awaits|is end
+ 8	51	03	7C0F	15	…オレはなんとかいきてみせる	ill live some 
+ 8	52	03	7C1E	53	オ…オレはうちゅういちなんだ<FB>だから…だからきさまは|このオレのてによって|しななければならない…！！！	im the best   <FB>so u must  |die by my |own hand!!!   
+ 8	53	03	7C53	19	おれに|ころされるべきなんだーっ！！	by |by me u die!! 
+# cena  9: tabela C4C8 fora da ROM (RAM)
+# cena 10: banco 03, lista 40FB, 190 caixas, 4323 bytes JP, faixa 4277-5350, 17 caixas identicas ao JP
+10	00	03	4277	33	ここ…|ピッコロさんにしゅぎょうを|してもらったところににている	hm.|we trained w |picc here huh 
+10	01	03	4298	27	ああ…|サイヤじんとさいしょに|たたかったところだろ	ya.|1st fought |saiyans.  
+10	02	03	42B3	26	みてよっ！|ドラゴンボールのはんのうが|あるわ！！	look!|a db signal  |here!
+10	03	03	42CD	21	ほんとだっ|ヒャホヒャホ　ヒャホーッ！！	true!|hyaho hyahooo!
+10	04	03	42E2	18	クリリンさん|あっちにつよいきが…	kril! |strong ki.
+10	05	03	42F4	11	き？|…ほんとだ…！	ki|really!
+10	06	03	42FF	12	それナメックせいじんよ	a namekian 
+10	07	03	430B	6	で…でも…	b.but
+10	08	03	4311	20	ちょっとじゃあくなかんじの|きだよね…	an evil ki   |huh. 
+10	09	03	4325	11	だいじょうぶだってば	its ok!   
+10	0A	03	4330	8	そうですよね！	right! 
+10	0B	03	4338	25	さあ|そのナメックせいじんさんに|おあいしましょ	so|lets go meet |him now
+10	0C	03	4351	4	へ！？	eh?
+10	0D	03	4355	16	…あれ…どこかで|み…たことが	ive seen|this. 
+10	0E	03	4365	21	サイヤじんの|うちゅうせんだーっ！！！！	its a |saiyan ship!!
+10	0F	03	437A	10	やっぱりーっ！！！	i knew it
+10	10	03	4384	29	フリーザめ…|ドラゴンボールは|ぜったいにわたさんぞ…！	freeza|wont get|the dbs ever
+10	11	03	43A1	24	ザーボンとドドリアもつれて|きてやがるのか…！	zarbon dodria|too huh! 
+10	12	03	43B9	41	なんとしてもうまく|ドラゴンボールをうばって<FB>えいえんのいのちを|てにいれねば…	i will   |take the dbs<FB>and live |4ever. 
+10	13	03	43E2	15	ありました！|フリーザさま！	found!|freeza!
+10	14	03	43F1	50	これであと３つになりましたね<FB>たいせつに　もってなさい|ベジータがねらっているらしい|ですからね…	3 left now.   <FB>keep it safe|vegetas after |them..
+10	15	03	4423	69	すこしまえにあらわれた|ふたつのおおきなパワー|はんのうのあったちてんは<FB>さぐらせておきますので|まもなくしょうたいが|つかめるでしょう	appeared b4|2 huge kis |signal point<FB>ill look   |soon well |know it 
+10	16	03	4468	48	どうってことないでしょう|ザーボンさん<FB>もんだいは|わたしにさからったベジータの|しまつです…	no big deal |zarbon<FB>issue|is vegeta who |defied
+10	17	03	4498	28	そのけんは|キュイがベジータの|しまつにむかうはずです	cui  |is off to|kill vegeta
+10	18	03	44B4	32	ベジータだ…！|ごはんっ！けはいをけせっ！！|さとられるぞ！！	vegeta!|gohan hide ki!|hell see
+10	19	03	44D4	7	は　はいっ！	y yes!
+10	1A	03	44DB	11	ど…どうすんの…！？	what now!?
+10	1B	03	44E6	75	ブルマさん|ちきゅうにこのことを|れんらくしたらひとりだけで|ちきゅうにかえってください<FB>オレたちはここにのこって|ドラゴンボールを|さがしてみます	bulma|tell earth|then go back |alone please <FB>we stay here|n look 4|the dbs
+10	1C	03	4531	28	わかったわ！|とりあえずこのことだけ|れんらくする…！	got it|ill report |this now
+10	1D	03	454D	35	おおブルマか！|ふむ　なっなんじゃと！？|そっそれで…！？　…うむ…	bulma! |hm. what!?  |then what.hm 
+10	1E	03	4570	29	だからそんくんにつたえて|きこえる？！|たのんだわよ！！	so tell goku|hear?!|please!!
+10	1F	03	458D	5	いっ！？	eh!?
+10	20	03	4592	8	そ…そんな！？	n.no!? 
+10	21	03	459A	28	ちょ…ちょっと…|な　なんで|またあれがくるわけ…！？	w.wait. |why  |is it back!?
+10	22	03	45B6	15	き…ききたいのはこっちですよ	im asking u!  
+10	23	03	45C5	30	にがさんぞベジータ！|このキュイさまがかたづけて|やる…！	no escape!|cui will end |u!! 
+10	24	03	45E3	19	やばいわよ！|ぜったいにやばいわよ！	uh oh!|real bad!! 
+10	25	03	45F6	18	サイヤじん|もういないはずだよな…	saiya|none left. 
+10	26	03	4608	31	じゃ　じゃあわたしは|ちきゅうにかえるわ！|がんばってね！！	th.then i |fly home! |luck!!  
+10	27	03	4627	18	！？|クリリンさん|だれかきます！	!?|kril! |coming!
+10	28	03	4639	4	へ！？	eh?
+10	29	03	463D	8	サイヤじん！？	saiya!?
+10	2A	03	4645	20	ベジータじゃない…|もっとよわいきだ！	not him. |weak ki! 
+10	2B	03	4659	14	ナメックせいじんかしら！？	a namekian!? 
+10	2C	03	4667	33	あいつらか…|ナメックせいじんじゃねえ|みてえだぜ…なにもんだ？	them..|not namekian|what r they?
+10	2D	03	4688	34	とにかく|このほしにいるやつら|みなごろしにしろってめいれい|だ！	well|orders r 2|kill everyone |!!
+10	2E	03	46AA	16	とりあえず|うちゅうせんをやれ	1st  |the ship!
+10	2F	03	46BA	5	よーし！	ok!!
+10	30	03	46BF	3	！？	!?
+10	31	03	46C2	14	うっうちゅうせんがっ！！！	a.a ship!!!  
+10	32	03	46D0	29	ごはんきをかいほうしろ…！|こいつらたいしたやつじゃない	gohan unleash|theyre weak!  
+10	33	03	46ED	3	ふう	Bc
+10	34	03	46F0	14	へーい！|ナイス|ナイス！	heyy|yes|nice
+10	35	03	46FE	19	も　もうダメよ…|もうおしまいだわ…	its over|all done.
+10	36	03	4711	18	とりあえず|ここをはなれましょう…	lets |leave here.
+10	37	03	4723	25	も…もうにどとちきゅうには|もどれないのよーっ！	we cant go   |home ever!
+10	38	03	473C	33	きっとナメックせいじんさんが|うちゅうせん|なおしてくれますよ…	the namekians |will  |fix it... 
+10	39	03	475D	15	いいわね…|らっかんてきで…	nice.|hopeful.
+10	3A	03	476C	42	へっへっへ…<FB>やっとライバルどうし|けっちゃくをつけるときが|やってきたようだな…	CUCUC.<FB>at last we|rivals end  |this now. 
+10	3B	03	4796	11	ライバルどうしだと？	rivals?   
+10	3C	03	47A1	33	くっくっく…|いいものをみせてやろう|おれがちきゅうでまなんだ…	heh...|ill show u |what i learnd
+10	3D	03	47C2	12	にげあしのはやさをか？	how 2 run? 
+10	3E	03	47CE	22	せんとうりょくの|コントロールをだっ！！！	power lv|control!!!  
+10	3F	03	47E4	33	スカウターでオレの|せんとうりょくすうちを|よーくみてみやがれ！	scan me  |power level|look good!
+10	40	03	4805	5	かあああ	faaa
+10	41	03	480A	9	バ…バカな…！！	n.no...!
+10	42	03	4813	45	に…２４０００…<FB>ま…まさか…！|ベジータのせんとうりょくは|１８０００がやっとのはず…	v.24000.<FB>it cant|vegetas power|was 18000 max
+10	43	03	4840	44	おどろくことはないでしょう|ベジータはたえずさいぜんせん|でたたかってきたわけですし…	no surprise. |vegeta always |fought hard.  
+10	44	03	486C	61	ま　まてよベジータ！|いいことをおもいついたぜ！<FB>オ　オレとくみゃザーボンと|ドドリアぐらいなんとかなると|おもうぜ…！	w wait!!  |i got a idea!<FB>team up w me |n we can beat |them! 
+10	45	03	48A9	36	くだらんウソをベラベラと|いいやがって…|とことんむかつくヤローだぜ…	stupid lies |u tell.|so annoying.  
+10	46	03	48CD	29	ウ…ウソじゃねえって……！|あっ！！|フリーザさまだ！！	not a lie!!  |ah!!|friez!!  
+10	47	03	48EA	6	なにっ！？	what?
+10	48	03	48F0	52	あまくみやがって|せんとうりょくが|あがったということは<FB>スピードもあがったってことだ|いくぞっ！！！	dont u  |if power|went up...<FB>so did speed! |here i 
+10	49	03	4924	72	スカウターでオレのこうどうは|つつぬけだからな…|うかつにはちかづけん<FB>しかしドラゴンボールは７つ|あつめんとこうかがないとか|いっていたな…	he reads me   |with that|cant rush.<FB>but all 7 dbs|r needed they|said...
+10	4A	03	496C	50	よし…|オレがひとつだけさがしだして|おこう<FB>それでとりあえずはフリーザが|ふじみになることはない	ok.|ill find one  |now<FB>so freeza wont|live 4ever 
+10	4B	03	499E	50	ベ…ベジータの|２４０００…てえかずは|やっぱりホンモノだぜ…<FB>…キュイのやつを|や…やりやがった	vegetas|24000 is   |for real...<FB>he beat |cui...!!
+10	4C	03	49D0	13	どうってことないでしょう	no big deal 
+10	4D	03	49DD	32	フリーザさま|あちらのほうこうに|ナメックせいじんのはんのうが	freeza|that way |a namek signal
+10	4E	03	49FD	30	そうですか|それでは５つめのボールを|もらいにいきましょう	i see|lets go get |ball five!
+10	4F	03	4A1B	4	………	...
+10	50	03	4A1F	16	ブルマさん|ここがいいですよ！	bulma|here!    
+10	51	03	4A2F	13	…こ…こんなところ…！？	w.what.here?
+10	52	03	4A3C	23	クリリンさんむこうにきを|かんじませんか！？	kril feel a |ki over?!
+10	53	03	4A53	10	え？|ほんとだ…！	eh|true.!
+10	54	03	4A5D	24	さっきのれんちゅうとは|ちがうかんじのきだね…	not like   |last bunch.
+10	55	03	4A75	18	こんどこそナメックせいじん|かも…	maybe namek  |now
+10	56	03	4A87	6	そうですね	right
+10	57	03	4A8D	34	おなじようなきが|あっちにもたくさん|ナメックせいじんだよぜったい	same ki |lots more|namekians!    
+10	58	03	4AAF	4	ん！？	hm?
+10	59	03	4AB3	30	かくれろ！！！|べつのあやしいきが|ちかづいてくる！！！！	hide!!!|odd ki   |coming near
+10	5A	03	4AD1	19	オ…オレたちのこと|バレたのかな…？	seen us? |maybe?  
+10	5B	03	4AE4	30	いつも　おもうけどあんたたち|よくそういうのわかるわね…！	u guys always |sense that!   
+10	5C	03	4B02	5	きたっ！	here
+10	5D	03	4B07	11	ご…ごはんみたか…？	gohan saw?
+10	5E	03	4B12	7	は…はい……	z.zb..
+10	5F	03	4B19	20	まえから２ばんめにとんでた|へんなやつ	the 2nd one  |flyin
+10	60	03	4B2D	26	みました…|も…ものすごい|ちからをかんじました…	i saw|it was |so strong. 
+10	61	03	4B47	57	ベジータより　もっと…もっと|とんでもないかもしれない<FB>ほかにもすげえのがいたけど|あっあいつはケタちがいだった	stronger than |vegeta more <FB>others big 2 |he was huge!  
+10	62	03	4B80	10	ね…ねえ！|これ…	hey!!|uh.
+10	63	03	4B8A	82	いまのれんちゅう|ここのドラゴンボールに|まっすぐむかっているわ…！<FB>さっきクリリンさんが|こんどこそナメックせいじん|かもっていっていた<FB>きをかんじたところだ…	they go |straight 2 |our db here! <FB>kril just |said maybe   |a namek  <FB>i felt ki. 
+10	64	03	4BDC	43	オレ…いってようすをみてくる|さっきのやつらとはちがう|かんじのきをかんじたところに	ill go check  |feels new   |not like b4   
+10	65	03	4C07	9	ボクもいきます！	me too!!
+10	66	03	4C10	14	わかったわ　きをつけてよ！	ok! careful! 
+10	67	03	4C1E	20	そうだ　ちきゅうにれんらく|しなくちゃ	right. gotta |call.
+10	68	03	4C32	23	ちきゅうでにゅういんをつづけている|ごくうは	still in hospital|goku
+10	69	03	4C49	13	しっかし　たいくつだなあ	so boring...
+10	6A	03	4C56	41	どうじゃごくう…<FB>じつは２じかんほどまえに|ブルマたちかられんらくが|きたんじゃ	so goku.<FB>2 hrs ago   |a call from |bulma
+10	6B	03	4C7F	14	ぶじナメックせいについたか	safe on namek
+10	6C	03	4C8D	59	たしかにぶじ|ナメックせいについた…|しかし…<FB>ベジータというサイヤじん…|なんとやつもやってきたらしい|のじゃ…！	safe  |on namek   |but.<FB>saiyan vegeta|came there too|seems
+10	6D	03	4CC8	13	ベジータ！|あいつが！？	its  |vegeta
+10	6E	03	4CD5	39	しかも　なかまがおって|そやつらにうちゅうせんを|こわされてしまったらしい…	he has help|they wrecked|the ship.    
+10	6F	03	4CFC	11	よう！|いきてたか？	yo!|alive?
+10	70	03	4D07	33	カリンさまがよ|できあがったせんず７つぶ|ぜんぶもってけってよ！	korin  |made 7 senzu|take em all
+10	71	03	4D28	33	やったグッドタイミングって|やつだ！！|はやく　くわせてくれっ！	good timing!!|yess!|feed me now!
+10	72	03	4D49	4	ほらよ	yo!
+10	73	03	4D4D	5	にっ！！	vU!!
+10	74	03	4D52	18	オラ|ナメックせいにいってくる！！	me|off to namek!!
+10	75	03	4D64	28	ナ…ナメックせいに…って|どうやっていくつもりじゃ！？	2 namek. how|how will u go 
+10	76	03	4D80	101	へっへー|ブルマのとうちゃんにたのんで|ずっとまえに|オラじしんがのってきた<FB>うちゅうせんを|なおしてかいぞうしてもらった<FB>そいつなら６かでナメックせい|までいけるんだってよ！|じゃ　たすけにいく！！	heh |bulmas dad    |fixed |ship i rode<FB>before |n upgraded it <FB>6 days 2 namek|in it!     |im going!! 
+10	77	03	4DE5	7	クリリンくん	kril  
+10	78	03	4DEC	15	それもしかしてドラゴンボール	is that a db? 
+10	79	03	4DFB	9	へっへーあたり！	heh yep!
+10	7A	03	4E04	24	ほんばのドラゴンボールって|でっかいのねーっ！	namek dbs r  |so big!! 
+10	7B	03	4E1C	19	！|きだ！|ここにむかっている！！！	!|ki!|coming here!
+10	7C	03	4E2F	8	ベジータ！！！	ベジータ!!!
+10	7D	03	4E37	31	な…なんてことだ…！！|あいつのきに|きづかなかったなんて…	oh no way.!|never |felt his ki
+10	7E	03	4E56	13	いがいなところであったな	odd place.  
+10	7F	03	4E63	41	そのだいじそうにもっている|ドラゴンボールをみると…|もくてきはおなじらしいな…	that db u got|so tightly. |same goal huh
+10	80	03	4E8C	5	…く…！	.h.!
+10	81	03	4E91	28	いいかオレにはそのボールを|もらうまえにすることがある	listen i got |stuff 2 do   
+10	82	03	4EAD	4	え！？	d!?
+10	83	03	4EB1	27	きたな…|つけてきたのはおみとおしだ！|ザーボン！！	here|i knew u came |zarbon
+10	84	03	4ECC	8	さっさいあくだ	worst! 
+10	85	03	4ED4	49	ずいぶんなめたマネを|してくれたなベジータ…<FB>ドラゴンボールのかくしばしょ|をしゃべってもらうぞ	some nerve|vegeta...  <FB>tell me where |the dbs r 
+10	86	03	4F05	7	やってみろよ	try it
+10	87	03	4F0C	15	くっくっく…|こりんやつめ…	heh...|tough 1
+10	88	03	4F1B	4	さて…	ks.
+10	89	03	4F1F	23	おとなしくそのボールをよこす|きはあるのか？	will u hand   |over?  
+10	8A	03	4F36	32	こいつをわたせば|お…おとなしくここからきえて|くれるか…！？	if i do |will u leave  |alone? 
+10	8B	03	4F56	27	まあいいだろう|ザコなどとあそんでいても|いみはない	fine   |no point in |games
+10	8C	03	4F71	10	ほ…ほんとだな…！	really.!?
+10	8D	03	4F7B	10	はーっはっはっは！	zーUzUzUz!
+10	8E	03	4F7B	10	はーっはっはっは！	zーUzUzUz!
+10	8F	03	4F85	17	ブルマさーん|おれたちですよー！	bulma!|its us!! 
+10	90	03	4F96	21	あなのおくはけっこう|ひろかったんですね	cave is   |big in   
+10	91	03	4FAB	17	あっ|カプセルハウスがたててある	ah|capsule house
+10	92	03	4FBC	3	あ！	a!
+10	93	03	4FBF	19	なにのんびりしてたのよ|あんたたち！	took time  |u two!
+10	94	03	4FD2	13	はは…|のんびりだって…	ha.|time.   
+10	95	03	4FDF	13	とりあえずなかにはいって	get inside  
+10	96	03	4FEC	43	さっきとうさんかられんらくが|あって<FB>そんくんがここにむかって|とびたったんだって！	dad just calld|now<FB>goku left   |4 here!!  
+10	97	03	5017	8	やったあーっ！	yesss!!
+10	98	03	501F	28	きゃっほーっ！|いいぞ！|きぼうがでてきやがった！！！	yahoo!!|nice|we got hope!  
+10	99	03	503B	33	ところでそのこがたのピッコロ|みたいなこは？|ナメックせいじん？	so who is that|lil kid|namekian?
+10	9A	03	505C	14	ねえキミなんてなまえなの？	hey ur name? 
+10	9B	03	506A	17	デンデ|あ…あの…あなたたちは？	dnd|um.who r u? 
+10	9C	03	507B	6	おれたちは	we r 
+10	9D	03	5081	6	くっ！！！	hU!!!
+10	9E	03	5087	15	クリリンさんこっこれは…！！	kril this is  
+10	9F	03	5096	13	なによっ|きゅうにっ！！	what|sudden!
+10	A0	03	50A3	22	あっちのほうで|きがつぎつぎにへっていく…	yonder |kis vanishing
+10	A1	03	50B9	4	え！？	d!?
+10	A2	03	50BD	24	ま…またナメックせいじんが|ころされている…！	namekians r  |dying..! 
+10	A3	03	50D5	15	ころしているのはベジータだ！	vegeta kills! 
+10	A4	03	50E4	14	なんてひどいれんちゅうなの	how awful    
+10	A5	03	50F2	18	これじゃあ|うかつにうごけないぞ…	so we|cant move..
+10	A6	03	5104	36	このままじゃ|すべてのナメックせいじんを|ころすまでさがしつづけます…	so    |hell hunt all|namekians dead
+10	A7	03	5128	7	そ…そんな…	n.no..
+10	A8	03	512F	13	どうころんでもさいあくだ	worst case  
+10	A9	03	513C	5	あ　あの	a ay
+10	AA	03	5141	11	ん！？|どうしたの？	hm?|what? 
+10	AB	03	514C	23	あ　あなたたちのことをおしえ|てください…！	tell me who ur|please 
+10	AC	03	5163	21	クリリンはそれまでの|いきさつをはなした	kril told |the story
+10	AD	03	5178	35	そういうことだったんですか…|やっとあなたたちのなぞがとけ|ました…	so that is it |now i get it  |all 
+10	AE	03	519B	45	おねがいします|ボクについてきてください！<FB>さいちょうろうのところに|あんないします！！	please |come with me!<FB>to the elder|ill guide
+10	AF	03	51C8	11	さいちょうろう…！？	elder.!?  
+10	B0	03	51D3	54	むかしのいじょうきしょうで|たったひとりだけいきのこって<FB>ナメックせいにいるみんなを|うんでくれたひとです	long ago he  |only he lived <FB>he made all  |on namek  
+10	B1	03	5209	26	どうしてそのさいちょうろうの|ところへいくんだ！？	why go to the |the elder?
+10	B2	03	5223	94	ぼくのむらをおそったやつ|ドラゴンボールを４つもってた<FB>それから|あっちでひとがたくさん|ころされているんでしょ？<FB>だとしたら|このほしにはもうほとんどナメ|ックせいじんはのこっていない	who hit my  |village had 4 <FB>then|many people|died there  <FB>so   |few nameks r  |left on namek 
+10	B3	03	5281	33	そ…そうか|さいごのいっこをもっているの|がさいちょうろうさんか	i see|the elder has |the last 1 
+10	B4	03	52A2	4	はい！	zb!
+10	B5	03	52A6	15	そうか！|じゃいそがないと！	ok! |hurry!   
+10	B6	03	52B5	42	あんないしてくれ！|オレがついていく！<FB>ごはんはブルマさんとここで|まっててくれ！	guide me!|ill go 2 <FB>gohan stay   |w bulma
+10	B7	03	52DF	7	わかりました	ok sir
+10	B8	03	52E6	5	いこう…	go..
+10	B9	03	52EB	27	お…おのれ…|き…きさまなんぞにわたして|たまるか！	u fool|ill never    |up!! 
+10	BA	03	5306	38	どこまでもごうじょうな|じじいだ…<FB>まあ　いい|スキにしろじぶんでさがす…	so stubborn|geezr<FB>fine |ill find it  
+10	BB	03	532C	11	さて…と|さがすか…	well|find 
+10	BC	03	5337	7	セーブする？	save? 
+10	BD	03	533E	18	はーっはっはっは！|ざまあみやがれ	hahahaha!|serves 
+# cena 11: banco 03, lista 5350, 183 caixas, 4795 bytes JP, faixa 54BE-6779, 13 caixas identicas ao JP
+11	00	03	54BE	21	どうしたの|ずいぶん　はやかったじゃない	whats|that was quick
+11	01	03	54D3	19	わかった|こわくてにげてきたんでしょ	aha |u ran scared 
+11	02	03	54E6	25	ちがいますよ|でも|すこしだけやすませてください	no way|so|let me rest   
+11	03	03	54FF	11	それじゃいってきます	im off now
+11	04	03	550A	30	このほし|やたらとぶっそうみたいだから|きをつけていくのよ	this|place is risky|careful! 
+11	05	03	5528	21	つかれてるみたいね|やすんでいきなさいよ	tired huh|go rest up
+11	06	03	553D	52	そうだ|これをもっていってください<FB>ステータスがめんでたべると|せいめいりょくがすこし|かいふくします	oh |take this    <FB>eat on status|n it heals |some hp
+11	07	03	5571	14	ひじょうしょくをてにいれた	got rations  
+11	08	03	557F	17	クリリンさん|きをつけてください	kril  |careful  
+11	09	03	5590	18	ここの　いわのあいだが|いいですよ	between the|rocks
+11	0A	03	55A2	11	えーっこんなとこーっ	ehh here?!
+11	0B	03	55AD	14	ここならみつかりませんよ！	safe spot!   
+11	0C	03	55BB	34	これからごはんをつれて|さいちょうろうさんの|ところにいってきます	w gohan 2  |the elder |right now 
+11	0D	03	55DD	3	え？	d?
+11	0E	03	55E0	32	な　なによ！|こんなところにわたしひとりで|おいていくわけ！？	what! |leaving me all|alone?!  
+11	0F	03	5600	58	ごはんがさいちょうろうさんに|あえば<FB>ひょっとしてベジータに|ひってきするほどのつよさに|なるかもしれないんです！	if gohan meets|him<FB>he may get |strong enuf 2|match vegeta
+11	10	03	563A	11	ガマンしてください…	bear w it 
+11	11	03	5645	8	わかったわよ！	fine!! 
+11	12	03	564D	38	それと|ドラゴンボールは|ここにおいていきます<FB>それじゃさっそくでかけます	oh |the dbs |stay here <FB>were off then
+11	13	03	5673	25	しょくじは　もてるだけ|もっていったほうがいいわ	take all   |food u can  
+11	14	03	568C	7	ひ…ひどい…	awful.
+11	15	03	5693	5	あっちだ	over
+11	16	03	5698	8	みずのなか！？	water!?
+11	17	03	56A0	27	そうか！|むらのひとあわてて|かくしたのかもしれない	ah! |villagers|hid it     
+11	18	03	56BB	6	よーし！！	ok!! 
+11	19	03	56C1	41	だからおとなしく|わたせばいいんだよ！<FB>おまえがもってるんだろ|ドラゴンボール！	so just |hand it up<FB>u have it  |the db! 
+11	1A	03	56EA	29	わしには　なんのことか|わからんといっている|じゃろう！	i told u i |dont know |what!
+11	1B	03	5707	34	いつまでもしらをきってると|そこのやつみたいに|ころしちゃうよ！！	keep quiet n |ull die  |like him!
+11	1C	03	5729	10	あいつらーっ！！！	u jerks!!
+11	1D	03	5733	22	おおよくやった|おまえはちきゅうじんじゃな	nice   |ur earthman  
+11	1E	03	5749	37	よし|おまえにドラゴンボールの|かくしばしょをおしえてやろう|ついてこい	ok|ill tell u  |where the db  |come 
+11	1F	03	576E	4	はあ…	za.
+11	20	03	5772	50	ここじゃ|いせいじんがこのいけの|なかにドラゴンボールを<FB>かくしておったのを|わしはみとったんじゃ	here|aliens hid |db in this <FB>i saw it |do it     
+11	21	03	57A4	64	そうじゃ|たすけてくれたれいをせんとな|わしにはかわったのうりょくが<FB>あってな|おぬしのステータスを|ちょっとだけあげてやろう	yes |i must thank u|i have a power<FB>so  |ill raise |status a bit
+11	22	03	57E4	5	ほいっ！	here
+11	23	03	57E9	18	せいめいりょくが|１０００あがった	health  |1000 up 
+11	24	03	57FB	16	よし|それじゃがんばるんじゃぞ	ok|do ur best  
+11	25	03	580B	20	さいちょうろうさまのいえは|こっちです	elder home is|here 
+11	26	03	581F	15	ここをこっちにいけばいいのか	go this way?  
+11	27	03	582E	8	よし|いそごう	Ll|rush
+11	28	03	5836	37	あのガキどものしょうたいは|なんだったんだ|ありゃただものじゃなかったな	who were they|brats  |no normal kids
+11	29	03	585B	9	ぐわあああーっ！	gwaaah! 
+11	2A	03	5864	25	よう|ずいぶんひさしぶりだったな|ドドリアさんよ	yo|been a while |dodoria
+11	2B	03	587D	31	ベジータ！！|こ　このオレをふいうち|しやがったのはてめえか	vegeta|u ambushed |me didnt u 
+11	2C	03	589C	54	まあいい|おとなしくそのスカウターを|おれにわたしてきえるんだな<FB>そうすりゃこのばだけは|みのがしてやるぜ	fine|give me ur   |scouter n go <FB>then ill   |u go now
+11	2D	03	58D2	23	きさまらスカウターを|すべてなくしたのか！！	u lost all|scouters!? 
+11	2E	03	58E9	22	きでもちがったか|なんでこわしやがった！！	r u nuts|why break em
+11	2F	03	58FF	21	オレにはもうひつようが|なくなったからさ	i dont need|em now  
+11	30	03	5914	33	フリーザはサイヤじんの|そこしれぬかのうせいを|おそれている…！	freeza fear|the saiyans|power!  
+11	31	03	5935	12	…だめだ…|しんでる…	no...|dead.
+11	32	03	5941	13	あっ！|まだいきてるぞっ	ah!|alive!  
+11	33	03	594E	21	とりあえず|ブルマさんのところにもどるか	well |back to bulma 
+11	34	03	5963	106	ここがふるさとか…|なるほど…|みょうになつかしいきぶんだ<FB>ごはんを|さがさなくてはな…|このちかくじゃなさそうだな<FB>！|とおくにとんでもなくでかい|きをかんじるこれか…！<FB>そのちかくにも|でかいきがみっつ…！	my home..|i see|so nostalgic <FB>must|find son |not near here<FB>!|a huge ki far|away. this <FB>near it|3 big kis!
+11	35	03	59CD	16	む！？|かすかなきをかんじる…	hm?|a faint ki.
+11	36	03	59DD	22	…オレとそっくりだ…|ナメックせいじんか…	like me...|a namekian
+11	37	03	59F3	34	ち…ちきゅうじんのいっていた|ナメックせいじんか…|よ…よかった…	the namekian  |earthling |told of
+11	38	03	5A15	65	ほう　いろいろとじじょうを|しっているようだな…<FB>ならばさきをいそいでいること|もしっているだろう|わるいがみごろしにしていくぞ	oh u seem to |know a lot<FB>then u know i |must rush|sorry ur dying
+11	39	03	5A56	74	しんじられんほどのパワーを|みにつけているが|それではフリーザにはかてん<FB>わ…わたしと　どうかしろ！|そうすればおまえの|ちからがすうばいにもなる	amazing power|u have  |but not enuf <FB>fuse with me!|ur power |will multipy
+11	3A	03	5AA0	14	わるいがオレはオレでいたい	i want 2 be i
+11	3B	03	5AAE	38	し…しんぱいするな|じんかくはおまえのものだ…|わたしはただのきっかけだ…	dont fear|u keep ur mid|i am just key
+11	3C	03	5AD4	12	いいだろうためしてやる	ok ill try 
+11	3D	03	5AE0	21	…よし…ぜったいにフリーザ…|をたおせ…	yes.. beat him|4 sur
+11	3E	03	5AF5	14	きさまにいわれるまでもない	i know that  
+11	3F	03	5B03	66	ま…まさかこんなことが|なんというしんじられんほどの|ちからが…！！<FB>オレはいま|きゅうきょくのパワーを|てにいれたぞーっ！！！！	no way this|such unreal   |power.!<FB>i now|have utmost|power!!!!   
+11	40	03	5B45	4	………	...
+11	41	03	5B49	58	そんごくうはしょうぶでは|かっていたが…<FB>おいつめられたフリーザは|ナメックせいそのものを…|けしさってしまった…	goku had won|the win<FB>but cornered|freeza erasd|all namek 
+11	42	03	5B83	19	かいおうさま|ちきゅうのかみですが…	kng ka|earths god 
+11	43	03	5B96	11	あ…ああきこえておる	ah i hear 
+11	44	03	5BA1	47	いまドラゴンボールを|あつめさせておりますので<FB>おせわになったものたちも|いきかえることが…	we gather |the dbs now <FB>so those los|can live 
+11	45	03	5BD0	42	ん？　おぬしいきておるのか！|ということはピッコロも|しんではおらんということか？	u r alive!?   |then picolo|is alive too!?
+11	46	03	5BFA	6	おお…！！	ee.!!
+11	47	03	5C00	34	ナメックせいは|なくなっておらん！！|みんないきておったぞーっ！！	namek  |still here|all r alive!! 
+11	48	03	5C22	32	たったいますべてのボールを|あつめたとれんらくが|はいりました	all balls r  |gathered  |we hea
+11	49	03	5C42	8	おおそうか！！	i see! 
+11	4A	03	5C4A	39	ちきゅうのドラゴンボールは|なんにんでもいきかえらせる|ことができるのだろ！	earth dbs can|revive many  |as we want
+11	4B	03	5C71	6	は…はい…	z.zb.
+11	4C	03	5C77	4	うむ…	hm.
+11	4D	03	5C7B	52	よしっきめたぞ！！<FB>かみよ　ねがいは|フリーザいちみに|ころされたものたちを<FB>いきかえらせてくれ…じゃ	decided! <FB>god hear|all dead|by freeza <FB>come back!  
+11	4E	03	5CAF	118	それでおそらくフリーザたちの|えいきょうでじゅみょうを|ちぢめたさいちょうろうも<FB>いきかえる|ナメックせいのドラゴンボール|のさいごのねがいで<FB>フリーザいがいのナメックせい|にいるものをちきゅうに|しゅんかんいどうさせてしまう<FB>のじゃ	that revives  |the elder as|freeza hurt <FB>too  |the namek dbs |last wish<FB>send all but  |freeza off |namek to earth<FB>yes
+11	4F	03	5D25	8	な…なるほど…	i see..
+11	50	03	5D2D	8	いそいでくれ！	hurry!!
+11	51	03	5D35	11	では|いますぐに…！	ok|now!!  
+11	52	03	5D40	19	やったぞ！！|みんないきかえっておる	we did|all revived
+11	53	03	5D53	89	ナメックせいさいちょうろうよ|わしはきたぎんがのかいおうだ|………というわけでいますぐ<FB>シェンロンにたのんでくれ！！|フリーザをのぞくものたちすべ|てをちきゅうにおくってくれと	elder of namek|i am north kai|so right now <FB>ask shenron!! |send all but  |freeza 2 earth
+11	54	03	5DAC	21	わかりました|それではデンデにれんらくを	i see |ill tell dnd 
+11	55	03	5DC1	39	かえてくれっ！そのねがいを！|フリーザとオレをのぞいたもの|たちすべてを…に	change the wsh|all but freeza|and me..
+11	56	03	5DE8	22	きもちはわかるがごくう…|ここはひとまず…	i know how u|feel son
+11	57	03	5DFE	34	ここでしょうぶをつけなければ|オレはいっしょうあんたを|うらむ…！	if i dont win |here ill hat|u 4ev
+11	58	03	5E20	38	わ…わかった…|おまえがそれほどのぞむなら…|かならずいきてかえるんだぞ…	i see..|if u wish it  |come back safe
+11	59	03	5E46	3	ああ	aa
+11	5A	03	5E49	28	デンデよさいちょうろうだ|さいごのねがいをいってほしい	dnd the eldr|says the wish 
+11	5B	03	5E65	18	あ…あれは…|ドラゴンボール！！！	th.tha|a dragnbal
+11	5C	03	5E77	6	くっ！！！	hU!!!
+11	5D	03	5E7D	22	このフリーザを|ふろうふしにしろーっ！！！	make me|immortal now!
+11	5E	03	5E93	12	しっしまったーっ！！！	oh no!!!   
+11	5F	03	5E9F	21	プポッタピッ|リポカッルラトンプパガトロ	プポッタピッ|リポカッルラトンプパガトロ
+11	60	03	5EB4	47	いいだろう　りょうかいした<FB>ではここにいるふたりをのこし|ぜいいんをちきゅうにいどう|させる	fine. i see  <FB>all but these |go to earth  |yes
+11	61	03	5EE3	4	な！？	u!?
+11	62	03	5EE7	35	どうやらここのことばで|いわないとねがいは|かなわなかったようだな…	i had 2 use|their wrd|4 the wish  
+11	63	03	5F0A	49	ほしがちぢみはじめた…|そうながくはもたないだろう…<FB>どちらにしろきさまには|し　しかないがな…	it shrinks |it wont last  <FB>either way |will die 
+11	64	03	5F3B	4	かもな	may
+11	65	03	5F3F	7	セーブする？	save? 
+11	66	03	5F46	20	いいかげんに|しゃべったらどうですか？	cmon  |just talk   
+11	67	03	5F5A	12	あっ…|あぐぐ…が…！	ah.|agg.ah!
+11	68	03	5F66	19	これがさいごの|けいこくにしましょう	this is|last warn 
+11	69	03	5F79	49	ふ…くっくっく|そろそろデンデが|ちきゅうじんのところに<FB>つくころだ…|あいことばをつたえにな…	heh heh|dnd will|reach them <FB>soon. |w the code  
+11	6A	03	5FAA	10	なっ|なにっ！！？	wh|what!?
+11	6B	03	5FB4	20	くるときに|すれちがったあいつか…！！	that |i passed him 
+11	6C	03	5FC8	24	お　おのれーっ！|ただのじかんかせぎだったのか	damn him|just stalling 
+11	6D	03	5FE0	18	ここは|ムーリむらのさんげき|です	the|muri town |ok
+11	6E	03	5FF2	17	ここは|ツーノむらのひげき|です	the|is tsuno |ok
+11	6F	03	6003	12	イベントみかんせいです	unfinished 
+11	70	03	600F	22	ブルマから|ドラゴンレーダーを|もらった！	bulma|gave radr|2 me!
+11	71	03	6025	14	あと３０ぷんってとこか！！	30 min left!!
+11	72	03	6033	32	ばかめ！|オレのかいふくりょくを|みくびっていたようだな！！！	fool|u misjudged|my heal power 
+11	73	03	6053	31	しめたっ！|うちゅうせんのなかに|フリーザはいないようだ…！	yes! |in the shp|no freeza in 
+11	74	03	6072	30	フリーザのことだ|きっとドラゴンボールは|このなかにある！	its him |the dbs r  |in here 
+11	75	03	6090	17	あったぞ！|ドラゴンボールだ！！	found|dragonball
+11	76	03	60A1	17	よしっ！|こんどはオレだっ！！！	yes!|my turn now
+11	77	03	60B2	28	あっ！|ドッドラゴンボールが…！！！|ベジータだ！！！	ah!|the dragonbals|vegeta!!
+11	78	03	60CE	12	あ…あのヤローッ！！！	that jerk!!
+11	79	03	60DA	44	なんたるしゅうたいですか…！|ベジータをにがしてしまった|うえにドラゴンボールまで…！	what a mess   |vegeta fled  |n took the dbs
+11	7A	03	6106	14	はやくおうんですよっ！！！	go after him 
+11	7B	03	6114	11	おっおのれーっ！！！	damn him!!
+11	7C	03	611F	7	ふっかーつ！	revivd
+11	7D	03	6126	9	ん！？|なんだ？	hm?|what
+11	7E	03	612F	10	ふねだ！|おりたぞ	ship|land
+11	7F	03	6139	30	ここは　ベジータにしれたんだ|は　はやくいどうしないと…！	vegeta knows  |we must move!!
+11	80	03	6157	14	ごはんくんはまだなのっ！！	is gohan back
+11	81	03	6165	14	ま　まだみえないです…！！	cant see him 
+11	82	03	6173	10	んっ|きたっ！！！	TU|gpU!!!
+11	83	03	617D	9	クリリンさーん！	kril!!  
+11	84	03	6186	17	これ！|みつけたんですよっ！！！	the|i found it!!
+11	85	03	6197	6	やったぜ！	yes!!
+11	86	03	619D	11	ごはんくんえらいっ！	nice gohan
+11	87	03	61A8	28	じじょうはあとではなす！|いそいでここをはなれるぞ！！	ill explain |hurry lets go 
+11	88	03	61C4	31	あれほどのパワーを|ほこっていたドドリアを|しとめた…そして	dodoria  |had big pwr|he beat 
+11	89	03	61E3	33	フリーザはサイヤじんの|そこしれぬかのうせいを|おそれている…！	freeza fear|the saiyans|power..!
+11	8A	03	6204	9	カ…カカロット…	kakarot.
+11	8B	03	620D	6	ごくう…！	goku.
+11	8C	03	6213	19	お　おとうさんきをつけて|あいつら…	dad careful |they.
+11	8D	03	6226	26	だいじょうぶだ！|こいつらオラひとりで|かたづける	its ok! |ill get em|alone
+11	8E	03	6240	8	で…でかい……	で.でfb..
+11	8F	03	6248	34	さいちょうろうさまが|おまちだ　そばまですすみ|はなしかけるがいい	the elder |waits. go up|speak 2 m
+11	90	03	626A	19	ドラゴンボール|もらえるといいですね	hope u |get the db
+11	91	03	627D	6	ようこそ…	welcm
+11	92	03	6283	33	わがこデンデを　たすけて|いただいたれいをいいたい|ありがとう…	u saved dnd |i thank u   |thanks
+11	93	03	62A4	43	たんとうちょくにゅうに|いいますが<FB>そのドラゴンボール|オレに|かしてもらえませんか	to be blunt|but  <FB>that db  |can|u lend it?
+11	94	03	62CF	34	ねがいがかなえば|ちきゅうのドラゴンボールも|よみがえるのです…！	if works|earth dbs 2  |revive too
+11	95	03	62F1	12	なに？|ちきゅうにも…	wht|earth 2
+11	96	03	62FD	49	そうかカタッツのこだ…！<FB>あのこはたしかに|りゅうぞくのてんさいじ|ドラゴンボールをつくりだせる	i see katats<FB>that boy|is a genius|he can make db
+11	97	03	632E	7	しんだのか…	he die
+11	98	03	6335	15	ええサイヤじんにころされて…	yes a saiyan  
+11	99	03	6344	22	サイヤじん…|まさか…スーパーサイヤじんか	saiyan|a super saiyan
+11	9A	03	635A	36	すまんがちきゅうのおかた|ちょっとあなたのかこをさぐら|せてくだされ…	sorry human |let me look at|ur past
+11	9B	03	637E	71	そうか　ふたつにわかれて…|うまれもったてんさいてき|ちからをはんげんさせたか…<FB>もとどおりひとつにさえなれば|しなずにすんだかもしれんのに	split in 2   |so ur gifted|power halved <FB>if made whole |u may not die 
+11	9C	03	63C5	90	あなたたちののぞみは|じゅんすいなものだし<FB>このドラゴンボールは|あなたたちにさしあげます<FB>しかしわたしのいのちは|あとすうじつしかもたない<FB>おそらくねがいはかなわない|でしょう	ur wish is|a pure one<FB>so this db|is yours now<FB>but my life|has days lft<FB>the wish may |fail
+11	9D	03	641F	40	でも　あんなやつらに|えいえんのいのちをあたえて|しまうよりずっとましですから	but better|than giving  |eternal life  
+11	9E	03	6447	77	ところであなたは|とびぬけたちからを|もっているのですね…<FB>しかも　もったいないことに|まだねむっているちからがある<FB>そのちからをおこしてあげま|しょう	also u  |have such|great powr<FB>but sadly    |some sleeps   <FB>ill wake that|up 
+11	9F	03	6494	16	え！？|ねむっているちから！？	eh?|sleeping pw
+11	A0	03	64A4	10	あ…あわわ……！！	a.awaaa.!
+11	A1	03	64AE	31	ち…ちからが…|うひゃーっ！！|ちからがふきだしてきたっ！！	powers.|whoaaa!|power pouring 
+11	A2	03	64CD	4	は！！	z!!
+11	A3	03	64D1	56	あの　もうひとりのなかまを|つれてきてもいいですか？|きっととんでもないちからを<FB>ねむらせているとおもうんです	can i bring  |a friend 2? |he must have <FB>huge sleep pwr
+11	A4	03	6509	31	つれてきなさい|つよいせいぎはひとりでも|おおいほうがいい…	bring m|more strong |is good  
+11	A5	03	6528	15	じゃあ|いそいでつれてきます	ok |ill hurry 
+11	A6	03	6537	141	あなたたちののぞみが|じゅんすいなものであることは|わかりました<FB>このドラゴンボールは|あなたたちにたくそうと|おもいますがそのまえに<FB>ムーリというちょうろうの|むらにこどもがひとり|ひんしのじょうたいですが<FB>いきのこっています|そのこをここまでつれてきては|もらえないでしょうか	ur wish is|a pure one i c|i know<FB>so this db|is urs but |first of al<FB>in muri town|village a |a kid dies  <FB>but alive|can u bring   |kid 2 me? 
+11	A7	03	65C4	12	ムーリさんのむら…！？	muris town 
+11	A8	03	65D0	33	いちばんさいごに|フリーザといういせいじんに|おそわれたむらです	the last|place hit by |by freeza
+11	A9	03	65F1	16	わかりました|それじゃさっそく	i see |well thn
+11	AA	03	6601	17	ほんとうに|ありがとうございます	truly|thank u al
+11	AB	03	6612	68	このドラゴンボールは|あなたたちにさしあげます<FB>しかしわたしのいのちは|あとすうじつしかもたない<FB>おそらくねがいはかなわない|でしょう	so this db|is yours now<FB>but my life|has days lft<FB>the wish may |fail
+11	AC	03	6656	114	しかしあなたたちの|これまでのこうどうが|じゅうぶんのひょうかに<FB>あたいするとはいえません|そこでひとつのしれんを|うけてもらいたい<FB>ネイルとのちからくらべで|しょうりしたとき<FB>ドラゴンボールはあなたたちの|ものになるでしょう	but what |u did so  |far is not <FB>enough 4 me |so take one|a test  <FB>beat nail in|a match <FB>n the db will |be all ur
+11	AD	03	66C8	17	ついてこい|わたしとしょうぶだ！	come |fight me! 
+11	AE	03	66D9	5	は…はあ	z.za
+11	AF	03	66DE	11	きをつけてください！	be careful
+11	B0	03	66E9	25	どうちゅうなにがおこるか|わからん　きをつけてな	who knows   |waits. care
+11	B1	03	6702	37	つかれているようですね|すこしのあいだきゅうけい|していくといいでしょう	u seem tird|rest a while|it may help
+11	B2	03	6727	31	いままでのたびをきろく|することもできますが|どうしましょう	u can recrd|ur trip so|far. ok
+11	B3	03	6746	18	それではくれぐれも|おねがいします	then do  |do care
+11	B4	03	6758	7	セーブする？	save? 
+11	B5	03	675F	15	ケロケロ！|セーブするケロ？	ribit|save rbt
+11	B6	03	676E	11	いちにちがけいかした	a day past
+# cena 12: banco 03, lista 6779, 38 caixas, 882 bytes JP, faixa 67C5-6B37, 1 caixas identicas ao JP
+12	00	03	67C5	12	あのガケのむこうだ…！	past cliff!
+12	01	03	67D1	22	このむらにいるのは|こいつらだけのようです	in town  |only these 
+12	02	03	67E7	46	そうか！|あのきかいで|ほしにいるものを<FB>さがしだしているのか…|ぜんぶで３つか|よし…！	i c!|w that|machine <FB>seeks all  |3 total|ok..
+12	03	03	6815	42	わたしは|あなたたちのドラゴンボール|とやらをあつめている<FB>フリーザというものです	i am|gathering ur |dragonbals<FB>i am freeza
+12	04	03	683F	4	………	...
+12	05	03	6843	20	ここにも|ひとつあるとおもうのですが？	one |should be here
+12	06	03	6857	22	なにもいわないつもりですか？|ころしますよ	u will not tak|i kill
+12	07	03	686D	26	おまえらなどに|わたすわけにはいかない|かえれ！！	i wont |hand it 2 u|go!! 
+12	08	03	6887	31	ほかのばしょではみなさん|すなおにわたしてくれたんです|が…	elsewhere al|handed em over|bt
+12	09	03	68A6	30	うそをいえっ！|きさまなどに|すなおにわたすわけがない…！	u liar!|2 u we|we never would
+12	0A	03	68C4	39	いえ　いえ　こうしたら|すなおになられましたよ|ザーボンさんみせてあげなさい	no no like |they gave  |zarbon show im
+12	0B	03	68F6	5	つあっ！	gah!
+12	0C	03	68FB	39	こ…このやろー！！|そんなチンケなわざでこのオレ|がたおせるとでもおもったか	u brat!! |u thought that|weak move win
+12	0D	03	6922	20	しまった|ヤツのねらいはスカウターだ！	drat|he wants scout
+12	0E	03	6936	9	お…おのれっ…！	damn u..
+12	0F	03	693F	9	カッカルゴッ！！	kakarot!
+12	10	03	6948	14	ドドリアさんおまちなさい！	dodoria wait!
+12	11	03	6956	36	これでおわかりでしょ|いじをはるとつぎはそのこも|しぬことになりますよ	see now?  |push me n the|kid dies 2
+12	12	03	697A	43	…やむをえん…<FB>だがやくそくしろ|これいじょうむらのものには|ぜったいてをださんと！	no help<FB>but swer|u wont touch |the village
+12	13	03	69A5	13	ううう…|あ…あいつら…	uuu.|those..
+12	14	03	69B2	54	お　おいごはん！|へんなきおこすんじゃないぞ！<FB>と　とてもじゃないけどかなう|あいてじゃないんだからな…！	oi gohan|dont do anythg<FB>we cant win vs|them at all ok
+12	15	03	69E8	15	これをもってとっととたちされ	take it n go  
+12	16	03	69F7	41	ごくろうさま|スカウターもこわされたし…<FB>あなたたちには|しんでもらいましょうか	good j|scouter broke<FB>u all  |will die nw
+12	17	03	6A20	30	なっなんだとっ！！！|きっきさまらっ！！！|デンデにげろ！	what say!!|u jerks!!!|dnd run
+12	18	03	6A3E	7	は　はいっ！	y yes!
+12	19	03	6A45	25	ナメックせいじんのほこりを|みせてくれるっ！！！	ill show the |namek prid
+12	1A	03	6A5E	30	ぐっへっへっへ！|ほこりとやらをみせるヒマも|なかったな！	gwehehe!|no time 4 it |pride!
+12	1B	03	6A7C	14	あ…！|わあああーっ！！！	ah.|waaaah!! 
+12	1C	03	6A8A	41	げへへへ……|こんなガキぶっつぶしても|つまらねえがな！<FB>まあとりあえずしねっ！	gehehe|crush brats |is dull <FB>so just die
+12	1D	03	6AB3	11	やめろおおーっ！！！	stoooop!! 
+12	1E	03	6ABE	16	な…なんだー！？|てめえは！？	what!?  |u r!? 
+12	1F	03	6ACE	24	おまえなんか！！！|ボクがやっつけてやる！！！	u monster|ill take u on
+12	20	03	6AE6	10	なんだとおー！！！	what!!!  
+12	21	03	6AF0	23	ばかヤローッ！|にげるんだっ！|はやく！！！	u fool!|run now|hurry!
+12	22	03	6B07	10	ち…ちくしょう…！	damn it..
+12	23	03	6B11	26	おうんですよ　ドドリアさん！|つかまえなさい！！！	get im dodoria|catch him!
+12	24	03	6B2B	12	うおおおおーっ！！！！	uooooh!!!! 
+12	25	03	68EB	11	おっおのれーっ！！！	damn him!!
+# cena 13: banco 0D, lista 6B37, 66 caixas, 1861 bytes JP, faixa 7800-7F45, 66 caixas identicas ao JP
+13	00	0D	7800	10	あそこだーっ！！！	aojだーU!!!
+13	01	0D	780A	10	ようベジータちゃん	LcベジータqVT
+13	02	0D	7814	14	も…もうすこしだったのに…	I.IcmjlだUpyv.
+13	03	0D	7822	30	おや？|もしかするとそいつが|ドラゴンボールってやつかな？	eJ?|IlfmOtobrが|ドラゴンボールUsJrfu?
+13	04	0D	7840	7	くそっ！！！	hoU!!!
+13	05	0D	7847	6	なっ！！！	uU!!!
+13	06	0D	784D	30	あいにくだったな|このバータのスピードは|うちゅういちでな	abvhだUpu|jyバータyスピードz|cqWcbqでu
+13	07	0D	786B	11	はかいしろー！！！！	zfblQー!!!!
+13	08	0D	7876	44	グルドは|いっしゅんだがじかんをコント|ロールできるといううわさは<FB>ほんとうだったか…	グルドz|bUlWTだがじfTSコント|ロールでgOtbccRkz<FB>DTtcだUpf.
+13	09	0D	78A2	66	これで７こすべていただいた|オレはフリーザさまにドラゴン|ボールをもっていこう…<FB>おまえたちはベジータたちの|あいてをしてやれ…！	jPで7jmべsbpだbp|オレzフリーザkEvドラゴン|ボールSIUsbjc.<FB>eEdpqzベジータpqy|absSlsJP.!
+13	0A	0D	78E4	20	なかよくやれよ|はーっはっはっは！！！	ufLhJPL|zーUzUzUz!!!
+13	0B	0D	78F8	26	よーしっ！|だれがいくかきめようぜ|ジャンケンか？	LーlU!|だPがbhfgHLcぜ|ジャンケンf?
+13	0C	0D	7912	26	チビ２ひきのおあいては|グルドちゃんしてあげなさい	チビ2Agyeabsz|グルドqVTlsaげukb
+13	0D	0D	792C	10	まあしょうがねえか	EalXcがxdf
+13	0E	0D	7936	15	それで|ベジータはおれがやる	oPで|ベジータzePがJO
+13	0F	0D	7945	20	ちょっとまてよ|なんでそうなるんだよ…	qXUtEsL|uTでocuOTだL.
+13	10	0D	7959	14	いいじゃねえか|なっジース	bbじVxdf|uUジース
+13	11	0D	7967	31	よーしっ！！|それじゃしあいじょうの|ゴミひろいでもするか…	LーlU!!|oPじVlabじXcy|ゴミAQbでImOf.
+13	12	0D	7986	26	おいおいおいおい！！|グルドのやつやられちまったぜ	ebebebeb!!|グルドyJrJMPqEUpぜ
+13	13	0D	79A0	39	こ…こまったぞ　ひとりでも|かければファイティングポーズ|はうつくしくない…	j.jEUpぞ AtNでI|fiPばファイティングポーズ|zcrhlhub.
+13	14	0D	79C7	24	さあベジータちゃん|こんどはおれたちのばんだよ	kaベジータqVT|jTどzePpqyばTだL
+13	15	0D	79DF	7	かああああ…	faaaa.
+13	16	0D	79E6	23	…き…きだ…！|あ…あいつ|い…いきている…	.g.gだ.!|a.abr|b.bgsbO.
+13	17	0D	79FD	10	…まさか…そんな…	.Ekf.oTu.
+13	18	0D	7A07	5	ハーイ！	ハーイ!
+13	19	0D	7A0C	4	………	...
+13	1A	0D	7A10	15	なんだ…！|いせいじんか…？	uTだ.!|bnbじTf.?
+13	1B	0D	7A1F	10	なっなんのようだ！	uUuTyLcだ!
+13	1C	0D	7A29	24	ドラゴンボールって|タマをさがしているんですが	ドラゴンボールUs|タマSkがlsbOTでmが
+13	1D	0D	7A41	6	なっなに！	uUuv!
+13	1E	0D	7A47	22	あまりかんげいされていない|みたいですね…	aENfTげbkPsbub|Fpbでmx.
+13	1F	0D	7A5D	17	わしがこのむらの|ちょうろうじゃ	RlがjyGMy|qXcQcじV
+13	20	0D	7A6E	4	うむ…	cG.
+13	21	0D	7A72	54	なぜドラゴンボールを…<FB>さいきん　むらをおそい|ドラゴンボールをうばっている|ものがいるというウワサをきく	uぜドラゴンボールS.<FB>kbgT GMSeob|ドラゴンボールScばUsbO|IyがbOtbcウワサSgh
+13	22	0D	7AA8	23	クリリンたちはそれまでの|いきさつをはなした	クリリンpqzoPEでy|bgkrSzulp
+13	23	0D	7ABF	70	そういうことか|だが　おまえたちのはなしが|しんじつであるという<FB>ほしょうはなにもない|わるいがドラゴンボールを|わたすわけにはいかんな…	ocbcjtf|だが eEdpqyzulが|lTじrでaOtbc<FB>DlXczuvIub|RObがドラゴンボールS|RpmRivzbfTu.
+13	24	0D	7B05	50	おまえたち|どこでドラゴンボールのことを|きいた！<FB>こととしだいによっては|ただではすまさんぞ！！	eEdpq|どjでドラゴンボールyjtS|gbp!<FB>jttlだbvLUsz|pだでzmEkTぞ!!
+13	25	0D	7B37	21	おぬしらに|じゃあくなものはかんじぬが…	ewlMv|じVahuIyzfTじwが.
+13	26	0D	7B4C	74	わしがこのむらのちょうろうだ|ドラゴンボールを|さがしているとか…<FB>さいきんよからぬうわさを|みみにする|きかせてくれぬか<FB>なぜドラゴンボールを…	RlがjyGMyqXcQcだ|ドラゴンボールS|kがlsbOtf.<FB>kbgTLfMwcRkS|FFvmO|gfnshPwf<FB>uぜドラゴンボールS.
+13	27	0D	7B96	7	こんにちは…	jTvqz.
+13	28	0D	7B9D	18	ちきゅうって|ほしからきたんだって	qgWcUs|DlfMgpTだUs
+13	29	0D	7BAF	67	ドラゴンボールがほしいのか…<FB>うちのちょうろうは|ガンコだから|いちどくびをよこにふったら<FB>ちょっとやそっとじゃ|わたしてくれないぞ	ドラゴンボールがDlbyf.<FB>cqyqXcQcz|ガンコだfM|bqどhびSLjvBUpM<FB>qXUtJoUtじV|RplshPubぞ
+13	2A	0D	7BF2	18	なんといわれても|こればかりはな…	uTtbRPsI|jPばfNzu.
+13	2B	0D	7C04	93	ドラゴンボールはきぼうのたま|このほしではちえとちからの|あかしじゃ<FB>おぬしらがそれをようきゅう|するからには|それなりのどうきとちからが<FB>ひつようじゃな|わしがちょっとためしてやろう	ドラゴンボールzgぼcypE|jyDlでzqdtqfMy|aflじV<FB>ewlMがoPSLcgWc|mOfMvz|oPuNyどcgtqfMが<FB>ArLcじVu|RlがqXUtpHlsJQc
+13	2C	0D	7C61	10	そうかざんねんじゃ	ocfざTxTじV
+13	2D	0D	7C6B	16	おおそうか|それじゃはじめるぞ	eeocf|oPじVzじHOぞ
+13	2E	0D	7C7B	19	それではドラゴンボールは|わたせんの	oPでzドラゴンボールz|RpnTy
+13	2F	0D	7C8E	72	おおでかした|それじゃあドラゴンボールを|あげよう<FB>といいたいのは|やまやまなんじゃが|いかんせんあれはツーノの<FB>ものじゃからな…|かっかっか	eeでflp|oPじVaドラゴンボールS|aげLc<FB>tbbpbyz|JEJEuTじVが|bfTnTaPzツーノy<FB>IyじVfMu.|fUfUf
+13	30	0D	7CD6	83	さっきは　わるかったな|いいことおしえるから|きをわるくするなよ<FB>むこうのほうにすんでる|ろうしに|そうだんしてみるといい<FB>むらをさらにみぎにいけば|きっとあえるよ	kUgz ROfUpu|bbjteldOfM|gSROhmOuL<FB>GjcyDcvmTでO|Qclv|ocだTlsFOtbb<FB>GMSkMvFぎvbiば|gUtadOL
+13	31	0D	7D29	27	じいちゃんわるぎはないんです|ゆるしてあげてください	じbqVTROぎzubTでm|KOlsaげshだkb
+13	32	0D	7D44	26	むらはずれにすんでいる|ろうしをたずねてみるといい	GMzずPvmTでbO|QclSpずxsFOtbb
+13	33	0D	7D5E	44	ろうしさまなら|むらをみぎのほうに|ずっとあるいていったところに<FB>ひとりですんでいます	QclkEuM|GMSFぎyDcv|ずUtaObsbUptjQv<FB>AtNでmTでbEm
+13	34	0D	7D8A	11	なんじゃおまえたちは	uTじVeEdpqz
+13	35	0D	7D95	104	それでツーノにくちぞえを|してくれということか|そういったことなら<FB>わしのところにきたのは|けんめいだな|わしにはかわったのうりょくが<FB>あってな|どれちょっとおまえさんの|あたまのなかを<FB>のぞかせてもらうぞ	oPでツーノvhqぞdS|lshPtbcjtf|ocbUpjtuM<FB>RlytjQvgpyz|iTHbだu|RlvzfRUpycNXhが<FB>aUsu|どPqXUteEdkTy|apEyufS<FB>yぞfnsIMcぞ
+13	36	0D	7DFD	23	ふむ|よーくわかった|ここでちょっとまっとれ	BG|LーhRfUp|jjでqXUtEUtP
+13	37	0D	7E14	50	ツーノにはしっかり|はなしておいた<FB>つぎにはなしかけるときには|きっといいへんじがきける|じゃろう	ツーノvzlUfN|zulsebp<FB>rぎvzulfiOtgvz|gUtbbCTじがgiO|じVQc
+13	38	0D	7E46	96	おおきたか　はなしはきいた|おまえたちがこれからなにを|しようとしているのかもな…<FB>いいだろうドラゴンボールは|おまえたちにたくそう|ただしぜったいにじゃあくな<FB>ものにわたしてはならんぞっ！	eegpf zulzgbp|eEdpqがjPfMuvS|lLctlsbOyfIu.<FB>bbだQcドラゴンボールz|eEdpqvphoc|pだlぜUpbvじVahu<FB>IyvRplszuMTぞU!
+13	39	0D	7EA6	10	きをつけてください	gSrishだkb
+13	3A	0D	7EB0	6	がんばれよ	がTばPL
+13	3B	0D	7EB6	6	よかったな	LfUpu
+13	3C	0D	7EBC	37	ムーリむらにあるそうちは|すべてのめんをといて|はじめていみがあるんじゃ	ムーリGMvaOocqz|mべsyHTStbs|zじHsbFがaOTじV
+13	3D	0D	7EE1	9	がんばるんじゃぞ	がTばOTじVぞ
+13	3E	0D	7EEA	19	わしのだすもんだいを|こたえるんじゃ	RlyだmITだbS|jpdOTじV
+13	3F	0D	7EFD	17	カミクズをもやすと|なにになる？	カミクズSIJmt|uvvuO?
+13	40	0D	7F0E	34	うむ　なかなかやるのう|じゃが　つぎのもんだいは|むずかしいぞ！！	cG ufufJOyc|じVが rぎyITだbz|Gずflbぞ!!
+13	41	0D	7F30	21	えのうまいひとのかくえは|どんなえじゃ？	dycEbAtyfhdz|どTudじV?
+# cena 14: banco 01, lista 7C73, 60 caixas, 1376 bytes JP, faixa 79E0-7F40, 41 caixas identicas ao JP
+14	00	01	79E0	20	あれです！|あのたかいいわのうえに…！	aPでm!|aypfbbRycdv.!
+14	01	01	79F4	5	あそこか	aojf
+14	02	01	79F9	5	よしっ！	LlU!
+14	03	01	79FE	40	よくきたなデンデ|さいちょうろうさまは|おおよそのなりゆきを|しっておいでだ！	Lhgpuデンデ|kbqXcQckEz|eeLoyuNKgS|lUsebでだ!
+14	04	01	7A26	17	や　やはり|おみとおしでしたか…	J JzN|eFtelでlpf.
+14	05	01	7A37	15	はなしがはやくてたすかるぜ…	zulがzJhspmfOぜ.
+14	06	01	7A46	15	そ　それにしてもピッコロに…	o oPvlsIピッコロv.
+14	07	01	7A55	34	だいたいのことがおわかりなら|なぜここをはなれなかったので|すか？	if u get most |why not leave |mf?
+14	08	01	7A77	41	さいちょうろうさまは|こうれいでしきがちかい|そっととどまっているしか|あるまい	kbqXcQckEz|old n dying|just stay   |aOEb
+14	09	01	7AA0	9	それほどまでとは	that far
+14	0A	01	7AA9	15	よくこられた|ちきゅうのかた	LhjMPp|earthmn
+14	0B	01	7AB8	5	えっ！？	dU!?
+14	0C	01	7ABD	26	さっそくだが　なかで|さいちょうろうさまがおまちだ	kUohだが ufで|kbqXcQckEがeEqだ
+14	0D	01	7AD7	10	あのたかいやまだ！	aypfbJEだ!
+14	0E	01	7AE1	5	はいっ！	zbU!
+14	0F	01	7AE6	25	！！！|ご　ごはん！|うしろから　き　がっ！！！	!!!|ご ごzT!|clQfM g がU!!!
+14	10	01	7AFF	3	えっ	dU
+14	11	01	7B02	101	ベジータだ！|すごいスピードで|こっちにむかってくる<FB>あいつのことだ|おれたちがドラゴンボールを|もっていることにきづいている<FB>オレがじかんをかせぐ<FB>おまえは|さいちょうろうの|ところにいけーっ！！！	ベジータだ!|mごbスピードで|coming now<FB>abryjtだ|ePpqがドラゴンボールS|hes noticed us<FB>オレがじfTSfnぐ<FB>eEdz|kbqXcQcy|tjQvbiーU!!!
+14	12	01	7B67	13	な…|なんてスピードだ…	u.|uTsスピードだ.
+14	13	01	7B74	15	きさまらとはできがちがうんだ	im not like u 
+14	14	01	7B83	23	ん！？|あのやま…|ほかにもなにかいやがる…	T!?|ayJE.|DfvIuvfbJがO.
+14	15	01	7B9A	11	ボールをかくしたのは	who hid db
+14	16	01	7BA5	13	さいごのボールがあるのは	last db is  
+14	17	01	7BB2	11	あそこということか！	aojtbcjtf!
+14	18	01	7BBD	18	ち　ちがうっ！|まっまてーっ！！！	q qがcU!|EUEsーU!!!
+14	19	01	7BCF	10	なんだ？|ここは…	uTだ?|jjz.
+14	1A	01	7BD9	14	まってくれ　ベジータ！！！	EUshP ベジータ!!!
+14	1B	01	7BE7	16	かえれ|なかにはいれさせんぞ！	fdP|ufvzbPknTぞ!
+14	1C	01	7BF7	10	しにたいらしいな…	lvpbMlbu.
+14	1D	01	7C01	24	あ！！|い　いいぞ|ごはんのきがあがったーっ！	a!!|b bbぞ|ごzTygがaがUpーU!
+14	1E	01	7C19	15	む？このきは|カカロットか？	G?jygz|カカロットf?
+14	1F	01	7C28	7	でてこーい！	でsjーb!
+14	20	01	7C2F	33	なに…！？|きさまなぜきほんパワーが|きゅうげきにあがったんだ！	uv.!?|gkEuぜgDTパワーが|gWcげgvaがUpTだ!
+14	21	01	7C50	50	デ…デンデすぐみなにしらせよ|えたいのしれぬおおきなちから|がナメックせいに<FB>ちかづいていると…！	デ.デンデmぐFuvlMnL|huge odd power|がナメックnbv<FB>qfづbsbOt.!
+14	22	01	7C82	9	は…|はい…！！	z.|zb.!!
+14	23	01	7C8B	6	ね　ねえ！	x xd!
+14	24	01	7C91	4	デンデ	デンデ
+14	25	01	7C95	22	なにものかがこのほしに|ちかづいているって	someone on |qfづbsbOUs
+14	26	01	7CAB	6	ホントだ！	ホントだ!
+14	27	01	7CB1	36	ギニューとくせんたい！！！|１…２…３…４　５！|ま　まちがいない…！	ギニューthnTpb!!!|1.2.3.4 5!|E Eqがbub.!
+14	28	01	7CD5	32	お　おまえらっ|おれからうばった|ドラゴンボールをはやくわたせ	e eEdMU|stole it|ドラゴンボールSzJhRpn
+14	29	01	7CF5	60	おれはいま６つのドラゴンボー|ルをもっている<FB>さいごのひとつを|もっているのは|おまえらなんだろっ！<FB>はやくわたせっ！	ePzbE6ryドラゴンボー|has db <FB>kbごyAtrS|who has|eEdMuTだQU!<FB>zJhRpnU!
+14	2A	01	7D31	8	いやだっ！！！	bJだU!!!
+14	2B	01	7D39	85	いいかよくきけっ！<FB>ギニューとくせんたいってのは|いまのオレいやそれいじょうの|やつが５にん<FB>さいしんのスカウターで|オレやきさまなどすぐみつけて|ころしにやってくる！	bbfLhgiU!<FB>ginyu force is|bEyオレbJoPbじXcy|Jrが5vT<FB>kblTyスカウターで|オレJgkEuどmぐFris|jQlvJUshO!
+14	2C	01	7D8E	20	たしかにじゃあくなだいパワー|が５つ…	big evil power|が5r.
+14	2D	01	7DA2	4	くっ…	hU.
+14	2E	01	7DA6	21	まにあわなくなっても|しらんぞーっ！！！	if late   |lMTぞーU!!!
+14	2F	01	7DBB	16	わ　わかった…|ついてこい…！	R RfUp.|rbsjb.!
+14	30	01	7DCB	27	やっととうちゃくしましたね|ギニューとくせんたい…！	finally here |ギニューthnTpb.!
+14	31	01	7DE6	8	リクーム！！！	リクーム!!!
+14	32	01	7DEE	7	バータ！！！	バータ!!!
+14	33	01	7DF5	7	ジース！！！	ジース!!!
+14	34	01	7DFC	7	グルド！！！	グルド!!!
+14	35	01	7E03	8	ギニュー！！！	ギニュー!!!
+14	36	01	7E0B	23	みんなそろって|ギニューとくせんたい！！！！	FTuoQUs|ギニューthnTpb!!!!
+14	37	01	7E22	4	………	...
+14	38	01	7E26	26	フリーザさま|こんかいのしめいをおおしえ|ください	フリーザkE|the mission  |hだkb
+14	39	01	7E40	73	うらぎりもののベジータを|しなないていどにいためつけて|ここにつれてきてください<FB>うばったドラゴンボールを|どこにかくしたのか|はかせたいのです	the traitor |hurt not kill |jjvrPsgshだkb<FB>cばUpドラゴンボールS|where hid|make him
+14	3A	01	7E89	40	たやすいごようです<FB>ジックリと|あそんでやりましょう|では　いってまいります！	pJmbごLcでm<FB>ジックリt|aoTでJNElXc|でz bUsEbNEm!
+14	3B	01	7EB1	143	はやく３にんをさがさねえと…|いきてろよ|クリリン　ごはん　ブルマ<FB>なんてことだ…|バカでかいきをもったやつが|ごろごろいやがる…<FB>…！！|いた！！|すぐちかくのでっかいきが|みっつあつまったところだ！<FB>いまこそ１００ばいのじゅう|りょくにもたえたしゅぎょうの|せいかをみせてやる！！	zJh3vTSkがkxdt.|bgsQL|クリリン ごzT ブルマ<FB>uTsjtだ.|guy w huge ki|ごQごQbJがO.<FB>.!!|bp!!|huge ki near|FUrarEUptjQだ!<FB>bEjo100ばbyじWc|training done |nbfSFnsJO!!
+# cena 15: banco 04, lista 7CEB, 56 caixas, 1357 bytes JP, faixa 7AA0-7FED, 35 caixas identicas ao JP
+15	00	04	7AA0	7	かくれろっ！	fhPQU!
+15	01	04	7AA7	24	むこうからきがふたつ|こっちにむかってくるっ！	2 kis near|jUqvGfUshOU!
+15	02	04	7ABF	12	ひとつはすごいきですね	1 huge ki  
+15	03	04	7ACB	5	きたっ！	gpU!
+15	04	04	7AD0	21	ナメックせいじんが|おいかけられてる！？	ナメックnbじTが|ebfiMPsO!?
+15	05	04	7AE5	16	クリリンさん|たすけましょう！	クリリンkT|pmiElXc!
+15	06	04	7AF5	4	よし！	Ll!
+15	07	04	7AF9	7	にげるぞっ！	vげOぞU!
+15	08	04	7B00	7	にげるよっ！	vげOLU!
+15	09	04	7B07	8	は　はいっ！？	z zbU!?
+15	0A	04	7B0F	41	クリリンたちは<FB>たいようけんで|ドドリアのめをくらまし|うまくにげることができた	クリリンpqz<FB>pbLciTで|ドドリアyHShMEl|we got away 
+15	0B	04	7B38	41	それではおねがいしますよ<FB>あとたった２こで|わたしのねがいが|かなうんですからね	please do it<FB>atpUp2jで|my wish |will be  
+15	0C	04	7B61	21	わかりました|なんとかさがしだしてみます	RfNElp|ill try find 
+15	0D	04	7B76	22	さて|うちゅうせんで|ジックリとまちますか	ks|cqWcnTで|ジックリtEqEmf
+15	0E	04	7B8C	77	そのころ|しゅうげきしたむらの|ちょうろうのてによって<FB>スカウターを|すべてはかいされた|フリーザたちも<FB>ドラゴンボールをさがすため|うごきはじめていた	oyjQ|raided vil|by elders  <FB>スカウターS|all gone |フリーザpqI<FB>ドラゴンボールSkがmpH|had moved
+15	0F	04	7BD9	35	あいつはちきゅうの…！|しかもドラゴンボールまで|もっていやがった…	abrzqgWcy.!|lfIドラゴンボールEで|IUsbJがUp.
+15	10	04	7BFC	39	ふはははは……！！|なにからなにまでこのオレに|うんがむいてきやがったぞーっ	Bzzzz..!!|all 4 me now |luck is w me!!
+15	11	04	7C23	10	ベッベジータ！！！	ベッベジータ!!!
+15	12	04	7C2D	28	とうとうみつけたぞ！！！|もうこっちのもんだーっ！！！	tctcFripぞ!!!|IcjUqyITだーU!!!
+15	13	04	7C49	71	そのころクリリンは|きをかんじるのうりょくを|みにつけたベジータが<FB>ちかくにいることにきづかず|もうスピードで|ブルマのところへむかっていた	oyjQクリリンz|ki sensing  |Fvripベジータが<FB>not noticing |Icスピードで|headed 2 bulma
+15	14	04	7C90	34	！！|すごいきがまっすぐこっちに|むかってくる…！<FB>ベジータだ！！	!!|big ki coming|GfUshO.!<FB>ベジータだ!!
+15	15	04	7CB2	4	ん！？	T!?
+15	16	04	7CB6	15	こっちのパワーはザーボンだ！	jUqyパワーzザーボンだ!
+15	17	04	7CC5	59	ようひさしぶりだったなあ|ザーボンさんよ…<FB>ドドリアはおれがかたづけさせ|てもらったぜ…|つぎはおまえさんのばんだ…	yo long time|ザーボンkTL.<FB>i got dodoria |sIMUpぜ.|rぎzeEdkTyばTだ.
+15	18	04	7D00	22	きさまがドドリアを…！？|しんじられんな…	gkEがドドリアS.!?|lTじMPTu.
+15	19	04	7D16	27	ん！？|ちょっとごはんくん！|ドラゴンレーダみてよ！	T!?|qXUtごzThT!|ドラゴンレーダFsL!
+15	1A	04	7D31	14	ほら！|ここにひとつだけ！	DM!|jjvAtrだi!
+15	1B	04	7D3F	27	あっ！|ベジータがおそったむらの|ほうこうですよ！！	aU!|ベジータがeoUpGMy|DcjcでmL!!
+15	1C	04	7D5A	4	え！？	d!?
+15	1D	04	7D5E	30	でもベジータはそこには|いませんよ…|きがかんじられません	but vegeta |bEnTL.|gがfTじMPEnT
+15	1E	04	7D7C	37	わかった！！|むらはおそったけどドラゴンボ|ールはみつけられなかったのよ	RfUp!!|GMzeoUpiどドラゴンボ|db not found  
+15	1F	04	7DA1	25	ボクそのドラゴンボールを|とりにいってきます！！	ボクoyドラゴンボールS|tNvbUsgEm!!
+15	20	04	7DBA	28	やったわね！|こっちにもすこし|うんがむいてきたわ！！	JUpRx!|jUqvImjl|cTがGbsgpR!!
+15	21	04	7DD6	20	あっ！！|むこうにきのみだれをかんじる	aU!!|odd ki there  
+15	22	04	7DEA	7	どうしたのよ	whats 
+15	23	04	7DF1	35	ツーノさんのむらのほうこうだ|ボクちょっとようすを|みにいってきます	2 tsuno town  |ill go see|a look  
+15	24	04	7E14	7	きをつけてね	gSrisx
+15	25	04	7E1B	11	きさまがフリーザか…	gkEがフリーザf.
+15	26	04	7E26	15	まだゴミがのこっていたのか…	EだゴミがyjUsbpyf.
+15	27	04	7E35	43	フ…フリーザ…！<FB>こ…こいつこそ|きさまのおそれていた|スーパーサイヤじんだ…！！！	フ.フリーザ.!<FB>j.jbrjo|u feared  |スーパーサイヤじTだ.!!!
+15	28	04	7E60	9	！！|ベジータ…	!!|ベジータ.
+15	29	04	7E69	38	しっていたはずだろ！？|ボクがくだらないジョークが|キライだってことをさ…	lUsbpzずだQ!?|ボクがhだMubジョークが|キライだUsjtSk.
+15	2A	04	7E8F	20	なんでわざわざ|とどめをさしたっ！！！	uTでRざRざ|tどHSklpU!!!
+15	2B	04	7EA3	17	ボクはくどいヤツが|きらいなんだ	ボクzhどbヤツが|gMbuTだ
+15	2C	04	7EB4	34	おめえたちにころされた|もののためにも<FB>おめえを|ぶったおす！！！	killed by u|IyypHvI<FB>eHdS|ぶUpem!!!
+15	2D	04	7ED6	10	くだらないことを…	hだMubjtS.
+15	2E	04	7EE0	30	たのむ…|フリーザをたおしてくれ…|サイヤじんの…て…で…	pyG.|フリーザSpelshP.|サイヤじTy.s.で.
+15	2F	04	7EFE	7	またせたな…	Epnpu.
+15	30	04	7F05	9	ピッコロさん！！	ピッコロkT!!
+15	31	04	7F0E	35	ヤツがフリーザか…|なるほど　たしかに|とんでもなさそうなバケモンだ	ヤツがフリーザf.|uODど plfv|a huge monster
+15	32	04	7F31	46	まだ　ナメックせいじんが|いきのこっていたか…<FB>しょせん|このオレのあいてでは|ないがな…	Eだ ナメックnbじTが|bgyjUsbpf.<FB>lXnT|no match  |ubがu.
+15	33	04	7F5F	22	さて…うちゅうのゴミを|かたづけてやるか…	ks.cqWcyゴミS|fpづisJOf.
+15	34	04	7F75	6	デンデだ！	デンデだ!
+15	35	04	7F7B	59	よかったーっ！|ねがいのかなえかたを|おしえにきたんですよ！！<FB>あれはナメックごで|しゃべらないと|いけないんです！	LfUpーU!|how 2 wish|eldvgpTでmL!!<FB>aPzナメックごで|lVべMubt|biubTでm!
+15	36	04	7FB6	20	ナメックごかやっぱりな…|よしいそごう	ナメックごfJUぱNu.|Llboごc
+15	37	04	7FCA	35	ナメックごで…<FB>そうなんだ|いそいでクリリンさんの|ところにもどろう	ナメックごで.<FB>ocuTだ|bobでクリリンkTy|go back 
+# cena 16: banco 1E, lista 7D5B, 89 caixas, 2100 bytes JP, faixa 76ED-7F21, 14 caixas identicas ao JP
+16	00	1E	76ED	24	こうかんさせてもらったぜ|きさまのカラダと…！	i swapped   |that body!
+16	01	1E	7705	14	いっ…|いったいなにが…！	bU.|just what
+16	02	1E	7713	12	うちゅうせんにもどるぞ	back 2 ship
+16	03	1E	771F	35	まずい…このままだと|あいつらとクリリンたちが|ハチあわせする…！！	bad. like |they n kril |we may met
+16	04	1E	7742	9	く…ま　まて！！	w.wait!!
+16	05	1E	774B	15	ここですよ！|クリリンさん！	here!!|クリリンkT!
+16	06	1E	775A	6	うめたのか	burid
+16	07	1E	7760	5	よしっ！	yes!
+16	08	1E	7765	18	これでみんな|いきかえるんですね！	so all|come back!
+16	09	1E	7777	26	いでよシェンロン！！|そしてねがいをかなえたまえ！	bでLシェンロン!!|grant our wish
+16	0A	1E	7791	4	………	...
+16	0B	1E	7795	12	でない…|なんで…！？	nope|uTで.!?
+16	0C	1E	77A1	19	ふたつのきが|こっちにむかってくる！	2 kis |coming here
+16	0D	1E	77B4	13	きをけしてかくれるぞ！！	he hid his k
+16	0E	1E	77C1	21	どういうことだ…|うめてあったはずじゃ？	what is |buried?    
+16	0F	1E	77D6	32	ごくう！|あいつをたおして　ぶかを|なかまにしちまったのか！？	goku|beat him n  |u joined them
+16	10	1E	77F6	22	おまえか|ドラゴンボールを|みつけたのは…	is i|ドラゴンボールS|who fnd
+16	11	1E	780C	23	そうなんだけど|ねがいはかなえられないんだ…	i know |the wish wont 
+16	12	1E	7823	13	そうか…|だめだったか…	ocf.|no good
+16	13	1E	7830	25	クリリンさん！！！|そいつはおとうさんじゃない！	クリリンkT!!!|thats not dad!
+16	14	1E	7849	3	え？	d?
+16	15	1E	784C	24	そうさ！|このオレさまは|ギニューさまだ！！！	ock!|i am   |ギニューkEだ!!!
+16	16	1E	7864	10	み　みつけたぞ…！	i found i
+16	17	1E	786E	36	クリリン　ごはん…|そいつはオラじゃねえ|カラダをとっかえやがったんだ	クリリン ごzT.|not me!!  |he swapped us 
+16	18	1E	7892	14	ほ…ほんとだったのか…！！	so it was tru
+16	19	1E	78A0	19	ジース！|きさまもたたかわんか！！！	ジース!|u fight me 2!
+16	1A	1E	78B3	7	はいっ！！！	zbU!!!
+16	1B	1E	78BA	21	おっと！|きさまのあいては|このオレだ！	oops|ur foe  |jyオレだ!
+16	1C	1E	78CF	22	どけっ！！！|そいつもおれがかたづけてやる	どiU!!!|ill deal w him
+16	1D	1E	78E5	35	あいつ！|またあのわざをつかうつもりだ<FB>しめたっ|もとにもどれる！！	abr!|hes using it  <FB>yess|normal!! 
+16	1E	1E	7908	8	あ…あのヤロウ	a.ayヤロウ
+16	1F	1E	7910	38	いまヤツにベジータのカラダを|てにいれさせたらまずい…<FB>あっあのカエルで！	bEヤツvベジータyカラダS|bad if he do<FB>aUayカエルで!
+16	20	1E	7936	15	ご　ごくうだいじょうぶか！？	ご ごhcだbじXcぶf!?
+16	21	1E	7945	12	おとうさんしっかり！！	dad hang on
+16	22	1E	7951	29	ず…ずいぶんオラのカラダを|いためつけてくれたもんだな…	u sure wreckd|my body here  
+16	23	1E	796E	17	つれてこい|うちゅうせんのなかに	bring|in the shp
+16	24	1E	797F	27	きさまなら|たいしたじかんもかからずに|ぜんかいする	u can|in no time   |heal u
+16	25	1E	799A	11	こりゃきもちいいや…	feels good
+16	26	1E	79A5	54	ごはん|オレさいちょうろうさまのとこ|ろにいってくる<FB>ねがいのかなえかたきかないと|どうしようもないからな	ごzT|ill go 2 the  |elder  <FB>must ask how 2|to wish now
+16	27	1E	79DB	6	ボクは…？	ボクz.?
+16	28	1E	79E1	22	どうする　いくのは|ひとりでじゅうぶんだろ	who goes?|1 is enough
+16	29	1E	79F7	42	そのころ|デンデはあいことばを|つたえるため<FB>クリリンたちの|ところへむかっていた	then|dnd went 2|tell  <FB>the cde|2 them all
+16	2A	1E	7A21	37	なんであいつをにがした！|まったくてめえのあまさには|ヘドがでそうだぜ…	why free him|ur softness  |ヘドがでocだぜ.
+16	2B	1E	7A46	29	きさまは|スーパーサイヤじんには|なれなかったようだな…	u r |スーパーサイヤじTvz|no good    
+16	2C	1E	7A63	12	スーパーサイヤじん…？	スーパーサイヤじT.?
+16	2D	1E	7A6F	63	こんなことでは|フリーザにはぜったいに|かてんぞ！！<FB>おまけにフリーザはいまごろ|ふろうふしを|てにいれてしまっているはずだ	like so|u never win|no win<FB>n freeza now |is prb|already immort
+16	2E	1E	7AAE	26	い…いや|あいつはねがいを|かなえていないとおもう	b.bJ|he didnt|wish yet i 
+16	2F	1E	7AC8	14	なんだと！|なぜわかる！？	what!|how so?
+16	30	1E	7AD6	73	ここのドラゴンボールが|ちきゅうのといしょなら<FB>シェンロンがでるとき|くらくなるはずだけど|さっきからあかるいままだから<FB>たぶんまだじゃないかと	jjyドラゴンボールが|on earth if<FB>shenron is|it is dark|but its still <FB>lite so not
+16	31	1E	7B1F	49	そうか！|あいことばをしらないんだ！<FB>まだオラたちのねがいをかなえ|るチャンスがのこっている！！	ocf!|no code yet! <FB>we still have |we still have 
+16	32	1E	7B50	30	ホッホッホ…|わたしともあろうものが|ドキドキしてきました	ホッホッホ.|that i of  |am nervous
+16	33	1E	7B6E	39	ドラゴンボールよ！！<FB>このフリーザに|えいえんのいのちを|あたえなさい！！！	ドラゴンボールL!!<FB>2 freez|life 4evr|apdukb!!!
+16	34	1E	7B95	9	うおおおお！！！	ceeee!!!
+16	35	1E	7B9E	4	………	...
+16	36	1E	7BA2	13	…なにもおこりませんね…	no effect.. 
+16	37	1E	7BAF	20	も　もう|ふろうふしになられたのでは？	I Ic|is he immortal
+16	38	1E	7BC3	14	いえ…そうはおもえません…	no i doubt it
+16	39	1E	7BD1	29	はっ！|たしか　２こめのドラゴン|ボールをうばったとき…	zU!|the 2nd ball|when he tok
+16	3A	1E	7BEE	49	すべてのドラゴンボールを|あつめたところで<FB>きさまらには　ねがいを|かなえることなどできんからな	even w all  |dbs here<FB>u cant make|a wish at all 
+16	3B	1E	7C1F	50	きさまらには…|たしかにそういっていた…<FB>なにかあんごうがあるのですね|それをききださなくては…！	4 u all|he said that<FB>a code exists |i must ask im
+16	3C	1E	7C51	89	お！？<FB>ナメックせいじん|だとおもわれるはんのうが|２つ…<FB>ポイント８８２９４０１|わたしがちょくせつ|きいてきましょう<FB>ギニューさんは|ドラゴンボールをみはっていて|ください	e!?<FB>a namek |it seems so |2r.<FB>ポイント8829401|ill ask  |myself  <FB>ginyu u|watch the dbs |plz 
+16	3D	1E	7CAA	8	わかりました！	got it!
+16	3E	1E	7CB2	6	じーっ……	じーU..
+16	3F	1E	7CB8	5	んっ！？	hm!?
+16	40	1E	7CBD	12	ギニューたいちょーっ！	capt ginyu!
+16	41	1E	7CC9	13	ジースか|どうしたんだ？	ジースf|whats u
+16	42	1E	7CD6	7	そっそれが！	its it
+16	43	1E	7CDD	41	なっ　なんだとー！？|グルドもリクームもバータも|やられたというのか！？<FB>………	w.what!?  |グルドIリクームIバータI|they lost!?<FB>...
+16	44	1E	7D06	37	よし　このギニューたいちょう|みずからたたかいのおてほんを|みせてやる…	ok capt ginyu |will show how |show u
+16	45	1E	7D2B	19	ジース|ドラゴンボールをかくしておけ	ジース|hide the dbs  
+16	46	1E	7D3E	6	うめました	burid
+16	47	1E	7D44	32	よーし　では　ゆくぞ…|ギニューとくせんたいしゅつど|う！！！	Lーl でz Khぞ.|ginyu force!  |c!!!
+16	48	1E	7D64	59	…やはり<FB>ふたりでは　スペシャル|ファイティングポーズが|きまらない…<FB>どこのどいつかしらんが|ゆるせんぞーっ！！！	so. <FB>2 of us is |ファイティングポーズが|no end<FB>whoever u r|unforgivn!
+16	49	1E	7D9F	25	ふたつのせんとうりょくが|こっちにむかっている…	2 power lvls|coming now 
+16	4A	1E	7DB8	15	まてよ…|フリーザはどこだ…	wait|フリーザzどjだ.
+16	4B	1E	7DC7	24	あっちのほうこうにかんじる|つよいきがそうだろ	feel it there|the big k
+16	4C	1E	7DDF	10	あのほうこうは…！	that way!
+16	4D	1E	7DE9	41	さいちょうろうさんのところだ|あいつねがいのかなえかたを|ききだしにいったんだ！	at elders home|he went 2 ask|how 2 wish!
+16	4E	1E	7E12	86	あ　あいつ|ねがいのかなえかたを<FB>ききだしたらぜったいさいちょ|うろうさんころしちゃうよ！<FB>さいちょうろうさんがしんだら|ドラゴンボールもなくなっちゃ|うのしらないから！	a abr|how 2 wish<FB>once he knows |he kills eldr<FB>if elder dies |the dbs die 2 |no idea! 
+16	4F	1E	7E68	10	なっ|なんだと！？	uU|what!?
+16	50	1E	7E72	6	きたっ！！	gpU!!
+16	51	1E	7E78	40	なるほどあいつか…<FB>リクームたちを|あっさりとかたづけてしまっ|たというのは…	i see him<FB>recoome|beaten easy  |ptbcyz.
+16	52	1E	7EA0	29	こいつはかつてないほどおもし|ろいたたかいになりそうだ…	this may be   |most fun yet 
+16	53	1E	7EBD	37	あいつは　オラがくいとめる|おめえたちはドラゴンボールを|さがしてくれ！	ill hold him |u all get dbs |search!
+16	54	1E	7EE2	9	わ　わかった…！	o.ok!!  
+16	55	1E	7EEB	25	ベジータおめえはもうひとりの|ヤツをたおしてくれ	vegeta u take |other one
+16	56	1E	7F04	6	いくぞ！！	bhぞ!!
+16	57	1E	7F0A	14	あばよカカロットーっ！！！	aばLカカロットーU!!!
+16	58	1E	7F18	9	ベジータ！！！！	ベジータ!!!!
+# cena 17: banco 05, lista 7E0D, 35 caixas, 923 bytes JP, faixa 54E4-587F, 11 caixas identicas ao JP
+17	00	05	54E4	31	きさまらーっ！！|よくもこのベジータを|だしぬきやがったな…	u people|u tricked |me vegeta.
+17	01	05	5503	9	ゆるさんぞ！！！	KOkTぞ!!!
+17	02	05	550C	23	まって！|まだひとつかなうんです|ねがいが…	wait|1 wish left|xがbが.
+17	03	05	5523	12	バカ！|しゃべるな！！	バカ!|lVべOu!!
+17	04	05	552F	16	そいつをきいてあんしん|したぜ	such relief|lpぜ
+17	05	05	553F	20	さあこのオレを|ふろうふしにしろ！！！	now mak|me immortal
+17	06	05	5553	10	わ…わかりました…	y.yes sir
+17	07	05	555D	10	ど…どうしたんだ…	ど.どclpTだ.
+17	08	05	5567	33	さいちょうろうさまが|なくなられたんです|とうとうじゅみょうが…	the elder |has passd|his life ov
+17	09	05	5588	33	なっなんだとーっ！？|オ…オレのふろうふしは|どうするんだ…！！	w.what!?  |my eternity|どcmOTだ.!!
+17	0A	05	55A9	5	うっ！！	cU!!
+17	0B	05	55AE	4	へ！？	C!?
+17	0C	05	55B2	17	あ…あ……|フ…フリーザ…！！！	a.a..|フ.フリーザ.!!!
+17	0D	05	55C3	74	やってくれましたねみなさん…<FB>わたしのゆめをみごとに|うちくだいてくれましたね…|はじめてですよ…<FB>わたしをここまでコケにした|おバカさんたちは…	well done all <FB>my dream ws|crushed by u |a first <FB>u mocked me  |u silly 1
+17	0E	05	560D	52	ゆっゆるさん…|ぜったいにゆるさんぞ|むしけらども！！！！！<FB>じわじわと|なぶりごろしにしてくれる！！	no merc|no forgive|GliMどI!!!!!<FB>じRじRt|ill toy w u   
+17	0F	05	5641	17	なにかくる！|クリリンさんだ！！	coming|クリリンkTだ!!
+17	10	05	5652	13	ものすごいはやさでしたね	so very fast
+17	11	05	565F	20	なーにデンデがこっちにむかっ|てたんだ	dnd is coming |slep
+17	12	05	5673	7	ベジータは？	ベジータz?
+17	13	05	567A	27	ここんとこねてないからとか|いって　ねてましたけど…	no sleep late|i went slep 
+17	14	05	5695	63	よーし！！|ベジータにきづかれないうちに|ねがいをかなえてもらうぞ！！<FB>すこしはなれたところまで|ドラゴンボールをはこぶんだ	Lーl!!|b4 vegeta sees|grant our wish<FB>move a bit  |ドラゴンボールSzjぶTだ
+17	15	05	56D4	6	ごはんだ！	ごzTだ!
+17	16	05	56DA	20	デンデくんがこっちに|むかっていたから	dnd comes |heading 
+17	17	05	56EE	20	そうかベジータはいま|ねているはずだ…	so vegeta |asleep  
+17	18	05	5702	22	タッカラプト|ポッポルンガ|プピリットパロ	タッカラプト|ポッポルンガ|プピリットパロ
+17	19	05	5718	61	ドラゴンボールを７こ|そろえしものよ|さあねがいをいうがいい<FB>どんなねがいも|かのうなかぎり　みっつだけ|かなえてやろう	ドラゴンボールS7j|gatherd|kaxがbSbcがbb<FB>any wsh|up to 3 of   |igrant 
+17	1A	05	5755	38	まずサイヤじんにころされた|ちきゅうのみんなをいきかえら|せてください！！	1st revive   |on earth kild |let me  
+17	1B	05	577B	35	それはかなわぬねがいだ|いきかえらせることのできる|にんずうはひとり	cant do tht|i can revive |1 person
+17	1C	05	579E	6	そんな！！	oTu!!
+17	1D	05	57A4	95	ごはんピッコロだ！|かいおうをとおして　おまえの|こころに　はなしかけている！<FB>よくきけひとつめのねがいで|オレをいきかえらせるんだ！！<FB>そうすればかみもいきかえる！|ドラゴンボールもな！	ごzTピッコロだ!|via king kai  |talks 2 the ht<FB>listen wish 1|bring me back!<FB>god revives 2!|ドラゴンボールIu!
+17	1E	05	5803	15	そうかそのてがあったんだ！！	thats a way!! 
+17	1F	05	5812	9	わ　わかりました	ok. yes 
+17	20	05	581B	55	ふたつめはいきかえったオレを|ナメックせいにとばしてくれ！<FB>かならず|フリーザってやつを|たおしてみせる！！	2nd send back |me 2 namek!!  <FB>sure|freeza   |ill win!!
+17	21	05	5852	15	デンデ|きこえたろ　たのむ！	デンデ|u heard!  
+17	22	05	5861	30	ロパロットリプピ|トプラカッタ|カポリラルップントトガパロ	ロパロットリプピ|トプラカッタ|カポリラルップントトガパロ
+# cena 18: banco 1D, lista 7E53, 43 caixas, 1277 bytes JP, faixa 719A-7697, 1 caixas identicas ao JP
+18	00	1D	719A	32	クリリンさん|ちょうろうのうちに|おもしろいものがあるんですよ	クリリンkT|at elders|theres a fun  
+18	01	1D	71BA	54	ここは|あまりひろいほしじゃないが<FB>スカウターなしで|ナメックせいじんをさがすっ|てのはちょっとつらいな…	jjz|not a big rok<FB>スカウターulで|but finding a|namek is hrd
+18	02	1D	71F0	21	よかったわね|ぜんぜんたいしたことなくて	glad!!|it was nothin
+18	03	1D	7205	13	あ　ありがとうございます	th.thank u!!
+18	04	1D	7212	12	おれたちか|おれたちは	we r |we r 
+18	05	1D	721E	33	ってわけでオレはこれから|そのドラゴンボールを|さがしにいくんだ	so from now |oyドラゴンボールS|ill look
+18	06	1D	723F	43	ボ　ボクもつれてってください<FB>たぶんそれは|さいちょうろうさまの|ドラゴンボールです	please take me<FB>maybe |the elders|ドラゴンボールでm
+18	07	1D	726A	18	…？…そうか|じゃいっしょにいこう	.?.ocf|lets go nw
+18	08	1D	727C	3	はい	zb
+18	09	1D	727F	46	………っていうわけで<FB>このこつれてもういちど|そのさいちょうろうさんの|ところにいってくる	so anyway.<FB>ill take im|n go again 2|the elder
+18	0A	1D	72AD	17	わかりました|きをつけてください	i see |be carefl
+18	0B	1D	72BE	26	ブルマさん！|ドラゴンボール|もっていきますっ！！	ブルマkT!|ドラゴンボール|ill take i
+18	0C	1D	72D8	5	えっ！？	huh?
+18	0D	1D	72DD	53	いそげっ！|オレのドラゴンボールは<FB>さっきのナメックせいじんの|いたところに|むかうとちゅうにあるっ！！	hurry|オレyドラゴンボールz<FB>that nameks  |spot i|on the way!! 
+18	0E	1D	7312	14	ところでこれからどうします	so what now  
+18	0F	1D	7320	26	ああ|ここでぐずぐずしていても|しょうがないもんな	aa|waiting here|is no use
+18	10	1D	733A	28	みてよ！|ここにもひとつだけ|ドラゴンボールがあるわよ	look|1 more!! |ドラゴンボールがaORL
+18	11	1D	7356	31	まだあいつらが|てにいれていない|ドラゴンボールってことか…	they r |svbPsbub|ドラゴンボールUsjtf.
+18	12	1D	7375	39	よし！<FB>オレがさがしにいってくる|ごはんはブルマさんとここで|まっててくれ！	Ll!<FB>ill go look |gohan stay hr|wait!! 
+18	13	1D	739C	86	ムーリのむらのゲームを|すべてクリアしたな|よしよし<FB>そのうちいいことが|あるじゃろう<FB>まあしいていえば|うえと　じっこうボタンと…<FB>とにかく|これからもがんばるんじゃぞ	ムーリyGMyゲームS|all clear|LlLl<FB>good news|awaits<FB>if i may|up n act btn <FB>tvfh|keep it up!! 
+18	14	1D	73F2	9	どっちにいこう？	which w?
+18	15	1D	73FB	30	どうするごはん|さっきのやつらむこうに|いったみたいだけど	gohan? |those guys |went thr 
+18	16	1D	7419	27	ここをまっすぐすすむと|さいちょうろうさまのいえです	go straight|the elders hom
+18	17	1D	7434	15	ここをまっすぐいけばいいのか	straight ahead
+18	18	1D	7443	25	ちかい！|もうすぐそこだ！！|どうするごはん？！	qfb!|almost!! |so gohan?
+18	19	1D	745C	29	すぐそのへんに|たくさんのきをかんじる|どうするごはん？	near hr|i feel kis |so gohan
+18	1A	1D	7479	21	あれ|むこうにきをかんじるぞ|なんだろう	aP|a ki there |what 
+18	1B	1D	748E	32	クリリンたちは|ブルマのいるどうくつへ|ぶじにかえりついていた	クリリンpqz|2 bulmas cv|got back ok
+18	1C	1D	74AE	78	そのころ|へんしんをしたザーボンによって|おおきないたでをうけたベジータは<FB>フリーザのうちゅうせんのなかで|メディカルマシーンによる|ちりょうをうけていた	then|zarbon changed |n hurt vegeta   <FB>in freezas ship|メディカルマシーンvLO|he healed 
+18	1D	1D	74FC	28	そのころクリリンのかえりを|まっていたごはんとブルマは	waiting 4 krl|gohan n bulma
+18	1E	1D	7518	57	さいちょうろうのところへ|むかったフリーザは<FB>ねがいのかなえかたをききだすため|そっきんのネイルとたたかっていた	freeza went |the elder<FB>2 learn the wish|n fought his aid
+18	1F	1D	7551	6	よくやった	well 
+18	20	1D	7557	43	ほんとうによくやった<FB>おぬしのそうさじゅつは|かんぺきなものといっても|いいじゃろう	well done!<FB>ur control |is perfect  |i say 
+18	21	1D	7582	39	だがもうすこしがんばれば|いいものがみられるはずじゃ|つぎはがんばるんじゃぞ	but try more|n u may see  |rぎzがTばOTじVぞ
+18	22	1D	75A9	36	パスワードをつたえるまえに|おぬしらに　ごくう　からの|メッセージじゃ	b4 the code  |a word from  |メッセージじV
+18	23	1D	75CD	36	オラとごは　んのかつや|くはまだま　だつづくぞ|たのしみに　しててくれ	me n gohan |fight on mr|look forwrd
+18	24	1D	75F1	26	それじゃパスワードじゃ|しっかりかきとめるんじゃぞ	oPじVパスワードじV|write it down
+18	25	1D	760B	10	それじゃまたあおう	see u sun
+18	26	1D	7615	38	ここは|せんとうやかおの　え<FB>それとおんがくの|かくにんができるばしょです	jjz|fights art<FB>n music |checked here 
+18	27	1D	763B	20	ごはんに|のこったせんずを|たべさせた	son |senzu lf|pべknp
+18	28	1D	764F	25	ごはんとクリリンに|のこったせんずを|たべさせた	ごzTtクリリンv|senzu lf|pべknp
+18	29	1D	7668	31	ごはんとクリリンと|ベジータに|のこったせんずを|たべさせた	ごzTtクリリンt|ベジータv|senzu lf|pべknp
+18	2A	1D	7687	16	せいめいりょくが|かいふくした	his hp  |healed
+# cena 19: banco 03, lista 7EA9, 0 caixas, 0 bytes JP, faixa FFFF-0000, 0 caixas identicas ao JP
+# cena 20: banco 03, lista 7EA9, 0 caixas, 0 bytes JP, faixa FFFF-0000, 0 caixas identicas ao JP
+# cena 21: banco 03, lista 7EA9, 0 caixas, 0 bytes JP, faixa FFFF-0000, 0 caixas identicas ao JP
+# cena 22: banco 03, lista 7EA9, 0 caixas, 0 bytes JP, faixa FFFF-0000, 0 caixas identicas ao JP
+# cena 23: banco 03, lista 7EA9, 0 caixas, 0 bytes JP, faixa FFFF-0000, 0 caixas identicas ao JP
+# cena 24: banco 03, lista 7EA9, 0 caixas, 0 bytes JP, faixa FFFF-0000, 0 caixas identicas ao JP
+# cena 25: banco 03, lista 7D5B, 89 caixas, 8914 bytes JP, faixa 76ED-80A8, 34 caixas identicas ao JP
+25	00	03	76ED	33	<FB>そしてナメックせいじんたちの|ためにも<FB>おめえをぶったおす！！	<FB>4 the namekian|too <FB>ill beat u!
+25	01	03	7705	9	をぶったおす！！	 beat u!
+25	02	03	7713	4	ことを	ily
+25	03	03	771F	3	ね…	ar
+25	04	03	7742	30	まれてはじめてかもしれない|な|こんなにわくわくするのは…	irt on me may|b|1st time im  
+25	05	03	774B	21	しれない|な|こんなにわくわくするのは…	 may|b|1st time im  
+25	06	03	775A	6	するのは…	 im  
+25	07	03	7760	30	まいったなー|すこしくらいは|こたえるとおもったんだけど…	oh my |i thout|that would hrt
+25	08	03	7765	25	ー|すこしくらいは|こたえるとおもったんだけど…	 |i thout|that would hrt
+25	09	03	7777	7	たんだけど…	ld hrt
+25	0A	03	7791	7	けないからね	st tht
+25	0B	03	7795	3	らね	ht
+25	0C	03	77A1	7	くうのやつ…	 goku.
+25	0D	03	77B4	20	さんのきは|ぜんぜんへっていません…！	s ki |is not down  
+25	0E	03	77C1	7	いません…！	down  
+25	0F	03	77D6	15	さだ…|さーてどうすっかな…	ron|now what..
+25	10	03	77F6	46	だね<FB>ちょっとおどろいたよ|ギニューたいちょうの|うえをいくヤツがこのよにいた|なんてね…	ot<FB>im surprsd|someone ab|captain ginyu |here.
+25	11	03	780C	24	うの|うえをいくヤツがこのよにいた|なんてね…	ab|captain ginyu |here.
+25	12	03	7823	1		
+25	13	03	7830	16	…かもな…|でもわかんねーぞー	maybe|who nos! 
+25	14	03	7849	27	よいよ|まさにきょういてきといっても|いいほどだね…	trg|truly a threat|i admit
+25	15	03	784C	24	|まさにきょういてきといっても|いいほどだね…	|truly a threat|i admit
+25	16	03	7864	8	そいつはどうも	thanks 
+25	17	03	786E	41	|このたたかいにもあきてきたよ<FB>そろそろけっちゃくを|つけようとおもうんだけど…	|im bored of it<FB>so ill end|this fight nw
+25	18	03	7892	5	だけど…	t nw
+25	19	03	78A0	5	かねえぞ	sy  
+25	1A	03	78B3	22	パワーのはんぶんも|つかっちゃいないんだよ	ot even  |half my pwr
+25	1B	03	78BA	15	んも|つかっちゃいないんだよ	  |half my pwr
+25	1C	03	78CF	9	っとおおゲサだぜ	ch that 
+25	1D	03	78E5	24	んどうをしたのは|ほんとうにひさしぶりだった…	vent mvd|like this ages
+25	1E	03	7908	11	なにかするつもりだ…	up 2 somth
+25	1F	03	7910	3	だ…	th
+25	20	03	7936	10	て|こうげきする…	e|attacks
+25	21	03	7945	2	？	?
+25	22	03	7951	26	つみもないものを|つぎからつぎへと|ころしやがって	u killed|so many |innocnt
+25	23	03	796E	22	おこったぞー！！！！！|フリーザーッ！！！	ejUpぞー!!!!!|フリーザーッ!!!
+25	24	03	797F	5	ッ！！！	ッ!!!
+25	25	03	799A	28	じんは|つみのないものを|ころさなかったとでもいうのか	ns |nevr kld|the innocent? 
+25	26	03	79A5	17	を|ころさなかったとでもいうのか	d|the innocent? 
+25	27	03	79DB	1		
+25	28	03	79E1	15	う|あやまってもゆるさないぞ	r|sorry wont d
+25	29	03	79F7	3	……	..
+25	2A	03	7A21	51	ちながら|はげしいいかりによって|めざめたでんせつのせんし<FB>スーパーサイヤじん|そんごくうだっ！！！	 but|woken by rg|a legend now<FB>super sai|son goku!!
+25	2B	03	7A46	14	じん|そんごくうだっ！！！	ai|son goku!!
+25	2C	03	7A63	12	ょおおおーっ！！！！！	aamn it!!!!
+25	2D	03	7A6F	31	おれは|きさまにころされるくらいなら|みずからのしをえらぶぞ	ill|pick my own dt|not by u!! 
+25	2E	03	7AAE	23	だが５ふんもすればこのほしは|ばくはつする…	in 5 min this |rock po
+25	2F	03	7AC8	35	もあればじゅうぶんだ…|きさまをたおし|なかまとともにだっしゅつする	in is plent|ill end|n leave w pals
+25	30	03	7AD6	21	まをたおし|なかまとともにだっしゅつする	l end|n leave w pals
+25	31	03	7B1F	18	んだ|はやいとこカタをつけようぜ…	e |lets end fast 
+25	32	03	7B50	37	|どうしてもこのフリーザと<FB>しょうぶのけっちゃくを|つけたいらしいな…！	|death 2 setl<FB>this fight |w me huh. 
+25	33	03	7B6E	7	らしいな…！	 huh. 
+25	34	03	7B95	20	…うう…|た…たのむ…|たすけてくれ…	u.. |please|help me
+25	35	03	7B9E	11	む…|たすけてくれ…	se|help me
+25	36	03	7BA2	7	すけてくれ…	elp me
+25	37	03	7BAF	7	いいやがって	fish  
+25	38	03	7BC3	20	しわけてやった|あとはかってにしろ…！	u some |rest is on 
+25	39	03	7BD1	6	にしろ…！	s on 
+25	3A	03	7BEE	33	んぜんだ…<FB>どうあがいても|きさまをまっているのは|し　のみだ…	 blow<FB>no matr|what awaits|is end
+25	3B	03	7C1F	52	…オレはうちゅういちなんだ<FB>だから…だからきさまは|このオレのてによって|しななければならない…！！！	m the best   <FB>so u must  |die by my |own hand!!!   
+25	3C	03	7C51	2	！	 
+25	3D	03	7CAA	160	・<F7>・あ。の。り。っ。ノ。<82>。<8B>。<91>。<95>。<AB>。ぎ。ブ。<F5>。ゅ？イ？<8E>？<A2>？<A6>？ぢ？ズ？<E6>？<EE>？<F5>？<FC>？う！さ！め！よ！ケ！<89>！ぎ！<A0>…<A7>…ば…ズ…ヅ…<E5>…<F5>…<F9>…　・き・そ・ア・レ・６・<8C>・ぴ・<FC>・も。を。ツ。<90>。ぐ。じ。ギ。　？に？ゅ？ク？モ？ラ？。？<A1>？だ？ベ？<EA>？<F1>？と！ひ！よ！ゥ！ル！ョ！<8F>！<A3>！ご！ベ！ペ！	…<F7>…a。y。N。U。ノ。<82>。<8B>。<91>。<95>。<AB>。ぎ。ブ。<F5>。W?イ?<8E>?<A2>?<A6>?ぢ?ズ?<E6>?<EE>?<F5>?<FC>?c!k!H!L!ケ!<89>!ぎ!<A0>.<A7>.ば.ズ.ヅ.<E5>.<F5>.<F9>. …g…o…ア…レ…6…<8C>…ぴ…<FC>…I。S。ツ。<90>。ぐ。じ。ギ。 ?v?W?ク?モ?ラ?。?<A1>?だ?ベ?<EA>?<F1>?t!A!L!ゥ!ル!ョ!<8F>!<A3>!ご!ベ!ペ!
+25	3E	03	7CB2	152	。っ。ノ。<82>。<8B>。<91>。<95>。<AB>。ぎ。ブ。<F5>。ゅ？イ？<8E>？<A2>？<A6>？ぢ？ズ？<E6>？<EE>？<F5>？<FC>？う！さ！め！よ！ケ！<89>！ぎ！<A0>…<A7>…ば…ズ…ヅ…<E5>…<F5>…<F9>…　・き・そ・ア・レ・６・<8C>・ぴ・<FC>・も。を。ツ。<90>。ぐ。じ。ギ。　？に？ゅ？ク？モ？ラ？。？<A1>？だ？ベ？<EA>？<F1>？と！ひ！よ！ゥ！ル！ョ！<8F>！<A3>！ご！ベ！ペ！	。U。ノ。<82>。<8B>。<91>。<95>。<AB>。ぎ。ブ。<F5>。W?イ?<8E>?<A2>?<A6>?ぢ?ズ?<E6>?<EE>?<F5>?<FC>?c!k!H!L!ケ!<89>!ぎ!<A0>.<A7>.ば.ズ.ヅ.<E5>.<F5>.<F9>. …g…o…ア…レ…6…<8C>…ぴ…<FC>…I。S。ツ。<90>。ぐ。じ。ギ。 ?v?W?ク?モ?ラ?。?<A1>?だ?ベ?<EA>?<F1>?t!A!L!ゥ!ル!ョ!<8F>!<A3>!ご!ベ!ペ!
+25	3F	03	7CB8	146	。<8B>。<91>。<95>。<AB>。ぎ。ブ。<F5>。ゅ？イ？<8E>？<A2>？<A6>？ぢ？ズ？<E6>？<EE>？<F5>？<FC>？う！さ！め！よ！ケ！<89>！ぎ！<A0>…<A7>…ば…ズ…ヅ…<E5>…<F5>…<F9>…　・き・そ・ア・レ・６・<8C>・ぴ・<FC>・も。を。ツ。<90>。ぐ。じ。ギ。　？に？ゅ？ク？モ？ラ？。？<A1>？だ？ベ？<EA>？<F1>？と！ひ！よ！ゥ！ル！ョ！<8F>！<A3>！ご！ベ！ペ！	。<8B>。<91>。<95>。<AB>。ぎ。ブ。<F5>。W?イ?<8E>?<A2>?<A6>?ぢ?ズ?<E6>?<EE>?<F5>?<FC>?c!k!H!L!ケ!<89>!ぎ!<A0>.<A7>.ば.ズ.ヅ.<E5>.<F5>.<F9>. …g…o…ア…レ…6…<8C>…ぴ…<FC>…I。S。ツ。<90>。ぐ。じ。ギ。 ?v?W?ク?モ?ラ?。?<A1>?だ?ベ?<EA>?<F1>?t!A!L!ゥ!ル!ョ!<8F>!<A3>!ご!ベ!ペ!
+25	40	03	7CBD	141	<95>。<AB>。ぎ。ブ。<F5>。ゅ？イ？<8E>？<A2>？<A6>？ぢ？ズ？<E6>？<EE>？<F5>？<FC>？う！さ！め！よ！ケ！<89>！ぎ！<A0>…<A7>…ば…ズ…ヅ…<E5>…<F5>…<F9>…　・き・そ・ア・レ・６・<8C>・ぴ・<FC>・も。を。ツ。<90>。ぐ。じ。ギ。　？に？ゅ？ク？モ？ラ？。？<A1>？だ？ベ？<EA>？<F1>？と！ひ！よ！ゥ！ル！ョ！<8F>！<A3>！ご！ベ！ペ！	<95>。<AB>。ぎ。ブ。<F5>。W?イ?<8E>?<A2>?<A6>?ぢ?ズ?<E6>?<EE>?<F5>?<FC>?c!k!H!L!ケ!<89>!ぎ!<A0>.<A7>.ば.ズ.ヅ.<E5>.<F5>.<F9>. …g…o…ア…レ…6…<8C>…ぴ…<FC>…I。S。ツ。<90>。ぐ。じ。ギ。 ?v?W?ク?モ?ラ?。?<A1>?だ?ベ?<EA>?<F1>?t!A!L!ゥ!ル!ョ!<8F>!<A3>!ご!ベ!ペ!
+25	41	03	7CC9	129	イ？<8E>？<A2>？<A6>？ぢ？ズ？<E6>？<EE>？<F5>？<FC>？う！さ！め！よ！ケ！<89>！ぎ！<A0>…<A7>…ば…ズ…ヅ…<E5>…<F5>…<F9>…　・き・そ・ア・レ・６・<8C>・ぴ・<FC>・も。を。ツ。<90>。ぐ。じ。ギ。　？に？ゅ？ク？モ？ラ？。？<A1>？だ？ベ？<EA>？<F1>？と！ひ！よ！ゥ！ル！ョ！<8F>！<A3>！ご！ベ！ペ！	イ?<8E>?<A2>?<A6>?ぢ?ズ?<E6>?<EE>?<F5>?<FC>?c!k!H!L!ケ!<89>!ぎ!<A0>.<A7>.ば.ズ.ヅ.<E5>.<F5>.<F9>. …g…o…ア…レ…6…<8C>…ぴ…<FC>…I。S。ツ。<90>。ぐ。じ。ギ。 ?v?W?ク?モ?ラ?。?<A1>?だ?ベ?<EA>?<F1>?t!A!L!ゥ!ル!ョ!<8F>!<A3>!ご!ベ!ペ!
+25	42	03	7CD6	116	？<EE>？<F5>？<FC>？う！さ！め！よ！ケ！<89>！ぎ！<A0>…<A7>…ば…ズ…ヅ…<E5>…<F5>…<F9>…　・き・そ・ア・レ・６・<8C>・ぴ・<FC>・も。を。ツ。<90>。ぐ。じ。ギ。　？に？ゅ？ク？モ？ラ？。？<A1>？だ？ベ？<EA>？<F1>？と！ひ！よ！ゥ！ル！ョ！<8F>！<A3>！ご！ベ！ペ！	?<EE>?<F5>?<FC>?c!k!H!L!ケ!<89>!ぎ!<A0>.<A7>.ば.ズ.ヅ.<E5>.<F5>.<F9>. …g…o…ア…レ…6…<8C>…ぴ…<FC>…I。S。ツ。<90>。ぐ。じ。ギ。 ?v?W?ク?モ?ラ?。?<A1>?だ?ベ?<EA>?<F1>?t!A!L!ゥ!ル!ョ!<8F>!<A3>!ご!ベ!ペ!
+25	43	03	7CDD	109	う！さ！め！よ！ケ！<89>！ぎ！<A0>…<A7>…ば…ズ…ヅ…<E5>…<F5>…<F9>…　・き・そ・ア・レ・６・<8C>・ぴ・<FC>・も。を。ツ。<90>。ぐ。じ。ギ。　？に？ゅ？ク？モ？ラ？。？<A1>？だ？ベ？<EA>？<F1>？と！ひ！よ！ゥ！ル！ョ！<8F>！<A3>！ご！ベ！ペ！	c!k!H!L!ケ!<89>!ぎ!<A0>.<A7>.ば.ズ.ヅ.<E5>.<F5>.<F9>. …g…o…ア…レ…6…<8C>…ぴ…<FC>…I。S。ツ。<90>。ぐ。じ。ギ。 ?v?W?ク?モ?ラ?。?<A1>?だ?ベ?<EA>?<F1>?t!A!L!ゥ!ル!ョ!<8F>!<A3>!ご!ベ!ペ!
+25	44	03	7D06	68	・<8C>・ぴ・<FC>・も。を。ツ。<90>。ぐ。じ。ギ。　？に？ゅ？ク？モ？ラ？。？<A1>？だ？ベ？<EA>？<F1>？と！ひ！よ！ゥ！ル！ョ！<8F>！<A3>！ご！ベ！ペ！	…<8C>…ぴ…<FC>…I。S。ツ。<90>。ぐ。じ。ギ。 ?v?W?ク?モ?ラ?。?<A1>?だ?ベ?<EA>?<F1>?t!A!L!ゥ!ル!ョ!<8F>!<A3>!ご!ベ!ペ!
+25	45	03	7D2B	31	だ？ベ？<EA>？<F1>？と！ひ！よ！ゥ！ル！ョ！<8F>！<A3>！ご！ベ！ペ！	だ?ベ?<EA>?<F1>?t!A!L!ゥ!ル!ョ!<8F>!<A3>!ご!ベ!ペ!
+25	46	03	7D3E	12	！<8F>！<A3>！ご！ベ！ペ！	!<8F>!<A3>!ご!ベ!ペ!
+25	47	03	7D44	6	！ベ！ペ！	!ベ!ペ!
+25	48	03	7D64	400	７ト７モ７ル７ン７７７<91>７<95>７<A1>７ご７ぶ７ベ７<F6>７し８も８ゃ８ツ８ナ８ヲ８ォ８<92>８<A0>８げ８だ８ヂ８<E5>８く９た９ェ９セ９ハ９ォ９゛９<9A>９<A5>９ぺ９ポ９<F7>９む…ソ…ワ…ー…<AE>…ゴ…ベ…ま・ノ・ォ・<95>・<9E>・<A2>・<AF>・ぼ・デ・<EE>・ま。ハ。<AA>。ぐ。ぜ。で。ザ。ベ。パ。か？ろ？キ？ス？ヲ？<9F>？ぜ？ゲ？プ？<E9>？つ！ュ！２！８！<A0>！で！<#>！<EB>！え゛こ゛ね゛<E4>ヘうホしホもホっホクホフホヨホャホ<88>ホ<A9>ホ<AE>ホぐホぼホすマコマヒマリマ３マ…マ<95>マビマぷマ<EE>マいミねミホミ・ミ<9E>ミ<A4>ミうムつムひムヒムレム<9A>１だ１<F0>１お２つ２ほ２ク２ァ２。２゛２<AD>２ど２ぱ２パ２つ３み３ウ３マ３５３<9C>３<F2>３<FB>３の４ィ４シ４ユ４９４<8E>４<AE>４<FC>４ね５ハ５ミ５<82>５<A9>５ゾ５<F1>５さ６な６エ６ネ６ュ６<87>６　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　	7ト7モ7ル7ン777<91>7<95>7<A1>7ご7ぶ7ベ7<F6>7l8I8V8ツ8ナ8ヲ8ォ8<92>8<A0>8げ8だ8ヂ8<E5>8h9p9ェ9セ9ハ9ォ9゛9<9A>9<A5>9ぺ9ポ9<F7>9G.ソ.ワ.ー.<AE>.ゴ.ベ.E…ノ…ォ…<95>…<9E>…<A2>…<AF>…ぼ…デ…<EE>…E。ハ。<AA>。ぐ。ぜ。で。ザ。ベ。パ。f?Q?キ?ス?ヲ?<9F>?ぜ?ゲ?プ?<E9>?r!ュ!2!8!<A0>!で!<#>!<EB>!d゛j゛x゛<E4>ヘcホlホIホUホクホフホヨホャホ<88>ホ<A9>ホ<AE>ホぐホぼホmマコマヒマリマ3マ.マ<95>マビマぷマ<EE>マbミxミホミ…ミ<9E>ミ<A4>ミcムrムAムヒムレム<9A>1だ1<F0>1e2r2D2ク2ァ2。2゛2<AD>2ど2ぱ2パ2r3F3ウ3マ353<9C>3<F2>3<FB>3y4Z4シ4ユ494<8E>4<AE>4<FC>4x5ハ5ミ5<82>5<A9>5ゾ5<F1>5k6u6エ6ネ6ュ6<87>6                                                                           
+25	49	03	7D9F	400	ハ９ォ９゛９<9A>９<A5>９ぺ９ポ９<F7>９む…ソ…ワ…ー…<AE>…ゴ…ベ…ま・ノ・ォ・<95>・<9E>・<A2>・<AF>・ぼ・デ・<EE>・ま。ハ。<AA>。ぐ。ぜ。で。ザ。ベ。パ。か？ろ？キ？ス？ヲ？<9F>？ぜ？ゲ？プ？<E9>？つ！ュ！２！８！<A0>！で！<#>！<EB>！え゛こ゛ね゛<E4>ヘうホしホもホっホクホフホヨホャホ<88>ホ<A9>ホ<AE>ホぐホぼホすマコマヒマリマ３マ…マ<95>マビマぷマ<EE>マいミねミホミ・ミ<9E>ミ<A4>ミうムつムひムヒムレム<9A>１だ１<F0>１お２つ２ほ２ク２ァ２。２゛２<AD>２ど２ぱ２パ２つ３み３ウ３マ３５３<9C>３<F2>３<FB>３の４ィ４シ４ユ４９４<8E>４<AE>４<FC>４ね５ハ５ミ５<82>５<A9>５ゾ５<F1>５さ６な６エ６ネ６ュ６<87>６　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　	ハ9ォ9゛9<9A>9<A5>9ぺ9ポ9<F7>9G.ソ.ワ.ー.<AE>.ゴ.ベ.E…ノ…ォ…<95>…<9E>…<A2>…<AF>…ぼ…デ…<EE>…E。ハ。<AA>。ぐ。ぜ。で。ザ。ベ。パ。f?Q?キ?ス?ヲ?<9F>?ぜ?ゲ?プ?<E9>?r!ュ!2!8!<A0>!で!<#>!<EB>!d゛j゛x゛<E4>ヘcホlホIホUホクホフホヨホャホ<88>ホ<A9>ホ<AE>ホぐホぼホmマコマヒマリマ3マ.マ<95>マビマぷマ<EE>マbミxミホミ…ミ<9E>ミ<A4>ミcムrムAムヒムレム<9A>1だ1<F0>1e2r2D2ク2ァ2。2゛2<AD>2ど2ぱ2パ2r3F3ウ3マ353<9C>3<F2>3<FB>3y4Z4シ4ユ494<8E>4<AE>4<FC>4x5ハ5ミ5<82>5<A9>5ゾ5<F1>5k6u6エ6ネ6ュ6<87>6                                                                                                                                      
+25	4A	03	7DB8	400	…ゴ…ベ…ま・ノ・ォ・<95>・<9E>・<A2>・<AF>・ぼ・デ・<EE>・ま。ハ。<AA>。ぐ。ぜ。で。ザ。ベ。パ。か？ろ？キ？ス？ヲ？<9F>？ぜ？ゲ？プ？<E9>？つ！ュ！２！８！<A0>！で！<#>！<EB>！え゛こ゛ね゛<E4>ヘうホしホもホっホクホフホヨホャホ<88>ホ<A9>ホ<AE>ホぐホぼホすマコマヒマリマ３マ…マ<95>マビマぷマ<EE>マいミねミホミ・ミ<9E>ミ<A4>ミうムつムひムヒムレム<9A>１だ１<F0>１お２つ２ほ２ク２ァ２。２゛２<AD>２ど２ぱ２パ２つ３み３ウ３マ３５３<9C>３<F2>３<FB>３の４ィ４シ４ユ４９４<8E>４<AE>４<FC>４ね５ハ５ミ５<82>５<A9>５ゾ５<F1>５さ６な６エ６ネ６ュ６<87>６　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　	.ゴ.ベ.E…ノ…ォ…<95>…<9E>…<A2>…<AF>…ぼ…デ…<EE>…E。ハ。<AA>。ぐ。ぜ。で。ザ。ベ。パ。f?Q?キ?ス?ヲ?<9F>?ぜ?ゲ?プ?<E9>?r!ュ!2!8!<A0>!で!<#>!<EB>!d゛j゛x゛<E4>ヘcホlホIホUホクホフホヨホャホ<88>ホ<A9>ホ<AE>ホぐホぼホmマコマヒマリマ3マ.マ<95>マビマぷマ<EE>マbミxミホミ…ミ<9E>ミ<A4>ミcムrムAムヒムレム<9A>1だ1<F0>1e2r2D2ク2ァ2。2゛2<AD>2ど2ぱ2パ2r3F3ウ3マ353<9C>3<F2>3<FB>3y4Z4シ4ユ494<8E>4<AE>4<FC>4x5ハ5ミ5<82>5<A9>5ゾ5<F1>5k6u6エ6ネ6ュ6<87>6                                                                                                                                                               
+25	4B	03	7DC7	400	<A2>・<AF>・ぼ・デ・<EE>・ま。ハ。<AA>。ぐ。ぜ。で。ザ。ベ。パ。か？ろ？キ？ス？ヲ？<9F>？ぜ？ゲ？プ？<E9>？つ！ュ！２！８！<A0>！で！<#>！<EB>！え゛こ゛ね゛<E4>ヘうホしホもホっホクホフホヨホャホ<88>ホ<A9>ホ<AE>ホぐホぼホすマコマヒマリマ３マ…マ<95>マビマぷマ<EE>マいミねミホミ・ミ<9E>ミ<A4>ミうムつムひムヒムレム<9A>１だ１<F0>１お２つ２ほ２ク２ァ２。２゛２<AD>２ど２ぱ２パ２つ３み３ウ３マ３５３<9C>３<F2>３<FB>３の４ィ４シ４ユ４９４<8E>４<AE>４<FC>４ね５ハ５ミ５<82>５<A9>５ゾ５<F1>５さ６な６エ６ネ６ュ６<87>６　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　	<A2>…<AF>…ぼ…デ…<EE>…E。ハ。<AA>。ぐ。ぜ。で。ザ。ベ。パ。f?Q?キ?ス?ヲ?<9F>?ぜ?ゲ?プ?<E9>?r!ュ!2!8!<A0>!で!<#>!<EB>!d゛j゛x゛<E4>ヘcホlホIホUホクホフホヨホャホ<88>ホ<A9>ホ<AE>ホぐホぼホmマコマヒマリマ3マ.マ<95>マビマぷマ<EE>マbミxミホミ…ミ<9E>ミ<A4>ミcムrムAムヒムレム<9A>1だ1<F0>1e2r2D2ク2ァ2。2゛2<AD>2ど2ぱ2パ2r3F3ウ3マ353<9C>3<F2>3<FB>3y4Z4シ4ユ494<8E>4<AE>4<FC>4x5ハ5ミ5<82>5<A9>5ゾ5<F1>5k6u6エ6ネ6ュ6<87>6                                                                                                                                                                              
+25	4C	03	7DDF	400	ベ。パ。か？ろ？キ？ス？ヲ？<9F>？ぜ？ゲ？プ？<E9>？つ！ュ！２！８！<A0>！で！<#>！<EB>！え゛こ゛ね゛<E4>ヘうホしホもホっホクホフホヨホャホ<88>ホ<A9>ホ<AE>ホぐホぼホすマコマヒマリマ３マ…マ<95>マビマぷマ<EE>マいミねミホミ・ミ<9E>ミ<A4>ミうムつムひムヒムレム<9A>１だ１<F0>１お２つ２ほ２ク２ァ２。２゛２<AD>２ど２ぱ２パ２つ３み３ウ３マ３５３<9C>３<F2>３<FB>３の４ィ４シ４ユ４９４<8E>４<AE>４<FC>４ね５ハ５ミ５<82>５<A9>５ゾ５<F1>５さ６な６エ６ネ６ュ６<87>６　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　	ベ。パ。f?Q?キ?ス?ヲ?<9F>?ぜ?ゲ?プ?<E9>?r!ュ!2!8!<A0>!で!<#>!<EB>!d゛j゛x゛<E4>ヘcホlホIホUホクホフホヨホャホ<88>ホ<A9>ホ<AE>ホぐホぼホmマコマヒマリマ3マ.マ<95>マビマぷマ<EE>マbミxミホミ…ミ<9E>ミ<A4>ミcムrムAムヒムレム<9A>1だ1<F0>1e2r2D2ク2ァ2。2゛2<AD>2ど2ぱ2パ2r3F3ウ3マ353<9C>3<F2>3<FB>3y4Z4シ4ユ494<8E>4<AE>4<FC>4x5ハ5ミ5<82>5<A9>5ゾ5<F1>5k6u6エ6ネ6ュ6<87>6                                                                                                                                                                                                      
+25	4D	03	7DE9	400	ス？ヲ？<9F>？ぜ？ゲ？プ？<E9>？つ！ュ！２！８！<A0>！で！<#>！<EB>！え゛こ゛ね゛<E4>ヘうホしホもホっホクホフホヨホャホ<88>ホ<A9>ホ<AE>ホぐホぼホすマコマヒマリマ３マ…マ<95>マビマぷマ<EE>マいミねミホミ・ミ<9E>ミ<A4>ミうムつムひムヒムレム<9A>１だ１<F0>１お２つ２ほ２ク２ァ２。２゛２<AD>２ど２ぱ２パ２つ３み３ウ３マ３５３<9C>３<F2>３<FB>３の４ィ４シ４ユ４９４<8E>４<AE>４<FC>４ね５ハ５ミ５<82>５<A9>５ゾ５<F1>５さ６な６エ６ネ６ュ６<87>６　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　	ス?ヲ?<9F>?ぜ?ゲ?プ?<E9>?r!ュ!2!8!<A0>!で!<#>!<EB>!d゛j゛x゛<E4>ヘcホlホIホUホクホフホヨホャホ<88>ホ<A9>ホ<AE>ホぐホぼホmマコマヒマリマ3マ.マ<95>マビマぷマ<EE>マbミxミホミ…ミ<9E>ミ<A4>ミcムrムAムヒムレム<9A>1だ1<F0>1e2r2D2ク2ァ2。2゛2<AD>2ど2ぱ2パ2r3F3ウ3マ353<9C>3<F2>3<FB>3y4Z4シ4ユ494<8E>4<AE>4<FC>4x5ハ5ミ5<82>5<A9>5ゾ5<F1>5k6u6エ6ネ6ュ6<87>6                                                                                                                                                                                                                
+25	4E	03	7E12	400	ホもホっホクホフホヨホャホ<88>ホ<A9>ホ<AE>ホぐホぼホすマコマヒマリマ３マ…マ<95>マビマぷマ<EE>マいミねミホミ・ミ<9E>ミ<A4>ミうムつムひムヒムレム<9A>１だ１<F0>１お２つ２ほ２ク２ァ２。２゛２<AD>２ど２ぱ２パ２つ３み３ウ３マ３５３<9C>３<F2>３<FB>３の４ィ４シ４ユ４９４<8E>４<AE>４<FC>４ね５ハ５ミ５<82>５<A9>５ゾ５<F1>５さ６な６エ６ネ６ュ６<87>６　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　	ホIホUホクホフホヨホャホ<88>ホ<A9>ホ<AE>ホぐホぼホmマコマヒマリマ3マ.マ<95>マビマぷマ<EE>マbミxミホミ…ミ<9E>ミ<A4>ミcムrムAムヒムレム<9A>1だ1<F0>1e2r2D2ク2ァ2。2゛2<AD>2ど2ぱ2パ2r3F3ウ3マ353<9C>3<F2>3<FB>3y4Z4シ4ユ494<8E>4<AE>4<FC>4x5ハ5ミ5<82>5<A9>5ゾ5<F1>5k6u6エ6ネ6ュ6<87>6                                                                                                                                                                                                                                                         
+25	4F	03	7E68	400	２ど２ぱ２パ２つ３み３ウ３マ３５３<9C>３<F2>３<FB>３の４ィ４シ４ユ４９４<8E>４<AE>４<FC>４ね５ハ５ミ５<82>５<A9>５ゾ５<F1>５さ６な６エ６ネ６ュ６<87>６　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　	2ど2ぱ2パ2r3F3ウ3マ353<9C>3<F2>3<FB>3y4Z4シ4ユ494<8E>4<AE>4<FC>4x5ハ5ミ5<82>5<A9>5ゾ5<F1>5k6u6エ6ネ6ュ6<87>6                                                                                                                                                                                                                                                                                                                                               
+25	50	03	7E72	400	３ウ３マ３５３<9C>３<F2>３<FB>３の４ィ４シ４ユ４９４<8E>４<AE>４<FC>４ね５ハ５ミ５<82>５<A9>５ゾ５<F1>５さ６な６エ６ネ６ュ６<87>６　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　おい	3ウ3マ353<9C>3<F2>3<FB>3y4Z4シ4ユ494<8E>4<AE>4<FC>4x5ハ5ミ5<82>5<A9>5ゾ5<F1>5k6u6エ6ネ6ュ6<87>6                                                                                                                                                                                                                                                                                                                                                       eb
+25	51	03	7E78	400	３<9C>３<F2>３<FB>３の４ィ４シ４ユ４９４<8E>４<AE>４<FC>４ね５ハ５ミ５<82>５<A9>５ゾ５<F1>５さ６な６エ６ネ６ュ６<87>６　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　おい　みみたかい	3<9C>3<F2>3<FB>3y4Z4シ4ユ494<8E>4<AE>4<FC>4x5ハ5ミ5<82>5<A9>5ゾ5<F1>5k6u6エ6ネ6ュ6<87>6                                                                                                                                                                                                                                                                                                                                                       eb FFpfb
+25	52	03	7EA0	400	６エ６ネ６ュ６<87>６　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　おい　みみたかいいみみたゾむゥキ<81>ゾピたむ　<8A>ゾせきキ<82>ゾピたむ　<80>ゾせきキシゾピたあとつむ　<98>	6エ6ネ6ュ6<87>6                                                                                                                                                                                                                                                                                                                                                       eb FFpfbbFFpゾGゥキ<81>ゾピpG <8A>ゾngキ<82>ゾピpG <80>ゾngキシゾピpatrG <98>
+25	53	03	7EBD	400	　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　おい　みみたかいいみみたゾむゥキ<81>ゾピたむ　<8A>ゾせきキ<82>ゾピたむ　<80>ゾせきキシゾピたあとつむ　<98>ゾザきせァむゴジゾくきち　ケむなズせしゾ<F1>かむエぱ！オキく	                                                                                                                                                                                                                                                                                                                                   eb FFpfbbFFpゾGゥキ<81>ゾピpG <8A>ゾngキ<82>ゾピpG <80>ゾngキシゾピpatrG <98>ゾザgnァGゴジゾhgq ケGuズnlゾ<F1>fGエぱ!オキh
+25	54	03	7EE2	400	　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　おい　みみたかいいみみたゾむゥキ<81>ゾピたむ　<8A>ゾせきキ<82>ゾピたむ　<80>ゾせきキシゾピたあとつむ　<98>ゾザきせァむゴジゾくきち　ケむなズせしゾ<F1>かむエぱ！オキくガボマズォ<E6><F0>ち<N>シゾ<86>かむめズせたゾ<F1>かゾグケゾぬコゾ<97>シキび<EF>ゾ<9E>え<E7>	                                                                                                                                                                                                                                                                                              eb FFpfbbFFpゾGゥキ<81>ゾピpG <8A>ゾngキ<82>ゾピpG <80>ゾngキシゾピpatrG <98>ゾザgnァGゴジゾhgq ケGuズnlゾ<F1>fGエぱ!オキhガボマズォ<E6><F0>q<N>シゾ<86>fGHズnpゾ<F1>fゾグケゾwコゾ<97>シキび<EF>ゾ<9E>d<E7>
+25	55	03	7EEB	400	　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　おい　みみたかいいみみたゾむゥキ<81>ゾピたむ　<8A>ゾせきキ<82>ゾピたむ　<80>ゾせきキシゾピたあとつむ　<98>ゾザきせァむゴジゾくきち　ケむなズせしゾ<F1>かむエぱ！オキくガボマズォ<E6><F0>ち<N>シゾ<86>かむめズせたゾ<F1>かゾグケゾぬコゾ<97>シキび<EF>ゾ<9E>え<E7>ゾカゥゾ<81>ゥあ　ょ	                                                                                                                                                                                                                                                                                     eb FFpfbbFFpゾGゥキ<81>ゾピpG <8A>ゾngキ<82>ゾピpG <80>ゾngキシゾピpatrG <98>ゾザgnァGゴジゾhgq ケGuズnlゾ<F1>fGエぱ!オキhガボマズォ<E6><F0>q<N>シゾ<86>fGHズnpゾ<F1>fゾグケゾwコゾ<97>シキび<EF>ゾ<9E>d<E7>ゾカゥゾ<81>ゥa X
+25	56	03	7F04	400	　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　おい　みみたかいいみみたゾむゥキ<81>ゾピたむ　<8A>ゾせきキ<82>ゾピたむ　<80>ゾせきキシゾピたあとつむ　<98>ゾザきせァむゴジゾくきち　ケむなズせしゾ<F1>かむエぱ！オキくガボマズォ<E6><F0>ち<N>シゾ<86>かむめズせたゾ<F1>かゾグケゾぬコゾ<97>シキび<EF>ゾ<9E>え<E7>ゾカゥゾ<81>ゥあ　ょゾ　ェああゃゾ　ェあいしゾホゥみけゾ<9C>せあえしゾプ	                                                                                                                                                                                                                                                            eb FFpfbbFFpゾGゥキ<81>ゾピpG <8A>ゾngキ<82>ゾピpG <80>ゾngキシゾピpatrG <98>ゾザgnァGゴジゾhgq ケGuズnlゾ<F1>fGエぱ!オキhガボマズォ<E6><F0>q<N>シゾ<86>fGHズnpゾ<F1>fゾグケゾwコゾ<97>シキび<EF>ゾ<9E>d<E7>ゾカゥゾ<81>ゥa Xゾ ェaaVゾ ェablゾホゥFiゾ<9C>nadlゾプ
+25	57	03	7F0A	400	　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　おい　みみたかいいみみたゾむゥキ<81>ゾピたむ　<8A>ゾせきキ<82>ゾピたむ　<80>ゾせきキシゾピたあとつむ　<98>ゾザきせァむゴジゾくきち　ケむなズせしゾ<F1>かむエぱ！オキくガボマズォ<E6><F0>ち<N>シゾ<86>かむめズせたゾ<F1>かゾグケゾぬコゾ<97>シキび<EF>ゾ<9E>え<E7>ゾカゥゾ<81>ゥあ　ょゾ　ェああゃゾ　ェあいしゾホゥみけゾ<9C>せあえしゾプゥゾじゥゾオ	                                                                                                                                                                                                                                                      eb FFpfbbFFpゾGゥキ<81>ゾピpG <8A>ゾngキ<82>ゾピpG <80>ゾngキシゾピpatrG <98>ゾザgnァGゴジゾhgq ケGuズnlゾ<F1>fGエぱ!オキhガボマズォ<E6><F0>q<N>シゾ<86>fGHズnpゾ<F1>fゾグケゾwコゾ<97>シキび<EF>ゾ<9E>d<E7>ゾカゥゾ<81>ゥa Xゾ ェaaVゾ ェablゾホゥFiゾ<9C>nadlゾプゥゾじゥゾオ
+25	58	03	7F18	400	　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　おい　みみたかいいみみたゾむゥキ<81>ゾピたむ　<8A>ゾせきキ<82>ゾピたむ　<80>ゾせきキシゾピたあとつむ　<98>ゾザきせァむゴジゾくきち　ケむなズせしゾ<F1>かむエぱ！オキくガボマズォ<E6><F0>ち<N>シゾ<86>かむめズせたゾ<F1>かゾグケゾぬコゾ<97>シキび<EF>ゾ<9E>え<E7>ゾカゥゾ<81>ゥあ　ょゾ　ェああゃゾ　ェあいしゾホゥみけゾ<9C>せあえしゾプゥゾじゥゾオコ<FA>むズ<A7>みかゾりシ<E7>ゃ<F1><F5>	                                                                                                                                                                                                                                        eb FFpfbbFFpゾGゥキ<81>ゾピpG <8A>ゾngキ<82>ゾピpG <80>ゾngキシゾピpatrG <98>ゾザgnァGゴジゾhgq ケGuズnlゾ<F1>fGエぱ!オキhガボマズォ<E6><F0>q<N>シゾ<86>fGHズnpゾ<F1>fゾグケゾwコゾ<97>シキび<EF>ゾ<9E>d<E7>ゾカゥゾ<81>ゥa Xゾ ェaaVゾ ェablゾホゥFiゾ<9C>nadlゾプゥゾじゥゾオコ<FA>Gズ<A7>FfゾNシ<E7>V<F1><F5>
+# cena 26: banco 1E, lista 6BBB, 25 caixas, 791 bytes JP, faixa 40A0-6C27, 12 caixas identicas ao JP
+26	00	1E	6AA0	13	お…|おとうさんたちは…	e.|my dad n 
+26	01	1E	6AAD	4	………	...
+26	02	1E	6AB1	21	ま…まさかいっしょに|まきこまれたんじゃ	c.could he|caught 2 
+26	03	1E	6AC6	12	あいつらがしぬもんか…	they wont  
+26	04	1E	6AD2	14	ク…クリリンさん…|あそこ	ク.クリリンkT.|aoj
+26	05	1E	6AE0	4	え！？	d!?
+26	06	1E	6AE4	6	あーっ！！	aーU!!
+26	07	1E	6AEA	19	おとうさーん！！|ピッコロさーん！！	daaaad!!|ピッコロkーT!!
+26	08	1E	6AFD	7	さあかえるか	lets g
+26	09	1E	6B04	26	あ！！|ブルマさんのことすっかり|わすれてた…！！	a!!|i forgot bul|i forgot
+26	0A	1E	6B1E	5	ははっ…	zzU.
+26	0B	1E	6B23	32	じゃブルマをひろって|オラのうちゅうせんで|ちきゅうにかえるか	grab her  |my ship n |2 earth  
+26	0C	1E	6B43	14	………|そ…|そんな………	...|o.|oTu...
+26	0D	1E	6B51	13	フリーザだーっ！！！！！	フリーザだーU!!!!!
+26	0E	1E	6B5E	11	ピッコロさーん！！！	ピッコロkーT!!!
+26	0F	1E	6B69	48	さ…|さすがのオレもいまのは|しぬかとおもった…<FB>このフリーザさまが|しにかけたんだぞ…！！！	k.|i felt that|almost dd<FB>i freeza |i nearly did
+26	10	1E	6B99	20	１ぴきのこらず|いかしてはかえさんぞ…	none lf|wont let u 
+26	11	1E	6BAD	9	クリリーン！！！	クリリーン!!!
+26	12	1E	6BB6	10	ごくうーっ！！！！	ごhcーU!!!!
+26	13	1E	6BC0	20	くっくっく…|おつぎはガキのほうかな？	hUhUh.|brat is next
+26	14	1E	6BD4	22	ゆ…ゆるさんぞ…|よ…よくも……よくも……	no mercy|L.LhI..LhI..
+26	15	1E	6BEA	34	ごはん…ピッコロをつれて|ちきゅうへかえるんだ|まだいきている…！	gohan take  |picc home |still liv
+26	16	1E	6C0C	6	は…はい…	z.zb.
+26	17	1E	6C12	21	なっなんだ！？|あいつのへんかは……！！	what!? |he changed!!
+26	18	1E	40A0	400	リね６<84><82>の５７ロもィロロリト６　ヘ<88>うロン<87>ヌ<88>う　オを<87><8C>シヘ<8B>・キひ<89>ゃ<8F>・<87>うほ<82><91>・８<87>ルも<85><82>ァお６リリキ<84>ゅセ・６ユケおニ<88>３むケへねク　６ねも！モ<91>゛ほ　うゥ４ゥゥ<87>わフ<87>！<82><85>！<87><F9>ロ<87>か<82>リィ<87>テ<82>ェ<87>う８。る<85><83>えゆ<85>ヨろ<8B>・ァま<87>う<85><85>ミゥ　ほ！７ぬ<84>！あョゥ<82><83>スラケる<88><E8>もォ５ウもヨにトもエ<87>し<87>゛<87>や<87>い<89>え<88>うヒ。<85>８ェ<88>゛<85>せはみ<87>す<84>リ<87>レォリうるアミ<87>ヲおァ<88><A2>ィ<87>うロェ７<82>なな<81><87>はリヲ<87>いリもロレリチ４ァゆ<82>ロリナ<87>ェ５ェうリル<87>コ<87>ア６チけゆ６もリァ<82><87>ナ<87>しソ９８<83>２<87><9A>ふ<88>ぬ７<89>ワウ<88>３５<88>うらあ<87>うォゥ<87><8B>ヌ<87>わ？ヌホヨ２<84>ィおト７リ６ィ゛<82>ツォヲヨ６<83><87>デトィよかトュル<82>ケけ４ア<81>９て<85>そエ<81>ミァゥけ<87>ヤォ<87>ヒ<85>ヌこいあ<85>１ァ<80>。リュチ？。りホムゆカゆ<87>ゅニ<87>フ゛<87>みけっコモょトゆ<87>コ　ニらへ<87>れ<85><81>゛ゆ<85>ア<87>メもん６ュりエロテ<87>３エエ<87>	リx6<84><82>y57ロIィロロリト6 ヘ<88>cロン<87>ヌ<88>c オS<87><8C>シヘ<8B>…キA<89>V<8F>…<87>cD<82><91>…8<87>ルI<85><82>ァe6リリキ<84>Wセ…6ユケeニ<88>3GケCxク 6xI!モ<91>゛D cゥ4ゥゥ<87>Rフ<87>!<82><85>!<87><F9>ロ<87>f<82>リィ<87>テ<82>ェ<87>c8。O<85><83>dK<85>ヨQ<8B>…YE<87>c<85><85>ミゥ D!7w<84>!aョゥ<82><83>スラケO<88><E8>Iォ5ウIヨvトIエ<87>l<87>゛<87>J<87>b<89>d<88>cヒ。<85>8ェ<88>゛<85>nzF<87>m<84>リ<87>レォリcOアミ<87>ヲeァ<88><A2>ィ<87>cロェ7<82>uu<81><87>zリヲ<87>bリIロレリチ4ァK<82>ロリナ<87>ェ5ェcリル<87>コ<87>ア6チiK6Iリァ<82><87>ナ<87>lソ98<83>2<87><9A>B<88>w7<89>ワウ<88>35<88>cMa<87>cォゥ<87><8B>ヌ<87>R?ヌホヨ2<84>ィeト7リ6ィ゛<82>ツォヲヨ6<83><87>デトィLfトュル<82>ケi4ア<81>9s<85>oエ<81>ミYゥi<87>ヤォ<87>ヒ<85>ヌjba<85>1Y<80>。リュチ?。NホムKカK<87>Wニ<87>フ゛<87>FiUコモXトK<87>コ ニMC<87>P<85><81>゛K<85>ア<87>メIT6ュNエロテ<87>3エエ<87>
+# cena 27: tabela 0000 fora da ROM (RAM)
+# total 40487 bytes JP

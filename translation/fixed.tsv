@@ -1,0 +1,131 @@
+# fixed fields: offset(hex)	length	text   (see tools/fixed.pl)
+# --- resource 21: Ginyu Force battle script (18 column boxes, exact size) ---
+01AF6D	19	No damage|at all...
+01AF81	15	Warm-up's over!
+01AF91	15	Let's start!
+01AFA1	37	Good! Not bad!|Better than I|thought!
+01AFC7	16	Hey, you okay?
+01AFD8	18	Not done yet?
+01AFEB	35	Monster...<FB>Like a baby|to him...
+01B00F	42	Any real moves?<FB>If not, I'll|kill you now.
+01B03A	25	Frieza's men,|right?
+01B054	20	Heh. Make this|fun.
+01B069	26	Hey! This|worm's power?
+01B084	14	About 5000!
+01B093	17	Just a bluffer.
+01B0A5	27	You can't win.|I can tell.
+01B0C1	3	Eh?
+01B0C5	8	Bwahaha!
+01B0CE	24	This worm's|talking big!
+01B0E7	25	I'll shut you|up forever!
+01B101	88	He's past the|Saiyan level...<FB>That can't be...|Impossible...<FB>Him? A Super|Saiyan? No!!
+01B15A	27	No more of|this idiot.
+01B176	38	Go home now and|you won't get|hurt.
+01B19D	4	Wha!
+01B1A2	7	Still?
+01B1AA	13	Now! Ready!?
+01B1B8	19	Recoome Mach|Attack
+01B1CC	23	Goku's so|confident...
+01B1E4	5	Burt!
+01B1EA	11	Yeah, go!!
+01B1F6	10	Not going?
+01B201	16	Who are you...?
+01B212	19	Saiyan from|Earth.
+01B226	33	A Saiyan can't|be that fast!!
+01B248	24	He must've|trained hard.
+01B261	5	Jerk!
+01B267	48	But my power is|far higher!<FB>Run all you|like!
+01B298	7	Ugh...!
+01B2A0	37	That does it!|No punk mocks|me...!!
+01B2C6	25	Still don't get|it? Stop!
+01B2E0	17	He's nothing!
+01B2F2	35	The Ginyu Force|will show you!
+01B316	19	...A nightmare...
+01B32A	6	Jeice!
+01B331	7	Quiet!!
+01B339	3	.........
+# --- bank 00: place names / map destinations ---
+002124	4	Pt60
+002129	4	Pt11
+00212E	8	Hideout
+00213D	13	Other ki felt
+00214B	12	Vegeta raid
+002158	5	Tsuno
+002161	10	Elder home
+00216C	12	Dragon Balls
+00217F	13	Frieza went
+00218D	12	Frieza raid
+00219A	5	Moori
+0021A0	10	Ki nearby
+0021AB	4	Pt20
+0021B0	4	Pt23
+0021B5	4	Pt22
+0021BA	4	Pt32
+0021BF	4	Pt65
+0021C4	4	Pt14
+0021D6	4	Tag1
+0021DA	4	Tag2
+0021DE	4	Tag3
+0021E2	4	Tag4
+0021E6	4	Tag5
+0021EA	4	Tag6
+0021EE	4	Tag7
+0021F2	4	Tag8
+# --- bank 00: password ---
+0038F4	18	Enter password
+003909	11	Incorrect
+003917	10	Accepted
+# --- bank 04: status screen / main menu ---
+0121C8	2	In
+0121CD	2	dy
+012200	4	Save
+012223	4	Help
+01222A	9	Character
+012235	5	Food
+01223E	4	Conf
+012246	6	Train
+01224F	6	Exhib.
+012257	4	Kril
+01225D	5	Gohan
+012263	6	Vegeta
+012269	4	Goku
+01226F	5	Picol
+# --- bank 04: battle options ---
+012547	6	Speed
+012551	13	Hi   Mid  Low
+012562	4	Batl
+01256A	11	Manual  Aut
+012579	12	Active Wait
+# --- bank 04: file menu ---
+01230D	5	File1
+012315	5	File2
+01231D	5	File3
+# --- bank 04: name list of the character select box (4 tiles + a row of dakuten marks above it, zeroed) ---
+012772	4	    
+012776	4	Kril
+01277A	4	    
+01277E	4	Gohn
+012782	4	    
+012786	4	Vege
+01278A	4	    
+01278E	4	Goku
+012792	4	    
+012796	4	Picc
+# --- bank 04: status header "N days": digit moved from $982F to $982C (byte at 011F6F) ---
+011F6F	1	<2C>
+0121C8	7	   days
+# --- destination groups relocated to the free space of bank 00 (after the font routine at $0061-$00A0):
+# each group = 2 FD xx yy codes + 3 names terminated by <FE> (before arrival / after the attack / village name)
+0000A1	46	<FD><BB><1E><FD><BA><0E>Other ki felt<FE>Vegeta raid<FE>Tsuno village<FE>
+0000CF	44	<FD><B9><1E><FD><B8><0E>Frieza went<FE>Frieza raid<FE>Moori village<FE>
+# destination table pointers (2137 -> 00A1, 2179 -> 00CF)
+0020F0	2	<A1><00>
+0020F4	2	<CF><00>
+0020F8	2	<A1><00>
+0020FA	2	<CF><00>
+0020FC	2	<A1><00>
+0020FE	2	<CF><00>
+002106	2	<CF><00>
+002108	2	<A1><00>
+00211C	2	<A1><00>
+00211E	2	<CF><00>
