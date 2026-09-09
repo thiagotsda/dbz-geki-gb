@@ -4,7 +4,7 @@ Condensed from the work log of the JP to EN translation of Dragon Ball Z: Goku G
 Newest build first. The tool chain is `sh tools/build_all.sh <name>` (full chain from `rom/DB.gb` plus
 `tools/data/base.ips`) and `sh tools/build_text.sh <name>` (fast path when only `translation/scene*.tsv` changed).
 
-## v13 (2026-09-08, night)
+## v13 (2026-09-08, night), released as v0.2
 
 - Fixed garbage text in the Dodoria battle and the blank screen plus freeze at the end of the Zarbon battle.
   Global text ids (>= C0) belong to scenes 0 and 1 but are read from the current scene's bank; `reloc.pl` now
@@ -135,3 +135,8 @@ Newest build first. The tool chain is `sh tools/build_all.sh <name>` (full chain
 - Translate per box, not per line, and always at exact byte length; a checker aborts the batch on overflow.
 - When static checks pass but the game still fails, ask for a run-time observation (BGB, PC and HL at the
   freeze) instead of iterating blindly.
+
+## Release numbering
+
+Internal build numbers (v2 ... v13) are the ones used in this log and in the build scripts. Public releases
+on GitHub use their own numbering: v0.2 = build v13.

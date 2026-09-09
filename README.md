@@ -7,7 +7,7 @@ Fan translation (Japanese to English) of *Dragon Ball Z: Goku Gekitouden* (Banda
 ## Playing it
 
 1. Get a clean dump of the Japanese ROM (512 KB, SHA-1 `1f7a08d2e51e90d770d9dbf4092166b2bfa5697e`). It is not included here.
-2. Apply [`patch/DBZ-english-v13.ips`](patch/DBZ-english-v13.ips) with Lunar IPS, Floating IPS or any IPS tool.
+2. Apply [`patch/DBZ-english-v0.2.ips`](patch/DBZ-english-v0.2.ips) with Lunar IPS, Floating IPS or any IPS tool.
 3. The result is a 1 MB ROM (MBC5). That is expected: every story scene got its own ROM bank, so the text no longer has to be abbreviated. Old `.sav` files keep working.
 
 ## What is translated
