@@ -3,7 +3,7 @@
 # $106D exactly like the game (byte by byte simulation), then draws the 2bpp tiles to a BMP.
 use strict; use warnings;
 my ($bank,$idx,$bmp)=@ARGV; $bank=hex($bank);
-open(my $f,'<:raw','rom/DB.gb') or die; my $d=do{local $/;<$f>}; close $f; my @B=unpack('C*',$d);
+open(my $f,'<:raw',($ENV{ORIGINAL_ROM} // die "set ORIGINAL_ROM to the path of the original game file\n")) or die; my $d=do{local $/;<$f>}; close $f; my @B=unpack('C*',$d);
 my $tab=$bank*0x4000; my $ptr=$B[$tab+2*$idx]|($B[$tab+2*$idx+1]<<8); my $p=$tab+$ptr-0x4000;
 my $outlen=$B[$p]|($B[$p+1]<<8); $p+=2; my @D; for my $i(0..31){ my $c=$B[$p+$i]; for my $b(0..7){ push @D,$i*8+$b if ($c>>$b)&1 } } $p+=32; my $ds=@D; my @o;
 while(@o<$outlen){ my $b=$B[$p++]; if($b<$ds){ push @o,$D[$b] } else { my $l=$b-$ds+1; my $dd=$B[$p++]+1; my $s=@o-$dd; push @o,$o[$s+$_] for 0..$l-1 } }

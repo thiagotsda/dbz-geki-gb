@@ -1,6 +1,6 @@
 # usage: perl tools/show_tiles.pl [resource] [rom]  -> draws the 2bpp tiles of a resource in ASCII
 use strict; use warnings;
-my $res=shift // 14; my $rom=shift // 'rom/DB.gb';
+my $res=shift // 14; my $rom=shift // ($ENV{ORIGINAL_ROM} // die "set ORIGINAL_ROM to the path of the original game file\n");
 open(my $f,'<:raw',$rom) or die; local $/; my $d=<$f>; close $f; my @B=unpack('C*',$d);
 my $ptr=$B[0x18000+2*$res]|($B[0x18001+2*$res]<<8); my $addr=0x18000+$ptr-0x4000;
 my $p=$addr; my $outlen=$B[$p]|($B[$p+1]<<8); $p+=2;

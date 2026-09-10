@@ -11,7 +11,7 @@
 use strict; use warnings;
 my ($in,$out)=@ARGV; die "usage: build_intro_glossary.pl input output\n" unless $out;
 sub slurp { my $fn=shift; open(my $f,'<:raw',$fn) or die "$fn: $!"; my $d=do{local $/;<$f>}; close $f; [unpack('C*',$d)] }
-my $J=slurp('rom/DB.gb'); my $R=slurp($in);
+my $J=slurp(($ENV{ORIGINAL_ROM} // die "set ORIGINAL_ROM to the path of the original game file\n")); my $R=slurp($in);
 sub decomp { my ($M,$src)=@_; my $p=$src; my $outlen=$M->[$p]|($M->[$p+1]<<8); $p+=2;
   my @dict; for my $i (0..31){ my $c=$M->[$p+$i]; for my $b (0..7){ push @dict,$i*8+$b if ($c>>$b)&1 } }
   $p+=32; my $ds=scalar @dict; my @out;

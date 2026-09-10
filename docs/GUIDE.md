@@ -6,11 +6,12 @@ condensed in `docs/CHANGELOG.md`; this guide is the authoritative reference.
 
 Golden rules:
 
-1. **Never modify `rom/DB.gb`.** Everything is generated from it. The chain base, `builds/base.gb`
-   (raw 1:1 translated text, 1 MB, MBC5), is created by `build_all.sh` from `rom/DB.gb` +
-   `tools/data/base.ips`.
-2. **Run everything from the repository root** (the scripts open `rom/DB.gb` by
-   relative path).
+1. **Never modify the original game file; it is not part of the repository.** Everything is
+   generated from it. The chain base, `builds/base.gb` (raw 1:1 translated text, 1 MB, MBC5), is
+   created by `build_all.sh` from the original ROM + `tools/data/base.ips`.
+2. **Run everything from the repository root.** The scripts do not read a fixed path: the original
+   game file is given by the environment variable `ORIGINAL_ROM` or as the second argument of the
+   build scripts (`sh tools/build_all.sh <name> <original game file>`).
 3. **Perl only.** There is no Python on the machine. Verification images: generate a BMP in Perl and
    convert it to PNG with PowerShell (`System.Drawing`), as the scripts do.
 4. **Every new build gets a copy of `builds/teste.sav`** with the same name (`build_all.sh` does this).
@@ -22,10 +23,8 @@ Golden rules:
 ## 1. Folders and build
 
 ```
-rom/            DB.gb (original 512 KB ROM, MBC1) · DB.sav · DB-patched.gb (old patch, reference only)
 builds/         deliverables: DBZ-english-vN.gb + .sav; teste.sav = canonical test save;
                 base.gb = chain base (generated); pre-reloc.gb = everything except the scenes
-local/old-builds/  old builds (not in the repository)
 translation/    ALL EDITABLE TEXT (see section 3)
 tools/          Perl scripts (see section 4); tools/data/ = base.ips, training-text.txt
 dumps/          Japanese dumps and listings (scenes-jp.tsv = every JP text box with its ids)
@@ -33,7 +32,7 @@ patch/          released IPS patch + README.md
 docs/           this guide, CHANGELOG.md (preview images are generated locally and never committed: they contain original game graphics)
 ```
 
-Full chain (`sh tools/build_all.sh DBZ-english-vN`), in order:
+Full chain (`sh tools/build_all.sh DBZ-english-vN <original game file>`), in order:
 
 | step | script | input | what it does |
 |---|---|---|---|
@@ -51,8 +50,8 @@ Full chain (`sh tools/build_all.sh DBZ-english-vN`), in order:
 
 `build_all.sh` takes about 10 minutes (the search in `build_training_labels.pl`) and leaves
 `builds/pre-reloc.gb` (everything except the scenes). **If only the `translation/scene*.tsv` files
-changed**, use the fast path (seconds): `sh tools/build_text.sh DBZ-english-vN` (checktsv + reloc +
-.sav + .ips starting from `pre-reloc.gb`). `perl tools/splitreport.pl translation/scene*.tsv` lists
+changed**, use the fast path (seconds): `sh tools/build_text.sh DBZ-english-vN <original game file>`
+(checktsv + reloc + .sav + .ips starting from `pre-reloc.gb`). `perl tools/splitreport.pl translation/scene*.tsv` lists
 the pages that `reloc.pl` split with a cut in the middle of a sentence (M) or as a 1-line page (O):
 candidates for manual re-pagination.
 
@@ -119,8 +118,8 @@ recomputes the global checksum. Order matters: `font.pl` requires the routine fr
   through the border and is not cleared (v12 bug in 12 boxes; fixed in v13). Text <= 14 in a wide box
   is harmless.
 - `<N>` counts as 6 columns and `<#>` as 3 in the checker.
-- `perl tools/scenes.pl <rom>` lists every box (JP from the original, EN from the given ROM); use it
-  to verify a build. `dumps/scenes-jp.tsv` is the reference JP dump with the ids.
+- `perl tools/scenes.pl <rom>` lists every box (JP from the original ROM, read from `ORIGINAL_ROM`
+  or given as an extra argument, EN from the given ROM); use it to verify a build. `dumps/scenes-jp.tsv` is the reference JP dump with the ids.
 
 ### 2.3 Compressed resources (bank 06, table at `$4000` = file offset `0x18000`)
 
@@ -202,8 +201,8 @@ To see the Japanese of a box: `grep -P '^10\t3A\t' dumps/scenes-jp.tsv` (scene 1
 
 | script | use |
 |---|---|
-| `build_all.sh NAME` | full chain, produces `builds/NAME.gb` + `.sav` + `.ips` |
-| `build_text.sh NAME` | fast path when only the scene TSVs changed (from `builds/pre-reloc.gb`) |
+| `build_all.sh NAME ORIGINAL` | full chain, produces `builds/NAME.gb` + `.sav` + `.ips` |
+| `build_text.sh NAME ORIGINAL` | fast path when only the scene TSVs changed (from `builds/pre-reloc.gb`) |
 | `checktsv.pl [width] tsv…` | lines above the width (honors `!18`) |
 | `splitreport.pl tsv…` | pages that `reloc.pl` split mid-sentence (M) or into 1-line pages (O) |
 | `scenes.pl ROM [summary]` | lists/compares every scene box (JP vs EN) |
@@ -214,6 +213,12 @@ To see the Japanese of a box: `grep -P '^10\t3A\t' dumps/scenes-jp.tsv` (scene 1
 | `unpack_res.pl bank idx [bmp]` | mode 0x80 resource (with transposition) as BMP |
 | `pairs.pl ROM` | byte-by-byte diff original vs translated (slow; inventory only) |
 | `mkips.pl`, `applyips.pl` | create / apply IPS patches (section 7) |
+
+`ORIGINAL` is the path of the original game file; it can also be given through the environment
+variable `ORIGINAL_ROM`. The standalone tools that need the original (`scenes.pl`, `pairs.pl`,
+`show_tiles.pl`, `unpack_res.pl`, `title_render.pl`, `patch_gokou.pl`, `patch_title.pl`,
+`build_training_text.pl`, `build_intro_glossary.pl`, `build_training_labels.pl`, `mkips.pl`,
+`applyips.pl`) read `ORIGINAL_ROM` or take the path as an argument (see the header of each one).
 
 The one-off exploration scripts from the first sessions were not kept in the repository.
 
@@ -268,11 +273,11 @@ Useful routines already mapped (HOME): `$06E2` memcpy · `$070E` 1:1 VRAM copy (
 
 ## 7. Distribution (IPS patch)
 
-`perl tools/mkips.pl rom/DB.gb builds/X.gb builds/X.ips` generates the patch (RLE records for the
-repeated stretches; about 95 KB). `build_all.sh` already generates the `.ips` together with the
-build. `perl tools/applyips.pl` applies an IPS (to verify: the result must be identical to the
-build, `cmp`). The IPS writes beyond the 512 KB and produces the 1 MB ROM. Required original ROM:
-SHA-1 `1f7a08d2e51e90d770d9dbf4092166b2bfa5697e`. Text for people who download it:
-`patch/README.md`. Independent verification with Lunar IPS (an external tool, command line):
-`powershell -Command "& 'path\to\Lunar IPS.exe' -ApplyIPS 'builds\X.ips' 'copy-of-DB.gb'"`
+`perl tools/mkips.pl <original game file> builds/X.gb builds/X.ips` generates the patch (RLE
+records for the repeated stretches; about 95 KB). `build_all.sh` already generates the `.ips`
+together with the build. `perl tools/applyips.pl` applies an IPS to the original game file (to
+verify: the result must be identical to the build, `cmp`). The IPS writes beyond the end of the
+original and produces the 1 MB ROM. Text for people who download it: `patch/README.md`.
+Independent verification with Lunar IPS (an external tool, command line):
+`powershell -Command "& 'path\to\Lunar IPS.exe' -ApplyIPS 'builds\X.ips' '<copy of the original game file>'"`
 and then `cmp` against the build. Done in v12: identical.

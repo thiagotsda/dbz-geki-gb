@@ -1,11 +1,11 @@
 # usage: perl tools/pairs.pl <translated_rom> > dumps/review-pairs.tsv
-# Compares rom/DB.gb with the translated ROM and lists each translated text line:
+# Compares the original game file (ORIGINAL_ROM) with the translated ROM and lists each translated text line:
 #   offset  bank  budget  JAPANESE  ENGLISH  terminator
 # Lines are delimited by control bytes >= 0xFB (FD line break, FE end of box, FB).
 use strict; use warnings; use utf8; binmode STDOUT,':utf8';
 my $rom=shift or die "usage: pairs.pl rom\n";
 sub slurp { my $fn=shift; open(my $f,'<:raw',$fn) or die "$fn: $!"; local $/; my $d=<$f>; close $f; [unpack('C*',$d)] }
-my $J=slurp('rom/DB.gb'); my $E=slurp($rom);
+my $J=slurp(($ENV{ORIGINAL_ROM} // die "set ORIGINAL_ROM to the path of the original game file\n")); my $E=slurp($rom);
 my @kana=split //,"　あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをんっゃゅょァィゥェォアイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲンッャュョァィゥェォー０１２３４５６７８９…・。？！゛";
 my @hd=split //,"がぎぐげござじずぜぞだぢづでどばびぶべぼ"; my @kd=split //,"ガギグゲゴザジズゼゾダヂヅデドバビブベボ";
 my %T; $T{$_}=$kana[$_] for 0..0x7F; $T{0xB0+$_}=$hd[$_] for 0..19; $T{0xC4+$_}=$kd[$_] for 0..19;

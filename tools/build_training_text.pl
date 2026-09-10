@@ -1,12 +1,12 @@
 # usage: perl tools/build_training_text.pl <base_rom> <output_rom> <resource list: 20 18 15>
 # Reinserts the translated compressed resources 15/18/20, with the DICTIONARY
 # padded to the original size (see docs/GUIDE.md, section 2.3, on why the dictionary
-# size matters). Reads the Japanese from rom/DB.gb and the r15en/r18en2/r20en tables.
+# size matters). Reads the Japanese from the original game file (ORIGINAL_ROM) and the text table.
 use strict; use warnings;
 my ($base,$outf,@res)=@ARGV; die "usage: build_training_text.pl base output 20 [18] [15]\n" unless $outf && @res;
 my $dir=$0; $dir=~s{[^/\\]*$}{}; $dir='./' if $dir eq '';
 sub slurp { my $fn=shift; open(my $f,'<:raw',$fn) or die "$fn: $!"; local $/; my $d=<$f>; close $f; [unpack('C*',$d)] }
-my $J=slurp('rom/DB.gb'); my $R=slurp($base);
+my $J=slurp(($ENV{ORIGINAL_ROM} // die "set ORIGINAL_ROM to the path of the original game file\n")); my $R=slurp($base);
 sub decomp { my ($M,$src)=@_; my $p=$src; my $outlen=$M->[$p]|($M->[$p+1]<<8); $p+=2;
   my @dict; for my $i (0..31){ my $c=$M->[$p+$i]; for my $b (0..7){ push @dict,$i*8+$b if ($c>>$b)&1 } }
   $p+=32; my $ds=scalar @dict; my @out;

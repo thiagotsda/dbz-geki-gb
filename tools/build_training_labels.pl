@@ -15,7 +15,7 @@
 use strict; use warnings;
 my ($base,$outf,$prev)=@ARGV; die "usage: build_training_labels.pl base output [preview.bmp]\n" unless $outf;
 sub slurp { my $fn=shift; open(my $f,'<:raw',$fn) or die "$fn: $!"; local $/; my $d=<$f>; close $f; [unpack('C*',$d)] }
-my $J=slurp('rom/DB.gb'); my $R=slurp($base);
+my $J=slurp(($ENV{ORIGINAL_ROM} // die "set ORIGINAL_ROM to the path of the original game file\n")); my $R=slurp($base);
 my ($ADDR,$SLOT,$MAXDICT)=(0x19A2C,2171,214);
 sub decomp { my ($M,$src)=@_; my $p=$src; my $outlen=$M->[$p]|($M->[$p+1]<<8); $p+=2;
   my @dict; for my $i (0..31){ my $c=$M->[$p+$i]; for my $b (0..7){ push @dict,$i*8+$b if ($c>>$b)&1 } }

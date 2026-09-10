@@ -1,8 +1,10 @@
 # Changelog
 
 Condensed from the work log of the JP to EN translation of Dragon Ball Z: Goku Gekitouden (Game Boy).
-Newest build first. The tool chain is `sh tools/build_all.sh <name>` (full chain from `rom/DB.gb` plus
-`tools/data/base.ips`) and `sh tools/build_text.sh <name>` (fast path when only `translation/scene*.tsv` changed).
+Newest build first. The tool chain is `sh tools/build_all.sh <name> <original game file>` (full chain from the
+original ROM plus `tools/data/base.ips`) and `sh tools/build_text.sh <name> <original game file>` (fast path when
+only `translation/scene*.tsv` changed). The original game file is not part of the repository; the scripts take
+its path from the second argument or from the environment variable `ORIGINAL_ROM`.
 
 ## v13 (2026-09-08, night), released as v0.2
 
@@ -106,8 +108,8 @@ Newest build first. The tool chain is `sh tools/build_all.sh <name>` (full chain
 ## Starting point (before v2)
 
 - 1:1 text pass kept as `tools/data/base.ips`: character table, control codes (FD line break, FE end of box,
-  FB page, E2 number, E3 name), lowercase font hooked at the five `$072A` call sites, ROM expanded from MBC1
-  512 KB to MBC5 1 MB, about 1,930 dialogue lines translated at exact byte length, resource 21 translated in place.
+  FB page, E2 number, E3 name), lowercase font hooked at the five `$072A` call sites, ROM expanded to 1 MB
+  (MBC5), about 1,930 dialogue lines translated at exact byte length, resource 21 translated in place.
 - LZ format of `$0FDF` fully reverse engineered (2 byte output size, 32 byte dictionary bitmap, literal if
   byte < dictionary size, else match of length byte-ds+1 with distance next byte+1), with an optimal parse
   compressor validated by round trip against the original data.

@@ -7,7 +7,7 @@
 use strict; use warnings;
 my ($in,$out,$bmp)=@ARGV; die "usage: patch_title.pl rom_in rom_out [preview.bmp]\n" unless $out;
 sub slurp { my $fn=shift; open(my $f,'<:raw',$fn) or die "$fn: $!"; my $d=do{local $/;<$f>}; close $f; [unpack('C*',$d)] }
-my $J=slurp('rom/DB.gb'); my $R=slurp($in);
+my $J=slurp(($ENV{ORIGINAL_ROM} // die "set ORIGINAL_ROM to the path of the original game file\n")); my $R=slurp($in);
 my $TAB=0x18000; my $RES=12; my $PTR=$J->[$TAB+2*$RES]|($J->[$TAB+2*$RES+1]<<8); my $ADDR=$TAB+$PTR-0x4000;
 my $NEXT=$J->[$TAB+2*($RES+1)]|($J->[$TAB+2*($RES+1)+1]<<8); my $SLOT=$NEXT-$PTR;
 sub decomp { my ($M,$src)=@_; my $p=$src; my $outlen=$M->[$p]|($M->[$p+1]<<8); $p+=2;

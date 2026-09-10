@@ -1,11 +1,11 @@
 # usage: perl tools/scenes.pl <translated_rom> [summary]
 # Walks the master scene table (bank 03, $4000), the bank-per-scene table ($18F2)
-# and lists each box: scene, id, bank, address, JP (rom/DB.gb) and EN (translated rom).
+# and lists each box: scene, id, bank, address, JP (original game file, ORIGINAL_ROM) and EN (translated rom).
 # With a second argument (e.g. "summary"), only prints totals per scene.
 use strict; use warnings; use utf8; binmode STDOUT,':utf8';
 my ($rom,$mode)=@ARGV; $rom or die "usage: scenes.pl rom [summary]\n";
 sub slurp { my $fn=shift; open(my $f,'<:raw',$fn) or die "$fn: $!"; local $/; my $d=<$f>; close $f; [unpack('C*',$d)] }
-my $J=slurp('rom/DB.gb'); my $E=slurp($rom);
+my $J=slurp(($ENV{ORIGINAL_ROM} // die "set ORIGINAL_ROM to the path of the original game file\n")); my $E=slurp($rom);
 my @kana=split //,"　あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをんっゃゅょァィゥェォアイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲンッャュョァィゥェォー０１２３４５６７８９…・。？！゛";
 my @hd=split //,"がぎぐげござじずぜぞだぢづでどばびぶべぼ"; my @kd=split //,"ガギグゲゴザジズゼゾダヂヅデドバビブベボ";
 my %T; $T{$_}=$kana[$_] for 0..0x7F; $T{0xB0+$_}=$hd[$_] for 0..19; $T{0xC4+$_}=$kd[$_] for 0..19;

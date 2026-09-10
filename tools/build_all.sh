@@ -1,10 +1,11 @@
 #!/bin/sh
-# usage (from the repository root): sh tools/build_all.sh <name>   -> builds/<name>.gb + .sav
+# usage (from the repository root): sh tools/build_all.sh <name> <original game file>   -> builds/<name>.gb + .sav + .ips
+# The original game file is never modified and is not part of the repository (ORIGINAL_ROM can be set instead).
 # Full chain starting from builds/base.gb (raw 1:1 text already translated).
 set -e
-[ -f rom/DB.gb ] || { echo "put the original Japanese ROM at rom/DB.gb (512 KB, SHA-1 1f7a08d2e51e90d770d9dbf4092166b2bfa5697e)"; exit 1; }
-[ -f builds/base.gb ] || { mkdir -p builds; echo "creating builds/base.gb (base of the chain) = rom/DB.gb + tools/data/base.ips"; perl tools/applyips.pl rom/DB.gb tools/data/base.ips builds/base.gb; }
-[ -f builds/teste.sav ] || { mkdir -p builds; cp rom/DB.sav builds/teste.sav 2>/dev/null || true; }
+ORIGINAL_ROM=${2:-$ORIGINAL_ROM}; export ORIGINAL_ROM
+[ -n "$ORIGINAL_ROM" ] && [ -f "$ORIGINAL_ROM" ] || { echo "usage: sh tools/build_all.sh <name> <original game file>   (or set ORIGINAL_ROM)"; exit 1; }
+[ -f builds/base.gb ] || { mkdir -p builds; echo "creating builds/base.gb (base of the chain) = original game file + tools/data/base.ips"; perl tools/applyips.pl "$ORIGINAL_ROM" tools/data/base.ips builds/base.gb; }
 N=${1:?build name}; T=builds/.tmp
 perl tools/build_training_text.pl builds/base.gb $T.1.gb 15          # training screen tilemap
 perl tools/build_intro_glossary.pl $T.1.gb $T.2.gb                            # opening (18) and glossary/end of battle (20)
@@ -20,4 +21,4 @@ perl tools/reloc.pl $T.10.gb builds/$N.gb translation/scene*.tsv           # all
 cp $T.10.gb builds/pre-reloc.gb   # base with everything except the scenes: to only re-text, run reloc.pl from it (build_text.sh)
 rm -f $T.*.gb
 [ -f builds/teste.sav ] && cp builds/teste.sav builds/$N.sav && echo "test save copied (builds/teste.sav)"
-perl tools/mkips.pl rom/DB.gb builds/$N.gb builds/$N.ips        # IPS patch for distribution
+perl tools/mkips.pl "$ORIGINAL_ROM" builds/$N.gb builds/$N.ips        # IPS patch for distribution

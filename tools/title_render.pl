@@ -2,7 +2,7 @@
 # Composes the title screen: 20x18 map of resource 13 (bank 06) with the tiles of resource 12 (ids 40..B3,
 # both mode 80 = LZ + transposition $106D). Tiles outside 40..B3 (ground/scenery) are drawn in purple.
 use strict; use warnings;
-my ($rom,$bmp)=@ARGV; $rom//='rom/DB.gb'; $bmp//='docs/images/title/title.bmp';
+my ($rom,$bmp)=@ARGV; $rom//=($ENV{ORIGINAL_ROM} // die "set ORIGINAL_ROM to the path of the original game file\n"); $bmp//='docs/images/title/title.bmp';
 open(my $f,'<:raw',$rom) or die; my $d=do{local $/;<$f>}; close $f; my @B=unpack('C*',$d);
 sub lz { my $idx=shift; my $tab=0x18000; my $ptr=$B[$tab+2*$idx]|($B[$tab+2*$idx+1]<<8); my $p=$tab+$ptr-0x4000; my $outlen=$B[$p]|($B[$p+1]<<8); $p+=2; my @D; for my $i(0..31){ my $c=$B[$p+$i]; for my $b(0..7){ push @D,$i*8+$b if ($c>>$b)&1 } } $p+=32; my $ds=@D; my @o; while(@o<$outlen){ my $b=$B[$p++]; if($b<$ds){ push @o,$D[$b] } else { my $l=$b-$ds+1; my $dd=$B[$p++]+1; my $s=@o-$dd; push @o,$o[$s+$_] for 0..$l-1 } } @o }
 sub transpose { my @o=@_; my @T; for(my $g=0;$g+3<@o;$g+=4){ my @b=@o[$g..$g+3]; for my $k (0..3){ my $s=6-2*$k; push @T, (($b[0]>>$s)&3)<<6 | (($b[1]>>$s)&3)<<4 | (($b[2]>>$s)&3)<<2 | (($b[3]>>$s)&3) } } @T }
