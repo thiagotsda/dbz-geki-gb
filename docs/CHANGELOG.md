@@ -6,7 +6,7 @@ original ROM plus `tools/data/base.ips`) and `sh tools/build_text.sh <name> <ori
 only `translation/scene*.tsv` changed). The original game file is not part of the repository; the scripts take
 its path from the second argument or from the environment variable `ORIGINAL_ROM`.
 
-## v14 (2026-09-14)
+## v14 (2026-09-14), released as v0.3
 
 - Battles showed lines from unrelated boxes, cut mid-way (Guldo, Zarbon). Cause: scene lists contain
   `0000` placeholder entries followed by more boxes; the tools treated the first invalid pointer as the end,
@@ -163,4 +163,4 @@ its path from the second argument or from the environment variable `ORIGINAL_ROM
 ## Release numbering
 
 Internal build numbers (v2 ... v13) are the ones used in this log and in the build scripts. Public releases
-on GitHub use their own numbering: v0.2 = build v13.
+on GitHub use their own numbering: v0.2 = build v13, v0.3 = build v14.

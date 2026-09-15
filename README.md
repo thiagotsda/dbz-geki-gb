@@ -6,7 +6,7 @@ Fan translation (Japanese to English) of *Dragon Ball Z: Goku Gekitouden* (Banda
 ## Playing it
 
 1. You need your own copy of the original Japanese game. No game data is included or distributed here.
-2. Apply [`patch/DBZ-english-v0.2.ips`](patch/DBZ-english-v0.2.ips) to it with Lunar IPS, Floating IPS or any IPS tool.
+2. Apply [`patch/DBZ-english-v0.3.ips`](patch/DBZ-english-v0.3.ips) to it with Lunar IPS, Floating IPS or any IPS tool.
 3. The patched game is expanded to 1 MB (MBC5). That is expected: every story scene got its own bank, so the text no longer has to be abbreviated. Existing saves keep working.
 
 ## What is translated
