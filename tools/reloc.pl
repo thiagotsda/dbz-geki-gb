@@ -71,9 +71,10 @@ my %CNT; my %ST;
 for my $s (sort{$a<=>$b} keys %order){
   my $st=$start[$s]; die "scene $s: list outside the ROM\n" if $st<0x4000||$st>=0x8000; $ST{$s}=$st;
   my ($next)=grep{$_>$st}@sorted; my $cnt=int(($next-$st)/2);
-  my @ptr; for my $k (0..$cnt-1){ my $q=$R[$LB+$st-0x4000+2*$k]|($R[$LB+$st-0x4000+2*$k+1]<<8); last if $q<0x4000||$q>=0x8000; push @ptr,$q } $cnt=scalar(@ptr); $CNT{$s}=$cnt;
+  my @ptr; for my $k (0..$cnt-1){ my $q=$R[$LB+$st-0x4000+2*$k]|($R[$LB+$st-0x4000+2*$k+1]<<8); last if ($q<0x4000||$q>=0x8000) && $q!=0; push @ptr,$q } $cnt=scalar(@ptr); $CNT{$s}=$cnt;   # 0000 entries are placeholders (scenes 4 and 6 have real boxes after them)
   my $src=$R[0x18F2+$s]; my $srcoff=$src*0x4000;
   for my $id (0..$cnt-1){ my @bytes;
+    if($ptr[$id]==0){ die sprintf("scene %d id %02X: placeholder entry (0000) cannot have a translation\n",$s,$id) if exists $S{$s}{$id}; push @{$BOX{$s}},undef; next }
     if(exists $S{$s}{$id}){ my $txt=$S{$s}{$id}; my $width=14; my $maxl=3; if($txt=~s/^!18//){ $width=18; $maxl=3 }
       my $p=paginate($txt,$maxl,$width); $splits++ if $p ne $txt; my ($o,$lines)=enc($p);
       for my $k (0..$#$lines){ die sprintf("scene %d id %02X: line %d has %d columns (max %d): %s\n",$s,$id,$k+1,$lines->[$k],$width,$txt) if $lines->[$k]>$width } @bytes=@$o }
@@ -83,7 +84,7 @@ for my $s (sort{$a<=>$b} keys %order){
   for my $id (keys %{$S{$s}}){ die sprintf("scene %d: id %02X does not exist (list has %d)\n",$s,$id,$cnt) if $id>=$cnt } }
 # ---- shared block: scenes 0 and 1 starting at $4000 (same address in all banks) ----
 my @shared; my %ADDR;
-for my $s (@SHARED){ for my $id (0..$CNT{$s}-1){ $ADDR{$s}[$id]=0x4000+@shared; push @shared,@{$BOX{$s}[$id]} } }
+for my $s (@SHARED){ for my $id (0..$CNT{$s}-1){ my $b=$BOX{$s}[$id]; if(!$b){ $ADDR{$s}[$id]=0; next } $ADDR{$s}[$id]=0x4000+@shared; push @shared,@$b } }
 my $sharedEnd=0x4000+@shared;
 printf("shared block (scenes %s): %d bytes, %04X-%04X, replicated in all banks\n",join('+',@SHARED),scalar(@shared),0x4000,$sharedEnd-1);
 # ---- build each bank ----
@@ -92,7 +93,7 @@ for my $s (sort{$a<=>$b} keys %order){
   $R[$nboff+$_]=0 for 0..0x3FFF;
   $R[$nboff+$_]=$shared[$_] for 0..$#shared;
   my $w=$sharedEnd; my $own=0;
-  unless(grep{$_==$s}@SHARED){ for my $id (0..$CNT{$s}-1){ my $b=$BOX{$s}[$id]; die sprintf("scene %d: no room in bank %02X (id %02X)\n",$s,$nb,$id) if $w+@$b>0x8000;
+  unless(grep{$_==$s}@SHARED){ for my $id (0..$CNT{$s}-1){ my $b=$BOX{$s}[$id]; if(!$b){ $ADDR{$s}[$id]=0; next } die sprintf("scene %d: no room in bank %02X (id %02X)\n",$s,$nb,$id) if $w+@$b>0x8000;
       $R[$nboff+$w-0x4000+$_]=$b->[$_] for 0..$#$b; $ADDR{$s}[$id]=$w; $w+=@$b; $own+=@$b } }
   for my $id (0..$CNT{$s}-1){ my $a=$ADDR{$s}[$id]; $R[$LB+$ST{$s}-0x4000+2*$id]=$a&0xFF; $R[$LB+$ST{$s}-0x4000+2*$id+1]=$a>>8 }
   $R[0x18F2+$s]=$nb;

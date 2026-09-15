@@ -22,10 +22,11 @@ my $total=0;
 for my $s (0..27){ my $st=$start[$s]; if($st<0x4000||$st>=0x8000){ printf("# scene %2d: table %04X outside the ROM (RAM)\n",$s,$st); next }
   my ($next)=grep{$_>$st}@sorted; my $cnt = $next ? int(($next-$st)/2) : 0;
   # limit the count to valid, increasing text pointers
-  my @ptr; for my $k (0..$cnt-1){ my $q=$J->[$M+$st-0x4000+2*$k]|($J->[$M+$st-0x4000+2*$k+1]<<8); last if $q<0x4000||$q>=0x8000; push @ptr,$q }
+  my @ptr; for my $k (0..$cnt-1){ my $q=$J->[$M+$st-0x4000+2*$k]|($J->[$M+$st-0x4000+2*$k+1]<<8); last if ($q<0x4000||$q>=0x8000) && $q!=0; push @ptr,$q }
   my ($jb,$eb)=(0,0); my ($lo,$hi)=(0xFFFF,0); my $untr=0;
   my @rows;
-  for my $id (0..$#ptr){ my $q=$ptr[$id]; my $fo=fileoff($bank[$s],$q); my ($jt,$et)=('',''); my $l=0;
+  for my $id (0..$#ptr){ my $q=$ptr[$id]; if($q==0){ push @rows,sprintf("%2d	%02X	%02X	0000	0	(placeholder)	
+",$s,$id,$bank[$s]); next } my $fo=fileoff($bank[$s],$q); my ($jt,$et)=('',''); my $l=0;
     while($l<400){ my $b=$J->[$fo+$l]; last unless defined $b; $jt.=jp($b); $l++; last if $b==0xFE }
     my $eq=$E->[$LB+$estart[$s]-0x4000+2*$id]|($E->[$LB+$estart[$s]-0x4000+2*$id+1]<<8); my $efo=fileoff($ebank[$s],$eq); my $el=0;
     while($el<600){ my $b=$E->[$efo+$el]; last unless defined $b; $et.=en($b); $el++; last if $b==0xFE }

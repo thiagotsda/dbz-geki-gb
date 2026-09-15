@@ -103,6 +103,11 @@ recomputes the global checksum. Order matters: `font.pl` requires the routine fr
   (formerly 03), 5 (formerly 06), 7 (formerly 0A), 13 (formerly 0D), 14 (formerly 01), 15 (formerly
   04), 18 (formerly 1D). Scene 9 = list in RAM (`$C4C8`, it is the battle script of resource 21).
   Scenes 19-25 are empty/duplicated, do not use them.
+- **List length:** a list runs until the next list (or the text that follows it). Entries equal to
+  `0000` are placeholders, not the end: scene 4 has 131 boxes (ids 52-54 are `0000`, ids 55-82 are the
+  in-battle lines of Vegeta vs Zarbon and Gohan/Krillin vs Guldo) and scene 6 has 56 (id 0A is `0000`,
+  ids 0B-37 are the Ginyu battle lines). The tools stop only at the first non-zero invalid pointer.
+  Until v14 those 94 boxes were never relocated, so battles showed text of other boxes cut mid-way.
 - **Width:** box with portrait = 14 columns (`$35E6`, `ld a,$0E`); narration/battle = 18 (`!18`
   prefix in the TSV). The box shows 3 lines and **scrolls** when the 4th arrives (`$187A`); scrolling
   leaves leftovers on the borders, so **every page has at most 3 lines** (at any width). The original
@@ -232,6 +237,9 @@ Useful routines already mapped (HOME): `$06E2` memcpy · `$070E` 1:1 VRAM copy (
 
 ## 5. Pitfalls that already cost time
 
+- A `0000` entry inside a scene list is a placeholder, not the end of the list (section 2.2); stopping
+  there hid 94 battle boxes until v14. The base image also overwrote the last 4 entries of the scene 4
+  list (ids 7F-82, bank 03 `$6DE5`) with scene 3 text: `translation/fixed.tsv` restores them.
 - Global ids (>= C0) read the text of scenes 0/1 in the bank of the current scene: any relocation
   must keep that block at the same address in every bank (section 2.2). The v12 bugs.
 - `!18` only based on the JP (section 2.2); `fixed.pl` refuses to write over existing `FE/FF`, so

@@ -6,6 +6,18 @@ original ROM plus `tools/data/base.ips`) and `sh tools/build_text.sh <name> <ori
 only `translation/scene*.tsv` changed). The original game file is not part of the repository; the scripts take
 its path from the second argument or from the environment variable `ORIGINAL_ROM`.
 
+## v14 (2026-09-14)
+
+- Battles showed lines from unrelated boxes, cut mid-way (Guldo, Zarbon). Cause: scene lists contain
+  `0000` placeholder entries followed by more boxes; the tools treated the first invalid pointer as the end,
+  so 49 boxes of scene 4 (ids 55-82: Vegeta vs Zarbon, Gohan and Krillin vs Guldo) and 45 boxes of scene 6
+  (ids 0B-37: Ginyu in Goku's body) were never translated nor relocated and their old pointers landed in
+  the middle of the relocated text. `reloc.pl` and `scenes.pl` now skip `0000` entries; the 94 boxes are
+  translated in `translation/scene4.tsv` and `scene6.tsv`, and added to `dumps/scenes-jp.tsv`.
+- The base image had overwritten the last four entries of the scene 4 list (ids 7F-82) with scene 3 text;
+  `translation/fixed.tsv` restores the original pointers.
+- New test save from the user (`builds/teste.sav`).
+
 ## v13 (2026-09-08, night), released as v0.2
 
 - Fixed garbage text in the Dodoria battle and the blank screen plus freeze at the end of the Zarbon battle.
