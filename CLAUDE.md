@@ -12,7 +12,7 @@ Fixed rules:
 - Perl only, no Python. Run every script from the repo root.
 - Run `perl tools/checktsv.pl translation/scene*.tsv` before building.
 - Mark a box `!18` (wide) only when the Japanese original has a line longer than 14 columns.
-- Pages must not exceed 3 lines (`reloc.pl` splits them automatically).
+- Pages must not exceed 3 lines, or 2 lines in wide `!18` boxes (`reloc.pl` splits them automatically; `!18/3` only for the documented exceptions).
 - Preserve the dictionary size when recompressing a resource.
 - Every new build gets a copy of `builds/teste.sav` with the same name as the ROM (the build scripts do this).
   Update `teste.sav` when the user says they progressed on another build's save.

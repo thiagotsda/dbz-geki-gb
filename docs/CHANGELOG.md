@@ -22,6 +22,10 @@ its path from the second argument or from the environment variable `ORIGINAL_ROM
 - Global ids run from C0 to FF (64 entries) but scenes 0 and 1 only have 45 boxes: ids ED-FF reach the
   first 19 boxes of scene 2 (tournament prompts). Those boxes are now part of the shared block too.
 - "Who plays?" prompt embedded in the battle engine (bank 02 `$7DB8`) translated via `fixed.tsv`.
+- Residue under the portrait ("hosp" in the hospital scene): a wide narration page with 3 lines leaves
+  the first 4 columns of its 3rd line under the next portrait box, which only clears columns 5-18.
+  Wide boxes (`!18`) are back to 2 lines per page; `!18/3` keeps 3 lines for the six boxes whose Japanese
+  has 3-line pages and is not followed by a portrait box (scene 1 tutorials, scene 5 id 16, scene 18 id 1C).
 - New test save from the user (`builds/teste.sav`).
 
 ## v13 (2026-09-08, night), released as v0.2

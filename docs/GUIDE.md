@@ -111,7 +111,10 @@ recomputes the global checksum. Order matters: `font.pl` requires the routine fr
   Until v14 those 94 boxes were never relocated, so battles showed text of other boxes cut mid-way.
 - **Width:** box with portrait = 14 columns (`$35E6`, `ld a,$0E`); narration/battle = 18 (`!18`
   prefix in the TSV). The box shows 3 lines and **scrolls** when the 4th arrives (`$187A`); scrolling
-  leaves leftovers on the borders, so **every page has at most 3 lines** (at any width). The original
+  leaves leftovers on the borders, so **every page has at most 3 lines**, and **wide boxes (`!18`) at most 2**: a 3rd wide line
+  leaves its first 4 columns under the next portrait box, which clears only columns 5-18 ("hosp"
+  residue in the hospital scene, v14). `!18/3` allows 3 lines only where the Japanese itself has
+  3-line pages and no portrait box follows (scene 1 tutorials, scene 5 id 16, scene 18 id 1C). The original
   JP respects this, apart from very rare 4-line boxes that scroll in the original too. `reloc.pl`
   re-wraps, word by word, every chunk (between `<FB>`) that exceeds 3 lines, choosing lines and pages
   together by dynamic programming: it prefers closing a page at the end of a sentence

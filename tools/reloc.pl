@@ -75,7 +75,7 @@ for my $s (sort{$a<=>$b} keys %order){
   my $src=$R[0x18F2+$s]; my $srcoff=$src*0x4000;
   for my $id (0..$cnt-1){ my @bytes;
     if($ptr[$id]==0){ die sprintf("scene %d id %02X: placeholder entry (0000) cannot have a translation\n",$s,$id) if exists $S{$s}{$id}; push @{$BOX{$s}},undef; next }
-    if(exists $S{$s}{$id}){ my $txt=$S{$s}{$id}; my $width=14; my $maxl=3; if($txt=~s/^!18//){ $width=18; $maxl=3 }
+    if(exists $S{$s}{$id}){ my $txt=$S{$s}{$id}; my $width=14; my $maxl=3; if($txt=~s/^!18(\/3)?//){ $width=18; $maxl=$1?3:2 }   # wide box: 2 lines per page (a 3rd line leaves its first 4 columns under the next portrait box); !18/3 only where the JP itself has 3 lines and no portrait box follows
       my $p=paginate($txt,$maxl,$width); $splits++ if $p ne $txt; my ($o,$lines)=enc($p);
       for my $k (0..$#$lines){ die sprintf("scene %d id %02X: line %d has %d columns (max %d): %s\n",$s,$id,$k+1,$lines->[$k],$width,$txt) if $lines->[$k]>$width } @bytes=@$o }
     else { my $q=$ptr[$id]; my $l=0; $l++ while $R[$srcoff+$q-0x4000+$l]!=0xFE && $l<300;
