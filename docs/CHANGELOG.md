@@ -16,6 +16,9 @@ its path from the second argument or from the environment variable `ORIGINAL_ROM
   translated in `translation/scene4.tsv` and `scene6.tsv`, and added to `dumps/scenes-jp.tsv`.
 - The base image had overwritten the last four entries of the scene 4 list (ids 7F-82) with scene 3 text;
   `translation/fixed.tsv` restores the original pointers.
+- The character choice shown in battles with a selectable fighter ("Krillin goes / Gohan goes") is a
+  20-byte Japanese string embedded in HOME code at `$2292`, copied to RAM by `$0A9C`; it was never
+  translated and rendered as kana mixed with letters. Now "Krillin / Gohan" via `translation/fixed.tsv`.
 - New test save from the user (`builds/teste.sav`).
 
 ## v13 (2026-09-08, night), released as v0.2

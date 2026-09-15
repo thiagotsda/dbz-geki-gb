@@ -169,6 +169,8 @@ recomputes the global checksum. Order matters: `font.pl` requires the routine fr
 
 ### 2.4 Fixed fields (`translation/fixed.tsv`: `offset size text`, padded with `00`)
 
+- Bank 00: the battle fighter choice (`0x2292`, 20 bytes `FD 00 00 name FD 00 00 name FE`, copied to RAM
+  by `$0A9C` and shown as a two-option menu with a 2-column cursor margin; the trailing `FE` stays).
 - Bank 00: map place names (`0x2124…0x21F5`, strings terminated by `FE`, table of 16-bit pointers at
   `0x20E6…0x2123`). Two groups are "3 names of the same village" with a `FD xx yy` prefix (before
   arriving / after the attack / village name: Tsuno and Moori). To fit "Tsuno village" and

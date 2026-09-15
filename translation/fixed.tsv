@@ -131,3 +131,5 @@
 00211E	2	<CF><00>
 # --- bank 03 scene 4 list tail (ids 7F-82): the base image overwrote it with scene 3 text; restore the original pointers
 00EDE5	8	<9F><54><DB><54><DB><54><DB><54>
+# --- bank 00: "who fights" choice shown in battles with character selection (20-byte string copied to RAM by $0A9C; two options with 2-space cursor column)
+002292	19	|  Krillin|  Gohan
