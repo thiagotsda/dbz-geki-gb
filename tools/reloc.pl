@@ -17,7 +17,7 @@ use strict; use warnings;
 my ($in,$out,@scripts)=@ARGV; die "usage: reloc.pl rom_in rom_out script.tsv...\n" unless @scripts;
 open(my $f,'<:raw',$in) or die; my $d=do{local $/;<$f>}; close $f; my @R=unpack('C*',$d);
 die "ROM must be 1 MB\n" unless @R==0x100000;
-my $LOADER_BANK=0x21; my $LB=$LOADER_BANK*0x4000; my @SHARED=(0,1);
+my $LOADER_BANK=0x21; my $LB=$LOADER_BANK*0x4000; my @SHARED=(0,1); my %SHARED_PART=(2=>19);   # global ids C0..FF: 8 boxes of scene 0, 37 of scene 1, then the first 19 of scene 2
 sub wlen { my $w=shift; my $t=$w; $t=~s/\.\.\./x/g; $t=~s/<N>/xxxxxx/g; $t=~s/<#>/xxx/g; length $t }
 sub endcost { my $w=shift; ($w=~/[.!?]$/ || $w=~/\.\.\.$/) ? 0 : ($w=~/,$/ ? 1 : 3) }
 sub paginate { my ($t,$max,$width)=@_; my @pages;
@@ -85,6 +85,7 @@ for my $s (sort{$a<=>$b} keys %order){
 # ---- shared block: scenes 0 and 1 starting at $4000 (same address in all banks) ----
 my @shared; my %ADDR;
 for my $s (@SHARED){ for my $id (0..$CNT{$s}-1){ my $b=$BOX{$s}[$id]; if(!$b){ $ADDR{$s}[$id]=0; next } $ADDR{$s}[$id]=0x4000+@shared; push @shared,@$b } }
+for my $s (sort{$a<=>$b} keys %SHARED_PART){ for my $id (0..$SHARED_PART{$s}-1){ my $b=$BOX{$s}[$id]; if(!$b){ $ADDR{$s}[$id]=0; next } $ADDR{$s}[$id]=0x4000+@shared; push @shared,@$b } }
 my $sharedEnd=0x4000+@shared;
 printf("shared block (scenes %s): %d bytes, %04X-%04X, replicated in all banks\n",join('+',@SHARED),scalar(@shared),0x4000,$sharedEnd-1);
 # ---- build each bank ----
@@ -93,7 +94,7 @@ for my $s (sort{$a<=>$b} keys %order){
   $R[$nboff+$_]=0 for 0..0x3FFF;
   $R[$nboff+$_]=$shared[$_] for 0..$#shared;
   my $w=$sharedEnd; my $own=0;
-  unless(grep{$_==$s}@SHARED){ for my $id (0..$CNT{$s}-1){ my $b=$BOX{$s}[$id]; if(!$b){ $ADDR{$s}[$id]=0; next } die sprintf("scene %d: no room in bank %02X (id %02X)\n",$s,$nb,$id) if $w+@$b>0x8000;
+  unless(grep{$_==$s}@SHARED){ for my $id (($SHARED_PART{$s}//0)..$CNT{$s}-1){ my $b=$BOX{$s}[$id]; if(!$b){ $ADDR{$s}[$id]=0; next } die sprintf("scene %d: no room in bank %02X (id %02X)\n",$s,$nb,$id) if $w+@$b>0x8000;
       $R[$nboff+$w-0x4000+$_]=$b->[$_] for 0..$#$b; $ADDR{$s}[$id]=$w; $w+=@$b; $own+=@$b } }
   for my $id (0..$CNT{$s}-1){ my $a=$ADDR{$s}[$id]; $R[$LB+$ST{$s}-0x4000+2*$id]=$a&0xFF; $R[$LB+$ST{$s}-0x4000+2*$id+1]=$a>>8 }
   $R[0x18F2+$s]=$nb;

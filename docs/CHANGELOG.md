@@ -19,6 +19,9 @@ its path from the second argument or from the environment variable `ORIGINAL_ROM
 - The character choice shown in battles with a selectable fighter ("Krillin goes / Gohan goes") is a
   20-byte Japanese string embedded in HOME code at `$2292`, copied to RAM by `$0A9C`; it was never
   translated and rendered as kana mixed with letters. Now "Krillin / Gohan" via `translation/fixed.tsv`.
+- Global ids run from C0 to FF (64 entries) but scenes 0 and 1 only have 45 boxes: ids ED-FF reach the
+  first 19 boxes of scene 2 (tournament prompts). Those boxes are now part of the shared block too.
+- "Who plays?" prompt embedded in the battle engine (bank 02 `$7DB8`) translated via `fixed.tsv`.
 - New test save from the user (`builds/teste.sav`).
 
 ## v13 (2026-09-08, night), released as v0.2

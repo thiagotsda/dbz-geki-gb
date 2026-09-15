@@ -92,8 +92,9 @@ recomputes the global checksum. Order matters: `font.pl` requires the routine fr
   scenes 0 and 1 (system messages: save, choose character, food, "events" in the middle of the
   Zarbon/Frieza/Ginyu battles, results). They are read with the bank of the **current scene**
   (`$18F2[$C1BE]`; the battle sets `$C1BE` = 2..8 according to the chapter in `$D602`). For this
-  reason the text of scenes 0 and 1 is a **shared block** (about 3.5 KB) written at the SAME address
-  (`$4000..`) in ALL new banks; each scene's own text comes after it. Without this: garbage text
+  reason the text of scenes 0 and 1 plus the first 19 boxes of scene 2 (ids C0-FF cover 8 + 37 + 19
+  boxes) is a **shared block** (about 3.9 KB) written at the SAME address (`$4000..`) in ALL new
+  banks; each scene's own text comes after it. Without this: garbage text
   (Dodoria) or a blank box plus freeze (end of the Zarbon fight), the v12 bugs.
 - `reloc.pl` puts scene `s` in bank `0x22+s`: shared block at `$4000`, then the scene text, and
   updates the list and `$18F2`. Scenes that are not relocated (9, 19-25) also get a bank with the
@@ -169,6 +170,7 @@ recomputes the global checksum. Order matters: `font.pl` requires the routine fr
 
 ### 2.4 Fixed fields (`translation/fixed.tsv`: `offset size text`, padded with `00`)
 
+- Bank 02: the "who plays?" prompt (`0xBDB8`, 11 bytes + `FB`), embedded in the battle engine.
 - Bank 00: the battle fighter choice (`0x2292`, 20 bytes `FD 00 00 name FD 00 00 name FE`, copied to RAM
   by `$0A9C` and shown as a two-option menu with a 2-column cursor margin; the trailing `FE` stays).
 - Bank 00: map place names (`0x2124…0x21F5`, strings terminated by `FE`, table of 16-bit pointers at
