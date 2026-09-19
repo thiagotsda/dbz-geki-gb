@@ -6,7 +6,7 @@ original ROM plus `tools/data/base.ips`) and `sh tools/build_text.sh <name> <ori
 only `translation/scene*.tsv` changed). The original game file is not part of the repository; the scripts take
 its path from the second argument or from the environment variable `ORIGINAL_ROM`.
 
-## v16 (2026-09-19, not released yet)
+## v16 (2026-09-19), released as v0.4 (the v0.4 tag and patch were updated in place)
 
 - Opening narration: coherent first sentences, and faster scroll. The 3-byte header of resource 18 is
   `x column, scroll flag, frames per scrolled pixel` (original `02 01 08`, routine at bank 04 `$7619`);
@@ -22,7 +22,7 @@ its path from the second argument or from the environment variable `ORIGINAL_ROM
   "yes") and a good artist draws "ii e" (a good picture, sounds like "iie", "no"). Adapted as yes/no trick
   questions that keep the expected answers (first Yes, then No). To be confirmed in game.
 
-## v15 (2026-09-19), released as v0.4
+## v15 (2026-09-19), first v0.4 patch, superseded by v16
 
 - Naturalness pass over every story scene: 688 of 1256 boxes rewritten against the Japanese (word order,
   literal phrasing, character voice) and romanized sound effects replaced by English ones ("Hyaho" is now
@@ -192,4 +192,4 @@ its path from the second argument or from the environment variable `ORIGINAL_ROM
 ## Release numbering
 
 Internal build numbers (v2 ... v13) are the ones used in this log and in the build scripts. Public releases
-on GitHub use their own numbering: v0.2 = build v13, v0.3 = build v14, v0.4 = build v15.
+on GitHub use their own numbering: v0.2 = build v13, v0.3 = build v14, v0.4 = build v16 (first published as build v15).
