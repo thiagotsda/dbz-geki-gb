@@ -11,6 +11,10 @@ its path from the second argument or from the environment variable `ORIGINAL_ROM
 - Opening narration: coherent first sentences, and faster scroll. The 3-byte header of resource 18 is
   `x column, scroll flag, frames per scrolled pixel` (original `02 01 08`, routine at bank 04 `$7619`);
   `# scroll-frames-per-pixel: N` in `translation/intro.txt` sets the third byte (now 4, twice the original speed).
+- Options menu: "Batl" is now "Battle" and "Aut" is "Auto". The menu is a list of records (tilemap address
+  big-endian, width, height, tiles; `00` ends the list; drawn by `$0BA1`). The list was moved from bank 04
+  `$6543` to free space at `$79F0` so labels can grow; "Wait" moved one column right to match the cursor
+  table at `$6586`, as in the original.
 - GAME OVER was still Japanese: it is a tile record in the battle engine (bank 02 `$6B34`: tilemap address
   big-endian, length, tiles; drawn by `$0BBE`). The 8-tile record cannot grow in place, so a 9-tile
   "GAME OVER" record sits in the free tail of bank 02 (`$7FD0`) and the `ld hl` at `$6B21` points to it.

@@ -173,6 +173,9 @@ recomputes the global checksum. Order matters: `font.pl` requires the routine fr
 
 ### 2.4 Fixed fields (`translation/fixed.tsv`: `offset size text`, padded with `00`)
 
+- Bank 04: options menu record list at `0x139F0` (relocated from `0x12543`, pointer at `0x124A0`): records of
+  address (big-endian), width, height, tiles, ended by `00`, drawn by `$0BA1`. Option columns must match the
+  cursor table at `0x12586` (per row: `y|count`, then up to three cursor x positions in pixels).
 - Bank 02: GAME OVER tile record (`9C 65 09` + 9 tiles at `0xBFD0`, free tail of the bank; the original
   8-tile record at `0xAB34` is unused now, its `ld hl` at `0xAB21` was repointed). Records drawn by `$0BBE`
   have the form address (big-endian), length, tiles.
