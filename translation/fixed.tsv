@@ -94,7 +94,7 @@
 # options menu: the record list (tilemap address big-endian, width, height, tiles; 00 ends the list, drawn by $0BA1) was
 # relocated from 0x12543 to the free area at 0x139F0 (bank 04 $79F0) so the labels can be longer; `ld hl` at 0x1249F repointed.
 # Option columns are fixed by the cursor table at 0x12586 (x = 0x30, 0x58, 0x80 for speed; 0x30, 0x70 for the two battle rows).
-0139F0	69	<9C><22><05><01>Speed<9C><46><0D><01>Hi   Mid  Low<9C><62><06><01>Battle<9C><86><0C><01>Manual  Auto<9C><A6><0C><01>Active  Wait
+0139F0	69	<9C><22><05><01>Speed<9C><46><0D><01>High Mid  Low<9C><62><06><01>Battle<9C><86><0C><01>Manual  Auto<9C><A6><0C><01>Active  Wait
 0124A0	2	<F0><79>
 # --- bank 04: file menu ---
 01230D	5	File1
