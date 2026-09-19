@@ -6,6 +6,12 @@ original ROM plus `tools/data/base.ips`) and `sh tools/build_text.sh <name> <ori
 only `translation/scene*.tsv` changed). The original game file is not part of the repository; the scripts take
 its path from the second argument or from the environment variable `ORIGINAL_ROM`.
 
+## v16 (2026-09-19, not released yet)
+
+- Scene 13 riddles (ids 3F and 41) are Japanese puns on the menu words: burnt paper gives "hai" (ash, also
+  "yes") and a good artist draws "ii e" (a good picture, sounds like "iie", "no"). Adapted as yes/no trick
+  questions that keep the expected answers (first Yes, then No). To be confirmed in game.
+
 ## v15 (2026-09-19), released as v0.4
 
 - Naturalness pass over every story scene: 688 of 1256 boxes rewritten against the Japanese (word order,
