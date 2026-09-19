@@ -2,45 +2,45 @@
 2	00	Choose|Player 1.
 2	01	Choose|Player 2.
 2	02	Use a|password?
-2	03	Now, choose|the entrants|for the<FB>Tenkaichi|Budokai main|event.
-2	04	Now, choose|the entrants|for the<FB>Tenkaichi|Budokai main|event.
-2	05	Now, choose|the entrants|for the<FB>Tenkaichi|Budokai main|event.
-2	06	Now, choose|the entrants|for the<FB>Tenkaichi|Budokai main|event.
-2	07	Now, choose|the entrants|for the<FB>Tenkaichi|Budokai main|event.
-2	08	Now, choose|the entrants|for the<FB>Tenkaichi|Budokai main|event.
-2	09	First, choose|who you will|control.
-2	0A	<#>,|is that OK?
-2	0B	Now choose the|seven|opponents.
+2	03	Now, choose|who will enter<FB>the Tenkaichi|Budokai main|event.
+2	04	Now, choose|who will enter<FB>the Tenkaichi|Budokai main|event.
+2	05	Now, choose|who will enter<FB>the Tenkaichi|Budokai main|event.
+2	06	Now, choose|who will enter<FB>the Tenkaichi|Budokai main|event.
+2	07	Now, choose|who will enter<FB>the Tenkaichi|Budokai main|event.
+2	08	Now, choose|who will enter<FB>the Tenkaichi|Budokai main|event.
+2	09	First, choose|your fighter.
+2	0A	Is <#> OK?
+2	0B	Now choose|your seven|opponents.
 2	0C	Shall we|choose for|you?
 2	0D	Is this OK?
-2	0E	We will now|set the|tournament|matchups.
+2	0E	We'll now draw|the tournament|matchups.
 2	0F	The matchups|are set.<FB>Each match is|one round, no|time limit.
-2	10	If your hit|points run out|or you give|up,<FB>you lose.
+2	10	You lose if|you run out of|hit points<FB>or give up.
 2	11	Now, let match|<#> begin!
 2	12	Watch the|match?
 2	13	<#>|wins!
-2	14	Next, let|match <#>|begin!
+2	14	Next up,|match <#>!
 2	15	Semifinal|match <#>,|begin!!
 2	16	Tenkaichi|Budokai|number <#>!
-2	17	Which of them|will take the|title!!
+2	17	Who will claim|the title!?
 2	18	Tenkaichi|Budokai|finals!!!
 2	19	Begin!!!!
 2	1A	<#>|wins!!!!
-2	1B	<#> is|the Tenkaichi|Budokai|champion!!!!!
+2	1B	<#> wins|the Tenkaichi|Budokai!!!!!
 2	1C	Thank you all|for coming.
 2	1D	See you at|the next|tournament.
-2	1E	What kind of|fight will we|see?<FB>Surely a match|like no other|is in store!<FB>Both fighters|stare each|other down,|not moving.<FB>Are they|planning their|attacks!!
-2	1F	M-my......|What a match|this is...<FB>I-I can hardly|find the|words...<FB>A breathtaking|battle is|unfolding|before us.<FB>The level of|this contest|is simply|unbelievable.
-2	20	Th-this has|become an|incredible|match...!!<FB>Th-there's not|even a moment|to breathe!!!<FB>So far, both|fighters are|almost dead|even!!<FB>Neither gives|an inch!!!
-2	21	What on earth|just|happened!?<FB>It was too|fast to|follow,<FB>b-but what a|splendid match|this is!<FB>Our eyes just|can't keep up|with the|action.
+2	1E	What kind of|battle awaits|us?<FB>We're sure to|see a match|for the ages!<FB>The fighters|stand frozen,|eyes locked.<FB>Are they|planning their|attacks!?
+2	1F	M-my word...|What a match|this is...<FB>I-I can hardly|find the|words...<FB>A breathtaking|battle unfolds|before us.<FB>The level of|competition is|unbelievable.
+2	20	Th-this match|has become|incredible...!!<FB>Th-there's no|time to even|breathe!!!<FB>So far, the|two are almost|dead even!!<FB>Neither gives|an inch!!!
+2	21	What on earth|just|happened!?<FB>Too fast for|me to follow,<FB>b-but what a|splendid match|this is!<FB>Our eyes just|can't keep up|with it all.
 2	22	Wh-what an|unexpected|turn!!
 2	23	<N>
-2	24	No match at|all for <#>!!!<FB>Who could have|predicted a|turn like|this?
-2	25	<N>|seems to have|no way out.<FB>Will they be|all right!
+2	24	No match at|all for|<#>!!!<FB>Who could have|seen this|coming!?
+2	25	<N>|looks to be on|the ropes!<FB>Can they|pull through!?
 2	26	<#>|holds a|slight lead.
-2	27	<N>|is in a bit|of a tough|spot!!<FB>How will|<N>|fight back!
-2	28	Will <#>|keep the edge|and end it|all at once?<FB>We can't look|away!
-2	29	Wh-what a|t-tremendous|attack!<FB>B-but...<FB><N>,|unbelievably,|withstood it...<FB>W-well now,|things have|gotten|serious!!!
-2	2A	<#>|seems to have|taken a slight|lead,<FB>but the|outcome is|still anyone's|guess!!!
-2	2B	I-incredible!!|It's like|watching a|dream!!<FB><#> is|frighteningly|strong!!
-2	2C	Will|<N>|be all right!<FB>What an|incredible|exchange of|techniques!!!
+2	27	<N>|is having a|rough time!!<FB>How will|<N>|fight back!?
+2	28	Will <#>|ride this lead|to the finish?<FB>You can't look|away!
+2	29	Wh-what a|t-tremendous|attack!<FB>B-but...<FB><N>,|unbelievably,|withstood it...<FB>W-well, folks,|things just|got serious!!!
+2	2A	<#>|seems to have|a slight lead,<FB>but it's still|anyone's|match!!!
+2	2B	I-incredible!!|It's like I'm|dreaming!!<FB><#> is|terrifyingly|strong!!
+2	2C	Will|<N>|be all right!?<FB>What a fierce|exchange of|techniques!!!

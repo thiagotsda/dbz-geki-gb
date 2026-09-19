@@ -1,36 +1,36 @@
 # scene 3 = battle lines (soldiers) and combat tips
-3	00	Caught you!|This is your|grave!
-3	01	What's with|these guys?|They just keep|coming!
-3	02	I won't lose|to you!
+3	00	Got you! This|will be your|grave!
+3	01	What's with|these guys?<FB>They just keep|coming!
+3	02	I won't lose|to the likes|of you!
 3	03	Do you have|any idea who|I am?
 3	04	N-not bad...|But...
 3	05	N-not bad...|But...
-3	06	All talk...
-3	07	A dash into a|tackle is very|effective if|used well!
-3	08	Oh? At least|your spirit is|full-grown.
-3	09	Once commands|are used up,|you can focus<FB>on defense and|dodging, so|attacks land|less often...
+3	06	You're all|talk...
+3	07	A dash tackle|works wonders|if used well!
+3	08	Oh? You've got|spirit, I'll|give you that.
+3	09	Once commands|run out, you|can focus on<FB>defense and|dodging, and|get hit less...
 3	0A	Even while|firing an|energy blast,<FB>press Cancel|and you can|move again!
-3	0B	Playing with|you is getting|boring. Time|to end this!
+3	0B	I'm bored of|playing with|you.<FB>Time to end|this!
 3	0C	Don't get|cocky...
-3	0D	When I show|my true power,|you're|finished!
+3	0D	Once I show|my true power,|you're done!
 3	0E	Th-that's it...|I'll smash you|to pieces!!
 3	0F	Then I won't|hold back!
-3	10	Maybe combos|alone don't|give much|experience...
-3	11	You can't even|fight back,|yet you seem|eager to die!
-3	12	Gahahaha!|How's that!!<FB>Surrender now|while you can!
+3	10	Maybe combos|alone don't|earn much exp...
+3	11	You can't even|scratch me.<FB>You must have|a death wish!
+3	12	Bwahaha!|How's that!?<FB>Give up now|while you can!
 3	13	Th-this guy's|better than I|thought!
-3	14	You never know|until you see|it through!
-3	15	Hmph. Bark all|you like... I'll|shut you up|soon!
-3	16	Ugh... that|hurt... My|life is way|down.
-3	17	Ugh... that|hurt... My|life is way|down.
-3	18	I-I have to|finish this|fast... My|body's giving|out...
-3	19	...Got|careless. I|took more|damage than I|needed to...|Surprising!|He's pretty|strong...
-3	1A	Surprising!|He's pretty|strong...
-3	1B	N-not bad...|But they're|wide open when|they turn|around!
+3	14	You never know|until the very|end!
+3	15	Hmph. Bark all|you like...<FB>I'll shut you|up soon!
+3	16	Ugh... That|one hurt...<FB>My life's way|down.
+3	17	Ugh... That|one hurt...<FB>My life's way|down.
+3	18	I-I have to|finish this|fast...<FB>My body's|about to give|out...
+3	19	...I got|careless.<FB>I took more|damage than I|had to...<FB>Well, well!|He's pretty|strong...
+3	1A	Well, well!|He's pretty|strong...
+3	1B	N-not bad...<FB>But they're|wide open when|they turn!
 3	1C	Heh... you're|better than I|expected...
-3	1D	Soon you won't|be able to|talk like|that...
-3	1E	Gahahaha! How|about that!!|Run now while|you can!
-3	1F	Stagger the|enemy with a|spirit|counter,<FB>then attack.|It works!
-3	20	A counter,|striking as|the enemy|attacks,<FB>may cost you|damage, but it|lands often.|Use it well|and it's|great.
-3	21	Proud of that|much? What a|happy fool!
-3	22	Wh-what!?|I'll beat you|to a pulp!
+3	1D	You won't be|talking like|that for long...
+3	1E	Bwahaha!|How's that!?<FB>Run away now|while you can!
+3	1F	Stun the enemy|with a spirit|counter first,<FB>then attack.|Works great!
+3	20	A counter|strikes as the|enemy attacks.<FB>You might get|hurt, but it|lands often.<FB>Use it well|and it's|really handy!
+3	21	Proud of that|little stunt?|What a fool!
+3	22	Wh-what'd you|say!?<FB>I'll beat you|to a pulp!

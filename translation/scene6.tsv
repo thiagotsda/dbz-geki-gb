@@ -1,57 +1,57 @@
 # scene 6 = Goku against Captain Ginyu
 6	00	.........
 6	01	You dare look|away from me!
-6	02	That guy...|He's making me|fight this one<FB>so he can|grab the|Dragon Balls|meanwhile...
+6	02	That jerk...|He left me to|fight this guy<FB>so he can go|grab the|Dragon Balls...
 6	03	You're wide|open!!!
-6	04	All right.|Sorry to rush|your big|entrance, but|I'm going all|out!
-6	05	Oh? Quite the|confidence...<FB>No one has|ever spoken to|the great|Ginyu like|that!<FB>If that|exchange gave|you such|confidence,<FB>I'll knock it|out of you|right now...
-6	06	You're hiding|even more true|power.<FB>You probably|plan to save|it for the|fight with<FB>Lord Frieza,|but don't|underestimate|me!
+6	04	All right!|Sorry to spoil|your entrance,<FB>but I'm going|all out from|the start!
+6	05	Oh? Aren't we|confident...<FB>No one's ever|talked to the|great Ginyu<FB>like that!|If that little|bout made you<FB>so cocky, I'll|cut you down|to size...
+6	06	You're still|hiding your|true power.<FB>Saving it for|Lord Frieza,|no doubt...<FB>But don't you|underestimate|me!
 6	07	Yeah... looks|that way...
-6	08	You wouldn't|want to die|before using|all your|power.
+6	08	It'd be a|shame to die|holding back.
 6	09	I-I can't|believe it...<FB>C-could you|be... a Super|Saiyan...!?
 # ids 0B-37: in-battle lines (Ginyu in Goku's body vs Vegeta and Goku). Id 0A is a 0000 placeholder.
-6	0B	Super Saiyan...|The legendary|ultimate<FB>warrior... the|one thing Lord<FB>Frieza ever|feared...!!
+6	0B	Super Saiyan...|The warrior of|legend...<FB>The one thing|Lord Frieza|ever feared...!!
 6	0C	Heh heh heh...
-6	0D	What are you|laughing at...!?
-6	0E	Because you|are strong...
-6	0F	Then why|laugh...
+6	0D	What're you|laughing at...!?
+6	0E	Because you're|so strong...
+6	0F	So why are|you laughing...?
 6	10	I like it...|that strong|body of yours...
-6	11	I-impossible...|I can't|believe it.<FB>He clearly|surpasses my|battle power...
-6	12	Let me make|this clear!<FB>The power I|can put out in|an instant<FB>is way more|than this!
+6	11	I-impossible...|I can't|believe it.<FB>His power|level clearly|exceeds mine...
+6	12	I'll give it|to you|straight!<FB>In a quick|burst, I can|put out way<FB>more power|than this!
 6	13	Wh-what...!?
-6	14	You can't|beat me.<FB>I don't want|to fight for|nothing.
+6	14	You can't|beat me.<FB>And I don't|wanna fight|for no reason.
 6	15	Shut uuup!!!
 6	16	!!
 6	17	Wh-what did|you say...
-6	18	Let me test|it right now,|this body that<FB>hides such|incredible|power!
-6	19	S-stop it,|Goku...!!|You're being<FB>controlled!!|By hypnosis|or something!
+6	18	Now let me|try out this|body and the<FB>incredible|power hidden|inside it!
+6	19	S-stop it,|Goku...!!<FB>S-someone's|controlling|you!!<FB>With hypnosis|or something!
 6	1A	D-Dad!?
 6	1B	Taaah!!!
-6	1C	Fwahahahaha!!|I'll keep|raising my<FB>power higher|and higher!!|Ready for it!?
+6	1C	Mwahahahaha!!|My power will|keep climbing<FB>higher and|higher!!|Ready for it!?
 6	1D	No message.
 6	1E	No message.
 6	1F	No message.
-6	20	Y-you... how|were you|hiding!?<FB>The scouter|showed no|reading...
-6	21	Who cares|about that?<FB>You're going|to die here|anyway!
+6	20	Y-you...|How did you|stay hidden!?<FB>My scouter|didn't pick|you up...
+6	21	What does it|matter?<FB>You're about|to die anyway!
 6	22	Don't mess|with me!
-6	23	There's no|way you can|match me!!!
+6	23	You're no|match for|me!!!
 6	24	Heh heh heh...
-6	25	What's so|funny!
-6	26	I too have|passed the|Saiyan limit<FB>and keep|getting|stronger...<FB>In other|words, I'm|getting closer<FB>and closer...|to being a|Super Saiyan!
+6	25	What's so|funny!?
+6	26	I, too, have|broken past|a Saiyan's<FB>limits, and I|keep growing|stronger...<FB>In other|words, I'm|drawing ever<FB>closer...|to becoming a|Super Saiyan!
 6	27	Wh-what!?
 6	28	Th-that's|nonsense!
-6	29	Fwahahaha!
-6	2A	Say what you|like, but|you're afraid<FB>of my new|battle power,|aren't you?
-6	2B	Don't get|carried|away...!
+6	29	Hahahaha!
+6	2A	Talk all you|want, but|you're scared<FB>of my new|power level,|aren't you?
+6	2B	Don't get|cocky...!
 6	2C	The invincible|Captain Ginyu<FB>has taken|Kakarot's body|and its<FB>incredible|hidden power...
-6	2D	Of course,|you'll be more|fun than<FB>Jeice was,|right?
-6	2E	Of course.<FB>I'll show you|the true power|of this body,<FB>a power you|can't come|close to!!
+6	2D	I trust you'll|put up more of<FB>a fight than|Jeice did?
+6	2E	Of course.<FB>I'll show you|the true power|of this body,<FB>a power you|can't even|come close to!
 6	2F	Ha ha ha!|I look forward|to it.
 6	30	Unlike those|runts, I never|hold back,<FB>however weak|my opponent!<FB>Prepare|yourself!!
 6	31	A-amazing...
-6	32	U-uwah...
+6	32	U-ugh...
 6	33	D-damn you...
 6	34	That's enough!|Don't kill|him, Vegeta!!
-6	35	Kwahaha!!<FB>Weren't you|supposed to be|stronger<FB>after taking|Kakarot's|body...?
+6	35	Hahaha!!<FB>Weren't you|supposed to be|stronger<FB>after taking|Kakarot's|body...?
 6	36	Time to|finish you!!!
-6	37	We'll make|you understand|that we are<FB>the mighty|Ginyu Force...
+6	37	We'll show you|what it means<FB>to face the|mighty Ginyu|Force...
