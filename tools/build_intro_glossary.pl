@@ -1,6 +1,7 @@
 # usage: perl tools/build_intro_glossary.pl <input_rom> <output_rom>
 # Resource 18 (opening narration) from translation/intro.txt: one line per screen line
 # (max 17 columns; empty line = blank line; every 8 lines the game waits for the button).
+#   A comment line "# scroll-frames-per-pixel: N" sets header byte 2 (original 8; lower = faster scroll).
 #   Output = original 3-byte header + lines separated by FD + padding with FD + FF,
 #   with exactly the original size (998 bytes).
 # Resource 20 (status glossary + end of battle) from translation/glossary.txt: 30 strings,
@@ -60,7 +61,7 @@ sub insert { my ($name,$addr,$slot,$bytes)=@_;
   printf("%s: %d bytes uncompressed, dict %d (=original), %d/%d compressed, round-trip OK\n",$name,scalar(@$bytes),$ds,scalar(@$st),$slot) }
 # ---- resource 18 ----
 { my ($orig)=decomp($J,0x1A8CB); my $size=scalar(@$orig); my @b=@$orig[0..2]; my $lines=0;
-  open(my $t,'<','translation/intro.txt') or die; while(my $l=<$t>){ chomp $l; $l=~s/\r$//; next if $l=~/^#/; my ($e,$w)=enc($l); die "intro: line '$l' has $w columns (max 17)\n" if $w>17; push @b,@$e,0xFD; $lines++ } close $t;
+  open(my $t,'<','translation/intro.txt') or die; while(my $l=<$t>){ chomp $l; $l=~s/\r$//; if($l=~/^#\s*scroll-frames-per-pixel\s*[:=]\s*(\d+)/){ die "intro: scroll-frames-per-pixel must be 1..255\n" if $1<1||$1>255; printf("intro: scroll speed %d frames per pixel (original %d)\n",$1,$b[2]); $b[2]=$1; next } next if $l=~/^#/; my ($e,$w)=enc($l); die "intro: line '$l' has $w columns (max 17)\n" if $w>17; push @b,@$e,0xFD; $lines++ } close $t;
   die sprintf("intro: %d bytes, only %d fit (%d lines)\n",scalar(@b)+1,$size,$lines) if @b+1>$size;
   my $padlines=0; while(@b+1<$size){ push @b,0xFD; $padlines++ } push @b,0xFF;
   printf("intro: %d text lines + %d blank at the end\n",$lines,$padlines);

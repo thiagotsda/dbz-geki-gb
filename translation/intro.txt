@@ -1,4 +1,5 @@
 # opening narration (resource 18): one line per screen line, max 17 columns, pages of 8 lines
+# scroll-frames-per-pixel: 5
 Long, long ago,
 young Goku sought
 the Dragon Balls.

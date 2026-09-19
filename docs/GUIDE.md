@@ -253,7 +253,7 @@ Useful routines already mapped (HOME): `$06E2` memcpy · `$070E` 1:1 VRAM copy (
   new fields cannot overlap (`0000A1`+46 ends at `0000CE`).
 - Preserve the dictionary size when recompressing (section 2.3). It was the cause of the battle
   freeze.
-- Resource 18 has a 3-byte header: never write at offsets 0-2.
+- Resource 18 has a 3-byte header (x column, scroll flag, frames per scrolled pixel; original `02 01 08`): never write text at offsets 0-2. The scroll speed is set with `# scroll-frames-per-pixel: N` in `translation/intro.txt`.
 - Bank 03 has a mirror at 0x21: write to both (`names.pl` and `fixed.pl` do this for
   `0xC000-0xFFFF`).
 - `rst $00` overwrites `$FFA6`; inside the font routine use `ld ($2100),a` + manual `$FFA5`.
