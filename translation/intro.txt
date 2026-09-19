@@ -1,13 +1,13 @@
 # opening narration (resource 18): one line per screen line, max 17 columns, pages of 8 lines
-Long, long ago...
-Gather all seven
-Dragon Balls, and
-Shenron will rise
-to grant a wish.
+Long, long ago,
+young Goku sought
+the Dragon Balls.
+Gather all seven,
+it was said, and
+Shenron would
+grant one wish.
 
-Young Goku
-set out to find
-them. After many
+After many
 adventures he had
 all seven, but to
 foil a villain, a
