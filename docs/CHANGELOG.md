@@ -6,7 +6,7 @@ original ROM plus `tools/data/base.ips`) and `sh tools/build_text.sh <name> <ori
 only `translation/scene*.tsv` changed). The original game file is not part of the repository; the scripts take
 its path from the second argument or from the environment variable `ORIGINAL_ROM`.
 
-## v15 (2026-09-19, not released yet)
+## v15 (2026-09-19), released as v0.4
 
 - Naturalness pass over every story scene: 688 of 1256 boxes rewritten against the Japanese (word order,
   literal phrasing, character voice) and romanized sound effects replaced by English ones ("Hyaho" is now
@@ -16,6 +16,7 @@ its path from the second argument or from the environment variable `ORIGINAL_ROM
 - In wide (`!18`) boxes `<FB>` does not return to the top of the box: the text keeps flowing down, so a
   narration followed by a portrait box must match the Japanese page layout (hospital narration, scene 10 id 68,
   is now a single 2-line page; scene 18 id 1E is two 2-line pages like the original).
+- Naturalness pass on the opening narration (`translation/intro.txt`, 996 of 998 bytes).
 - Open question: the two riddles in scene 13 (ids 3F and 41) are Japanese puns answered with Yes/No.
 
 ## v14 (2026-09-14), released as v0.3
@@ -175,4 +176,4 @@ its path from the second argument or from the environment variable `ORIGINAL_ROM
 ## Release numbering
 
 Internal build numbers (v2 ... v13) are the ones used in this log and in the build scripts. Public releases
-on GitHub use their own numbering: v0.2 = build v13, v0.3 = build v14.
+on GitHub use their own numbering: v0.2 = build v13, v0.3 = build v14, v0.4 = build v15.
