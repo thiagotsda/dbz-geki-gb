@@ -173,6 +173,9 @@ recomputes the global checksum. Order matters: `font.pl` requires the routine fr
 
 ### 2.4 Fixed fields (`translation/fixed.tsv`: `offset size text`, padded with `00`)
 
+- Bank 02: GAME OVER tile record (`9C 65 09` + 9 tiles at `0xBFD0`, free tail of the bank; the original
+  8-tile record at `0xAB34` is unused now, its `ld hl` at `0xAB21` was repointed). Records drawn by `$0BBE`
+  have the form address (big-endian), length, tiles.
 - Bank 02: the "who plays?" prompt (`0xBDB8`, 11 bytes + `FB`), embedded in the battle engine.
 - Bank 00: the battle fighter choice (`0x2292`, 20 bytes `FD 00 00 name FD 00 00 name FE`, copied to RAM
   by `$0A9C` and shown as a two-option menu with a 2-column cursor margin; the trailing `FE` stays).

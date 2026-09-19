@@ -135,3 +135,7 @@
 002292	19	|  Krillin|  Gohan
 # --- bank 02: "who will play?" prompt embedded in the battle engine ($7DB8, 11 bytes + FB kept)
 00BDB8	11	Who plays?
+# --- bank 02: GAME OVER record (tilemap address big-endian, length, text). The original 8-tile record at $6B34 cannot
+# grow in place, so a 9-tile copy lives in the free tail of the bank ($7FD0) and the `ld hl` at $6B21 points to it.
+00BFD0	12	<9C><65><09>GAME OVER
+00AB22	2	<D0><7F>

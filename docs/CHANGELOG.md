@@ -10,7 +10,10 @@ its path from the second argument or from the environment variable `ORIGINAL_ROM
 
 - Opening narration: coherent first sentences, and faster scroll. The 3-byte header of resource 18 is
   `x column, scroll flag, frames per scrolled pixel` (original `02 01 08`, routine at bank 04 `$7619`);
-  `# scroll-frames-per-pixel: N` in `translation/intro.txt` sets the third byte (now 5).
+  `# scroll-frames-per-pixel: N` in `translation/intro.txt` sets the third byte (now 4, twice the original speed).
+- GAME OVER was still Japanese: it is a tile record in the battle engine (bank 02 `$6B34`: tilemap address
+  big-endian, length, tiles; drawn by `$0BBE`). The 8-tile record cannot grow in place, so a 9-tile
+  "GAME OVER" record sits in the free tail of bank 02 (`$7FD0`) and the `ld hl` at `$6B21` points to it.
 - Scene 13 riddles (ids 3F and 41) are Japanese puns on the menu words: burnt paper gives "hai" (ash, also
   "yes") and a good artist draws "ii e" (a good picture, sounds like "iie", "no"). Adapted as yes/no trick
   questions that keep the expected answers (first Yes, then No). To be confirmed in game.
